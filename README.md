@@ -22,13 +22,13 @@ The SDK can be installed automatically using Gradle or manually. A basic "out of
 ### System Requirements
 The SDK requires the following minimum versions:
 
-- Android API version 26 (Oreo 8.0)
+- [Android API version 26](https://en.wikipedia.org/wiki/Android_Oreo) (Oreo 8.0)
 - Java 1.8
 
 The latest available versions are required of:
 
-- Android Studio, which automatically comes with the Gradle plugin.
-- Gradle
+- [Android Studio](https://developer.android.com/studio), which automatically comes with the Gradle plugin.
+- [Gradle](https://developer.android.com/studio/releases/gradle-plugin)
 > ⚠️ Only native Android implementations are supported (Java / Kotlin). Please contact us if you would like to use other languages, core frameworks, or development environments.
 
 ### Transitive Dependencies
