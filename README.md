@@ -192,6 +192,7 @@ Use these procedures to manually copy SDK files into your Android project.
 1. Download the latest SDK library from here <AAR>.
 2. In the Android Studio project, go to `File → Project Structure → Dependencies`. 
 3. Under the list of declared dependencies, click the "+" symbol and select JAR/AAR Dependency.
+  
   ![add AAR image](https://user-images.githubusercontent.com/94654299/151071528-658a59bc-7c8a-4697-ab89-a5e26eb74873.png)
 
 4. In the Add Jar/Aar Dependency dialog, do the following and click OK: 
