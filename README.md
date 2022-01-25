@@ -197,7 +197,8 @@ Use these procedures to manually copy SDK files into your Android project.
 4. In the Add Jar/Aar Dependency dialog, do the following and click OK: 
     1. For Step 1. Type the path of the .AAR file you downloaded in step 1.
     2. For Step 2. Select the configuration for which you are trying to add the dependency. If you want all configurations to have access to the SDK, choose "implementation" configuration.
- ![add AAR 2 image](https://user-images.githubusercontent.com/94654299/151071554-43bc6f26-da74-467f-bbd1-027c7123b945.PNG)
+ 
+  ![add AAR 2 image](https://user-images.githubusercontent.com/94654299/151071554-43bc6f26-da74-467f-bbd1-027c7123b945.PNG)
 
 5. Navigate to the application's build.gradle file and do the following:
     1. Verify added the correct dependency you just configured and confirm the path is the same one you entered in the prior step.
