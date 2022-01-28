@@ -224,4 +224,4 @@ Use these procedures to manually copy SDK files into your Android project.
   ```
   > **_NOTE_:** Continue to the [Android Developer Guide](https://developer.android.com/studio/projects/android-library#psd-add-aar-jar-dependency) the installation with the Configure SDK steps.
 
-#### Next Steps: Continue the installation with the Configure SDK step <link>.
+### Next Steps: Continue the installation with the Configure SDK step. <link>
