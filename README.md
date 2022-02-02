@@ -222,6 +222,6 @@ Use these procedures to manually copy SDK files into your Android project.
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }
   ```
-  > **_NOTE_:** Continue to the [Android Developer Guide](https://developer.android.com/studio/projects/android-library#psd-add-aar-jar-dependency) the installation with the Configure SDK steps.
+  > **_NOTE_:** Refer to the [Android Developer Guide](https://developer.android.com/studio/projects/android-library#psd-add-aar-jar-dependency) for adding JAR/AAR dependencies
 
 ### Next Steps: Continue the installation with the Configure SDK step. <link>
