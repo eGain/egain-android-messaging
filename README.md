@@ -41,7 +41,7 @@ Android SDK depends on the latest versions of several libraries including:
 
 If your application is using any of these libraries, it should be on the same major version the SDK is using.
 
-> **_NOTE:_** Gradle automatically chooses the most recent version of a library when it finds more than one present.  Refer to the dependency graph section for current version details.
+> **_NOTE:_** Gradle automatically chooses the most recent version of a library when it finds more than one present.
 
 ### SDK Size
 The size of the SDK varies depending upon the configuration.
@@ -53,7 +53,7 @@ The size of the SDK varies depending upon the configuration.
 Customers need to acquire credentials to gain access to the SDK. Please contact your eGain representative to receive your Conversation Hub client id and client secret.
 
 ### Sample app (Android)
-You can find an example project with some basic implementations provided here. <link to sample app directory>
+You can find an example project with some basic implementations provided [here](https://github.com/eGain/egain-android-messaging/tree/dev/eG-sample-messaging)
   
 ## Installation
 The SDK can be installed using one of the following methods:
@@ -189,7 +189,7 @@ task clean(type: Delete) {
 #### Option 2: SDK Manual Installation 
 Use these procedures to manually copy SDK files into your Android project.
 
-1. Download the latest SDK library from here <AAR>.
+1. Download the latest SDK library.
 2. In the Android Studio project, go to `File → Project Structure → Dependencies`. 
 3. Under the list of declared dependencies, click the "+" symbol and select JAR/AAR Dependency.
   ![add AAR image](https://user-images.githubusercontent.com/94654299/151071528-658a59bc-7c8a-4697-ab89-a5e26eb74873.png)
