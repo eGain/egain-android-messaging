@@ -224,4 +224,4 @@ Use these procedures to manually copy SDK files into your Android project.
   ```
   > **_NOTE_:** Refer to the [Android Developer Guide](https://developer.android.com/studio/projects/android-library#psd-add-aar-jar-dependency) for adding JAR/AAR dependencies
 
-### Next Steps: Continue the installation with the Configure SDK step. <link>
+### Next Steps: Continue the installation with the [Configure SDK step](https://github.com/eGain/egain-android-messaging/tree/dev/eG-sample-messaging)
