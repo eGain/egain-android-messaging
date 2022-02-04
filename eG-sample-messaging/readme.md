@@ -203,12 +203,12 @@ This method can be used to upload attachments.
 
 #### Customer Mode - Upload Attachment
 ```java
-Customer Mode - Upload Attachment
+public void uploadAttachment(fileUri, emailId)
 ```
 
 #### Guest Mode - Upload Attachment
 ```java
-public void uploadAttachment(fileUri, emailId)
+public void uploadAttachment(fileUri)
 ```
 
 #### Parameters - Upload Attachment
