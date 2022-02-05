@@ -100,7 +100,18 @@ public eGainButton(
 | clientEmail | String	| Email address of the client |
 | botGreeting	| Boolean	| An initial greeting from the bot |
 
-#### **Screenshots**
+### Branding
+|Name |Type |Description|
+|-|-|-|
+|positionX|	Integer	|The X coordinate for the button position (0 being at the leftmost side of the screen)|
+|positionY|	Integer	|The Y coordinate for the button position (0 being at the uppermost side of the screen)|
+|width	|Integer	|Width of the chat button|
+|height	|Integer	|Height of the chat button|
+|customImageResID	|Integer |ID of resource for custom chat button image (Use value 0 for our default button image)|
+|color	|android.graphics.Color	|The color for the chat button image|
+|theme	|android.content.res.Resources.Theme	|The theme for the SDK's UI|
+
+### **Screenshots**
 Coming soon
 
 ### Option 2: Customized SDK
@@ -187,7 +198,7 @@ The available message types that can be received are listed below under "Availab
 public MutableLiveData<EgainMessage> receiveMessage()
 ```
 
-##### **Exmaple - Receive Message
+##### Example - Receive Message
 ```java
 egainChat.receiveMessage().observe(this, message -> {
             Log.d(TAG,"message type received " + message.getType());
@@ -362,14 +373,3 @@ When the agent sends any attachments, the download url will be received and can 
     "downloadURL":"https://egain-pse-apps-oregon-development.s3.us-west-2.amazonaws.com/mh-websocket/dev/attachments/fromMessagingHub/649de7ad-2d86-4f7c-b874-82fa863e55ae/featured-image-MH.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARDJ5G4KVX5TVEDOT%2F20220125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220125T220220Z&X-Amz-Expires=300&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEG4aCXVzLXdlc3Qt3073813c&X-Amz-SignedHeaders=host"
 }
 ```
-
-## Branding
-|Name |Type |Description|
-|-|-|-|
-|positionX|	Integer	|The X coordinate for the button position (0 being at the leftmost side of the screen)|
-|positionY|	Integer	|The Y coordinate for the button position (0 being at the uppermost side of the screen)|
-|width	|Integer	|Width of the chat button|
-|height	|Integer	|Height of the chat button|
-|customImageResID	|Integer |ID of resource for custom chat button image (Use value 0 for our default button image)|
-|color	|android.graphics.Color	|The color for the chat button image|
-|theme	|android.content.res.Resources.Theme	|The theme for the SDK's UI|
