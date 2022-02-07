@@ -184,7 +184,6 @@ task clean(type: Delete) {
 }
 ```
 5. From the settings.gradle file, remove the dependencyResolutionManagement setting or any repositoriesModes. This step is contingent upon your version of the Android Studio and might not be applicable to all versions.
-6. Continue the installation with the Configure SDK steps.
   
 #### Option 2: SDK Manual Installation 
 Use these procedures to manually copy SDK files into your Android project.
