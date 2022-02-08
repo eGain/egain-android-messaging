@@ -2,7 +2,7 @@
 The instructions in this section provide details to complete the SDK installation.
 
 ## Obtain Credentials
-Credentials are used to verify you as a valid customer for the Conversation Hub. You need a unique ID (clientId) and password (clientSecret) to access the Conversation Hub. If you have not yet obtained credentials, contact you eGain representative.  
+Credentials are used to verify you as a valid customer for the Conversation Hub. You need a unique ID (clientId) and password (clientSecret) to access the Conversation Hub. If you have not yet obtained credentials, contact your eGain representative.  
 
 ## Configure Themes
 The SDK comes with the eGain's default UI theme. If you are using your own theme, a merge conflict can be avoided by adding the following to the `<application>` element in your `AndroidManifest.xml` file: 
@@ -42,7 +42,7 @@ There are two ways in which you can use the SDK:
   - This version allows you to use SDK methods and build your own UI around it.
 
 ### Option 1: Default "Out-of-the-Box"
-The default, "out-of-the-box" version provided by the SDK provides basic settings that can be configured to enhance your  experience and allows customers to interact with eGain Conversation Hub using the chat button.  The chat button serves as the entry point to begin chatting with the eGain Conversation Hub.
+The default, "out-of-the-box" version provided by the SDK provides basic settings that can be configured to enhance your experience and allows customers to interact with eGain Conversation Hub. eGainMessaging provides a default chat button which can be added to any view of your application. The chat button serves as the entry point to begin chatting with the eGain Conversation Hub.
 
 There are two types of conversation modes you can add to the application: a customer and a guest mode. 
 
@@ -52,42 +52,23 @@ To begin using the SDK, add the following lines in the application to create cha
 
 To create a chat button which requires users to provide their credentials to continue the chat, add the following authenticated construct to the application. 
 ```Java
-public eGainButton(
-    context,
-    clientId,
-    clientSecret,
-    clientName,
-    clientEmail,
-    botGreeting);
-```
-
-##### **Example ( Customer Mode )**
-
-The following example is based on an Android Pixel 3A which has a screen resolution of 1080x2220.
-
-The example uses the default theme of the eGain SDK application, positions the chat button in the right corner of the screen (starting at 0.0 in the upper left corner, x = 980 and y = 1740) and sets the icon color to the "BLUE" color android supports.
-
-For further customization, refer to how to change the theme for your application in the configuration section.
-
-##### **Example:**
-```java
 eGainButton launchCustomer = new eGainButton(
-    this,
-    "28c0ae1a54cc4aeea6c5c272b2824da4",
-    "DVIpG4guOkMRU0C-hsQ@-fUDXwSdDlcWYfMXi3cMMNtP3yLmGq@W_pMUzUn5",
-    "John",
-    "John@email.com",
-    true);
- ```
+    context: "this",
+    clientId: "XXXXXX",
+    clientSecret: "XXXXXX",
+    clientName: "name",
+    clientEmail: "name@email.com",
+    botGreeting: "false")
+```
  
 #### **Guest Mode Conversation**
 To create a chat button which does not require users to provide credentials to continue to the chat, add the following unauthenticated construct to the application.
 ```java
-public eGainButton(
-    context,
-    clientId,
-    clientSecret,
-    botGreeting);
+eGainButton launchGuest = new eGainButton(
+    context: "this",
+    clientId: "XXXXXX",
+    clientSecret: "XXXXXX",
+    botGreeting: "false");
 ```
 
 #### **Parameters**
@@ -101,15 +82,17 @@ public eGainButton(
 | botGreeting	| Boolean	| An initial greeting from the bot |
 
 ### Branding
-|Name |Type |Description|
+The UI of the SDK can be customized to configure the colors, text, and text sizes that are preferred. Use our provided `branding.xml` file to see what can be changed and how to implement those changes.
+
+1. Download the branding.xml file from our repository.
+2. Add this file to your project's resource directory.
+3. In this file, use the provided styles to change each view to the desired values. 
+4. In order to choose between the different themes, use the `brandingUtil.setTheme()` method. Use 0 to keep the default UI and 1 to change to the customized UI. 
+
+**brandingUtil.setTheme(int theme)**
+|Name|Type|Description|
 |-|-|-|
-|positionX|	Integer	|The X coordinate for the button position (0 being at the leftmost side of the screen)|
-|positionY|	Integer	|The Y coordinate for the button position (0 being at the uppermost side of the screen)|
-|width	|Integer	|Width of the chat button|
-|height	|Integer	|Height of the chat button|
-|customImageResID	|Integer |ID of resource for custom chat button image (Use value 0 for our default button image)|
-|color	|android.graphics.Color	|The color for the chat button image|
-|theme	|android.content.res.Resources.Theme	|The theme for the SDK's UI|
+|theme|integer|The value for which theme to apply to the SDK. 0 for default UI, 1 for custom UI.|
 
 ### **Screenshots**
 Coming soon
@@ -120,19 +103,14 @@ The SDK offers a set of methods which allow you to utilize the full functionalit
 #### **Overview for Customizing the SDK**
 The only requirement for using the provided methods is to follow the proper setup to initialize the chat, after which the usage is up to the developer.
 
-The general flow of the SDK begins with an initialization call to the Conversation Hub that will either validate an existing session or initialize a new one, verifying the provided credentials in the process. 
-The `intialize()` method will return whether or not a valid session exists. After a new session has been created, subsequent calls to `initialize()` will return true unless 
-either the user or agent ends the conversation, thereby invalidating the current session. Once a valid session has been started and while it remains valid, the SDK can use 
-`sendMessage()` to send messages, `uploadAttachment()` to send files and images, `receiveMessage()` to receive messages, and `receiveAttachmentMessage()` to receive images 
-and files. To end the session, `endConversation()` must be called. Note that the agent can end the conversation as well. In order to receive messages, the `receiveMessage()`
-method must be observed by the developer, upon which they can define how they want to display the data. 
+The general flow of the SDK begins with an initialization call to the Conversation Hub that will either validate an existing session or initialize a new one, verifying the provided credentials in the process. The `initialize()` method will return whether or not a valid session exists. After a new session has been created, subsequent calls to `initialize()` will return true unless either the user or agent ends the conversation, thereby invalidating the current session. Once a valid session has been started and while it remains valid, the SDK can use `sendMessage()` to send messages, `upload()` to send files and images, `receiveMessage()` to receive messages, and `download()` to receive images and files. To end the session, `endConversation()` must be called. Note that the agent can end the conversation as well. In order to receive messages, the receiveMessage method must be observed by the developer, upon which they can define how they want to display the data.  
 
 #### Available methods
 - initialize()
 - sendMessage()
 - receiveMessage()
-- uploadAttachment()
-- receiveAttachmentMessage()
+- upload()
+- download()
 - endConversation()
    
 All of the methods are included in a single class called `EgainMessaging` (com.egain.ps.sdk.EgainMessaging). It can be initialized with:
@@ -150,12 +128,20 @@ This method acts as the entry point for the SDK and can be used to initialize th
 
 #### Customer Mode - Initialize
 ```java
-public boolean initialize(eGainClientId, eGainClientSecret, botGreeting, loggedUserName, emailId)
+eGainMessaging.initialize(
+    eGainClientId: "XXXXXX",
+    eGainClientSecret: "XXXXXX",
+    botGreeting: "false",
+    userName: "name",
+    email: "name@email.com");
 ```
 
 #### Guest Mode - Initialize
 ```java
-public boolean initialize(eGainClientId, eGainClientSecret, botGreeting, loggedUserName)
+eGainMessaging.initialize(
+    eGainClientId: "XXXXXX",
+    eGainClientSecret: "XXXXXX",
+    botGreeting: "false");
 ```
 
 #### Parameters - Initialize Chat
@@ -164,33 +150,68 @@ public boolean initialize(eGainClientId, eGainClientSecret, botGreeting, loggedU
 |eGainClientId|	String|	eGain Conversation Hub client ID|
 |eGainClientSecret|	String|	eGain Conversation Hub client secret|
 |botGreeting|	Boolean|	Value specifying if bot should send welcome message|
-|loggedUserName|	String|	Name of customer|
-|emailId|	String|	Email ID of customer|
+|userName|	String|	Name of customer|
+|email|	String|	Email ID of customer|
+
+#### Responses
+If the initialize call returns `true`, a valid session already exists, allowing the other methods to be used immediately. If it returns `false`, the `MutableLiveData` boolean authenticated must be observed first to verify a valid session has been authenticated and sent back to the SDK. Use the provided `receiveAuthenticated()` method to observe when the SDK has received a valid sessionId and is ready to be used. 
+```java
+egainMessaging.receiveAuthentication().observe(this, authenticated -> {
+        Log.d(TAG,"authenticated: " + authenticated);
+});
+```
+The sessionId will be returned synchronously after the initialize call and stored in the SDK internally. Use the above method to verify it was received properly.
+```java
+{"sessionId": "413ff6be-146d-4c78-9ffa-2de15d2c24e1"}
+```
 
 #### Send Message
 This method can be used to send text messages.
 
 #### Customer Mode - Send Message
 ```java
-public void sendMessage(message, emailId)
+eGainMessaging.sendMessage(
+    message: "hi",
+    email: "name@email.com");
 ```
 
 #### Guest Mode - Send Message
 ```java
-public void sendMessage(message)
+eGainMessaging.sendMessage(
+    message: "hi");
 ```
 
 #### Parameters - Send Message
 |Name |Type |Description |
 |-|-|-|
 |message|	String|	Text message sent by customer|
-|emailId|	String|	Email ID of customer|
+|email|	String|	Email ID of customer|
+
+#### Responses
+The above mentioned responses are synchronous to the `sendMessage` call. 
+
+When the first message is sent, the following message will be received:
+```java
+{
+    "eGainMessage":"{
+                        "type":"status",
+                        "messageContent":"Conversation started"
+                    }"
+}
+```
+For any messages received after this, the follow will always be received.
+```java
+
+{
+    "eGainMessage":"{
+                        "type":"status",
+                        "messageContent":"Conversation continued"
+                    }"
+}
+```
 
 #### Receive Message
-This method can be used to receive messages. 
-This method returns a MutableLiveData of type `EgainMessage` and can be observed to receive the message. 
-EgainMessage's have 3 methods to receive the message type, the message content, and the agents name. 
-The available message types that can be received are listed below under "Available Responses".
+This method is used to receive **ALL** message types except attachments. This method returns a [MutableLiveData](https://developer.android.com/reference/android/arch/lifecycle/MutableLiveData) of type `EgainMessage` and can be observed to receive the message. EgainMessage's have 3 methods to receive the message type, the message content, and the agents name. The available message types that can be received are listed below under "Responses".
 
 > **_NOTE:_**: `ReceiveMessage()` will be the same for both customer and guest mode conversations.
 
@@ -200,35 +221,51 @@ public MutableLiveData<EgainMessage> receiveMessage()
 
 ##### Example - Receive Message
 ```java
-egainChat.receiveMessage().observe(this, message -> {
+egainMessaging.receiveMessage().observe(this, message -> {
             Log.d(TAG,"message type received " + message.getType());
             Log.d(TAG,"message content received " + message.getMessageContent());
             Log.d(TAG,"message agent name received " + message.getAgentName());
         });
 ```
 
+#### Responses
 Please refer to the documentation <link> for supported message types.
 
-#### Upload Attachment
+
+#### Upload 
 This method can be used to upload attachments.
 
-#### Customer Mode - Upload Attachment
+#### Customer Mode - Upload 
 ```java
-public void uploadAttachment(fileUri, emailId)
+eGainMessaging.upload(
+    fileUri: "fileUri",
+    email: "name@email.com");
 ```
 
-#### Guest Mode - Upload Attachment
+#### Guest Mode - Upload 
 ```java
-public void uploadAttachment(fileUri)
+eGainMessaging.upload(
+    fileUri: "fileUri");
 ```
 
-#### Parameters - Upload Attachment
+#### Parameters - Upload 
 |Name |Type |Description|
 |-|-|-|
 |fileUri|	android.net.Uri|	Uri of the file to be uploaded from device, usually found in GET_CONTENT intent|
-|emailId|	String |Email ID of customer|
+|email|	String |Email ID of customer|
 
-#### Receive Attachment
+#### Responses
+A S3 pre-signed URL would be received as response. Upload the corresponding file to this URL, which will be uploaded to the agent
+```java
+{
+    "uploadURL": "https://egain-pse-apps-oregon-development.s3.us-west-2.amazonaws.com/mh-websocket/dev/attachments/toMessagingHub/a22db903-7654-4c1d-9f83-dbd6bc7d3249/hello?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARDJ5G4KV4RZO4XXU%2F20220122%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220122T231612Z&X-Amz-Expires=300&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECcaCXVzLXdlc3QtMiJHMEUCIHCCAHV%2BZak0%2FHWRzbZrJrzPTY9aqYnaNAFvmMw4k9n%2FAiEAg380MNn3I2XhujMZlxfGq3%2FRhQaDL3FvGL6NBIFpcqcqrAIIUBABGgwwNzU4MjcxNzYxMDciDHiB4fDMyVZm18ZkjiqJAs%2BsDZ0Q537LqWOxpyRIogD9PQzlZ9TWGKQ5c%2Fj4M%2BsfPwIelYaoXwhT%2BgO2ByQKpjhYwhDgKnyiB3qOEA1mWI%2Ft2p3gmKBOvQn96MqQUfQumAv6NVKx6BOlw32tRJQexnifR7SfO6oT71625q68VQUWLzd54j5sRCKwxmgYPhIk1ggQQhjpUme00zEPhEfomlBk4gTklXpitWPrVU8pOWAzmAWyEhyuRpxoBlz%2BiQ8tTGa9YbyKusX0Dd1FE77N3jpCbLD3Rskr%2Be49KzoCG9BLG0YySraQV3ZIpE1PmXU5M3Casre9%2FUb5m2aC3X2vf3JkKGIxcGsjziXktUEyqUsksV%2FaLcdge54w9ZuyjwY6mgFHUEi12RaC2JT2qKTaEcdFYTUtVk3pwkCR%2B6Xzsq0TJGfxE%2FWk6hPEx0oKX9%2FEd8dHt5N1RrIUw%2FPD98Makq%2BILBUZZRi6dgOWvgVzLogKcIFzt%2FP6MMj8vIR9FQG4bV%2Biw2F7rfs%2FLigOIVcKc7jfcdq82AspIwIyYEumDlUYUduep36Kbv2kS%2B9df7FWKxhOOwUr3XOe1XM3&X-Amz-Signature=b0e37cbe2b8e512a150a7cdae32551e96fddf1e93286363db604e84043a274f0&X-Amz-SignedHeaders=host",
+    "fileName": "filename.extension",
+    "status": "Conversation continued"
+}
+```
+
+
+#### Download
 This method can be used to receive attachments. The data is stored into an `EgainDownloadFile` type which provides a `getFileName()` and a `getDownloadUrl()` method.
 
 > **_NOTE:_** Receive attachment message will be same for customer and guest mode conversations
@@ -238,10 +275,11 @@ This method returns a `MutableLiveData` of type `EgainDownloadFile` and can be o
 public MutableLiveData<EgainDownloadFile> receiveAttachmentMessage()
 ```
 
-#### Example receive attachment
+#### Example - Download
 Download URL can be used to download the attachment.
 ```java
-egainChat.receiveAttachmentMessage().observe(this, downloadFile -> {
+
+eGainMessaging.download().observe(this, downloadFile -> {
            Log.d(TAG,"file name received "+downloadFile.getFileName());
            Log.d(TAG,"download url received "+downloadFile.getDownloadUrl());
        });
@@ -252,45 +290,36 @@ This method can be used to end ongoing conversation.
 
 #### Customer Mode -  End  Conversation
 ```java
-public void endConversation(emailId)
+eGainMessaging.endConversation(
+    email: "name@email.com");
 ```
 
 #### Guest Mode - End Conversation
 ```java
-public void endConversation()
+eGainMessaging.endConversation();
 ```
 
 #### public void endConversation()
 |Name |Type | Description
 |-|-|-|
-|emailId|	String	| Email ID of customer|
+|email|	String	| Email ID of customer|
+
+#### Responses
+When the `endConversation()` method is called, the following will be received:
+```java
+{
+    "eGainMessage":"{
+                        "type":"status",
+                        "messageContent":"Conversation ended"
+                    }"
+}
+```
 
 ## Supported Response Types
 Listed below are the different types of messages that can be received and their content. 
 > **_NOTE:_** These are accessed by the provided `EgainMessage` methods except for received downloads which are accessed by the provided `EgainDownloadFile` methods.
 
 ### EgainMessage Type
-#### Conversation started
-When the first message is sent, the following message will be received:
-```java
-{
-    "eGainMessage":"{
-                        "type":"status",
-                        "messageContent":"Conversation started"
-                    }"
-}
-```
-
-### Conversation continued
-For any messages received after this, the follow will always be received:
-```java
-{
-    "eGainMessage":"{
-                        "type":"status",
-                        "messageContent":"Conversation continued"
-                    }"
-}
-```
 
 ### Text
 When the bot or agent responds with a text message, the following response will be received:
@@ -312,6 +341,17 @@ When the bot or agent responds with a message of type listpicker, the following 
                         "type":"richMessage.listpicker",
                         "messageContent":"{"type":"list","version":"1","title":"Check latest collection ","subtitle":"Only online","list":{"multipleSelection":false,"sections":[{"multipleSelection":false,"title":"Select Answer","order":0,"items":[{"title":"Check trim T-shirt","subtitle":"Available only online order.","id":"100001","actions":[{"type":"postback"}]},{"title":"Classic trench coat","subtitle":"Available in stores and online","id":"100002","actions":[{"type":"postback"}]}]}]}},
                         "agentName":"ps-mobile-sdk-customer-eg-bot"
+                    }"
+}
+```
+
+### Richlink
+When the bot or agent responds with a message of type richlink, the following response will be received:
+```java
+{
+    "eGainMessage":"{
+                        "type":"richMessage.richlink",
+                        "messageContent":"{"version":"1","type":"web_url","imageid":"1","images":[{"title":"Winter Jackets!!","url":"https://images-na.ssl-images-amazon.com/images/I/41yy1%2B08agL._SR38,50_.jpg","link":"https://aznadestzwa07.egdemo.info/purplenile/collection.html","imageid":"1","mimeType":"image/jpg","style":"icon"}]}
                     }"
 }
 ```
