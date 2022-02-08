@@ -154,7 +154,7 @@ eGainMessaging.initialize(
 |email|	String|	Email ID of customer|
 
 #### Responses
-If the initialize call returns `true`, a valid session already exists, allowing the other methods to be used immediately. If it returns `false`, the `MutableLiveData` boolean authenticated must be observed first to verify a valid session has been authenticated and sent back to the SDK. Use the provided `receiveAuthenticated()` method to observe when the SDK has received a valid sessionId and is ready to be used. 
+If the initialize call returns `true`, a valid session already exists, allowing the other methods to be used immediately. If it returns `false`, the [MutableLiveData](https://developer.android.com/reference/android/arch/lifecycle/MutableLiveData) boolean authenticated must be observed first to verify a valid session has been authenticated and sent back to the SDK. Use the provided `receiveAuthenticated()` method to observe when the SDK has received a valid sessionId and is ready to be used. 
 ```java
 egainMessaging.receiveAuthentication().observe(this, authenticated -> {
         Log.d(TAG,"authenticated: " + authenticated);
@@ -270,7 +270,7 @@ This method can be used to receive attachments. The data is stored into an `Egai
 
 > **_NOTE:_** Receive attachment message will be same for customer and guest mode conversations
 
-This method returns a `MutableLiveData` of type `EgainDownloadFile` and can be observed to receive the message.
+This method returns a [MutableLiveData](https://developer.android.com/reference/android/arch/lifecycle/MutableLiveData) of type `EgainDownloadFile` and can be observed to receive the message.
 ```java
 public MutableLiveData<EgainDownloadFile> receiveAttachmentMessage()
 ```
