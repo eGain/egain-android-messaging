@@ -103,9 +103,20 @@ The SDK offers a set of methods which allow you to utilize the full functionalit
 #### **Overview for Customizing the SDK**
 The only requirement for using the provided methods is to follow the proper setup to initialize the chat, after which the usage is up to the developer.
 
-The general flow of the SDK begins with an initialization call to the Conversation Hub that will either validate an existing session or initialize a new one, verifying the provided credentials in the process. The `initialize()` method will return whether or not a valid session exists. After a new session has been created, subsequent calls to `initialize()` will return true unless either the user or agent ends the conversation, thereby invalidating the current session. Once a valid session has been started and while it remains valid, the SDK can use `sendMessage()` to send messages, `upload()` to send files and images, `receiveMessage()` to receive messages, and `download()` to receive images and files. To end the session, `endConversation()` must be called. Note that the agent can end the conversation as well. In order to receive messages, the receiveMessage method must be observed by the developer, upon which they can define how they want to display the data.  
+The general flow of the SDK begins with an initialization call to the Conversation Hub that either validates an existing session or initializes a new one. This process verifies the provided credentials. The `initialize()` method returns a response as to whether or not a valid session exists.
 
-#### Available methods
+After a new session is created, subsequent calls to initialize() returns true unless the user or agent ends the conversation, thereby invalidating the current session. When a valid session is started and while it remains valid, the SDK can use the following calls:
+
+- `sendMessage()` to send messages
+-  `upload()` to send files and images
+- `receiveMessage()` to receive messages
+- `download()` to receive images and files.
+To end the session, call endConversation(). The agent can also end the conversation as well.
+
+To receive messages, the `receiveMessage()` method must be observed by the developer, upon which they can define how they want to display the data.  
+
+**Available Methods**
+
 - initialize()
 - sendMessage()
 - receiveMessage()
@@ -123,8 +134,8 @@ All of the methods are included in a single class called `EgainMessaging` (com.e
 
 SDK methods are overloaded for customer and guest mode conversations. You can use the appropriate method as per your requirement.
 
-#### Initialize
-This method acts as the entry point for the SDK and can be used to initialize the conversation. This method will require clientId and clientSecret (see obtaining credentials). It will return a boolean indicating whether there is currently a valid session or not. If the current session is invalid or has expired, it will validate the clientId and clientSecret, generating a new session if successful. A session will remain valid until endConversation() has been called, the agent ends the conversation, or if it expires after its timeout duration. 
+#### Initialize chat
+This method acts as the entry point for the SDK and can be used to initialize the conversation. This method requires clientId and clientSecret (see obtaining credentials). It returns a boolean indicating whether there is currently a valid session or not. If the current session is invalid or has expired, it validates the clientId and clientSecret, generating a new session if successful. A session remains valid until endConversation() has been called, the agent ends the conversation, or if it expires after its timeout duration.  
 
 #### Customer Mode - Initialize
 ```java
@@ -232,23 +243,23 @@ egainMessaging.receiveMessage().observe(this, message -> {
 Please refer to the documentation <link> for supported message types.
 
 
-#### Upload 
+#### Upload Attachments
 This method can be used to upload attachments.
 
-#### Customer Mode - Upload 
+#### Customer Mode - Upload Attachment
 ```java
 eGainMessaging.upload(
     fileUri: "fileUri",
     email: "name@email.com");
 ```
 
-#### Guest Mode - Upload 
+#### Guest Mode - Upload Attachment
 ```java
 eGainMessaging.upload(
     fileUri: "fileUri");
 ```
 
-#### Parameters - Upload 
+#### Parameters - Upload Attachment
 |Name |Type |Description|
 |-|-|-|
 |fileUri|	android.net.Uri|	Uri of the file to be uploaded from device, usually found in GET_CONTENT intent|
