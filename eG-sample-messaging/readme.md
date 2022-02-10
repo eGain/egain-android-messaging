@@ -137,7 +137,7 @@ SDK methods are overloaded for customer and guest mode conversations. You can us
 #### Initialize chat
 This method acts as the entry point for the SDK and can be used to initialize the conversation. This method requires clientId and clientSecret (see obtaining credentials). It returns a boolean indicating whether there is currently a valid session or not. If the current session is invalid or has expired, it validates the clientId and clientSecret, generating a new session if successful. A session remains valid until endConversation() has been called, the agent ends the conversation, or if it expires after its timeout duration.  
 
-#### Customer Mode - Initialize
+#### Customer Mode - Initialize Chat
 ```java
 eGainMessaging.initialize(
     eGainClientId: "XXXXXX",
@@ -147,7 +147,7 @@ eGainMessaging.initialize(
     email: "name@email.com");
 ```
 
-#### Guest Mode - Initialize
+#### Guest Mode - Initialize Chat
 ```java
 eGainMessaging.initialize(
     eGainClientId: "XXXXXX",
@@ -164,14 +164,14 @@ eGainMessaging.initialize(
 |userName|	String|	Name of customer|
 |email|	String|	Email ID of customer|
 
-#### Responses
+#### Responses - Initialize Chat
 If the initialize call returns `true`, a valid session already exists, allowing the other methods to be used immediately. If it returns `false`, the [MutableLiveData](https://developer.android.com/reference/android/arch/lifecycle/MutableLiveData) boolean authenticated must be observed first to verify a valid session has been authenticated and sent back to the SDK. Use the provided `receiveAuthenticated()` method to observe when the SDK has received a valid sessionId and is ready to be used. 
 ```java
 egainMessaging.receiveAuthentication().observe(this, authenticated -> {
         Log.d(TAG,"authenticated: " + authenticated);
 });
 ```
-The sessionId will be returned synchronously after the initialize call and stored in the SDK internally. Use the above method to verify it was received properly.
+The sessionId is returned synchronously after the initialize call and stored in the SDK internally. Use the above method to verify it was received properly.
 ```java
 {"sessionId": "413ff6be-146d-4c78-9ffa-2de15d2c24e1"}
 ```
@@ -198,10 +198,10 @@ eGainMessaging.sendMessage(
 |message|	String|	Text message sent by customer|
 |email|	String|	Email ID of customer|
 
-#### Responses
+#### Responses - Send Message
 The above mentioned responses are synchronous to the `sendMessage` call. 
 
-When the first message is sent, the following message will be received:
+When the first message is sent, the following message is received:
 ```java
 {
     "eGainMessage":"{
@@ -224,7 +224,7 @@ For any messages received after this, the follow will always be received.
 #### Receive Message
 This method is used to receive **ALL** message types except attachments. This method returns a [MutableLiveData](https://developer.android.com/reference/android/arch/lifecycle/MutableLiveData) of type `EgainMessage` and can be observed to receive the message. EgainMessage's have 3 methods to receive the message type, the message content, and the agents name. The available message types that can be received are listed below under "Responses".
 
-> **_NOTE:_**: `ReceiveMessage()` will be the same for both customer and guest mode conversations.
+> **_NOTE:_**: `ReceiveMessage()` is the same for both customer and guest mode conversations.
 
 ```java
 public MutableLiveData<EgainMessage> receiveMessage()
@@ -239,34 +239,34 @@ egainMessaging.receiveMessage().observe(this, message -> {
         });
 ```
 
-#### Responses
+#### Responses - Receive Message
 Please refer to the documentation <link> for supported message types.
 
 
-#### Upload Attachments
+#### Upload 
 This method can be used to upload attachments.
 
-#### Customer Mode - Upload Attachment
+#### Customer Mode - Upload 
 ```java
 eGainMessaging.upload(
     fileUri: "fileUri",
     email: "name@email.com");
 ```
 
-#### Guest Mode - Upload Attachment
+#### Guest Mode - Upload 
 ```java
 eGainMessaging.upload(
     fileUri: "fileUri");
 ```
 
-#### Parameters - Upload Attachment
+#### Parameters - Upload 
 |Name |Type |Description|
 |-|-|-|
 |fileUri|	android.net.Uri|	Uri of the file to be uploaded from device, usually found in GET_CONTENT intent|
 |email|	String |Email ID of customer|
 
-#### Responses
-A S3 pre-signed URL would be received as response. Upload the corresponding file to this URL, which will be uploaded to the agent
+#### Responses - Upload
+A S3 pre-signed URL would be received as response. Upload the corresponding file to this URL, which is uploaded to the agent
 ```java
 {
     "uploadURL": "https://egain-pse-apps-oregon-development.s3.us-west-2.amazonaws.com/mh-websocket/dev/attachments/toMessagingHub/a22db903-7654-4c1d-9f83-dbd6bc7d3249/hello?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARDJ5G4KV4RZO4XXU%2F20220122%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220122T231612Z&X-Amz-Expires=300&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECcaCXVzLXdlc3QtMiJHMEUCIHCCAHV%2BZak0%2FHWRzbZrJrzPTY9aqYnaNAFvmMw4k9n%2FAiEAg380MNn3I2XhujMZlxfGq3%2FRhQaDL3FvGL6NBIFpcqcqrAIIUBABGgwwNzU4MjcxNzYxMDciDHiB4fDMyVZm18ZkjiqJAs%2BsDZ0Q537LqWOxpyRIogD9PQzlZ9TWGKQ5c%2Fj4M%2BsfPwIelYaoXwhT%2BgO2ByQKpjhYwhDgKnyiB3qOEA1mWI%2Ft2p3gmKBOvQn96MqQUfQumAv6NVKx6BOlw32tRJQexnifR7SfO6oT71625q68VQUWLzd54j5sRCKwxmgYPhIk1ggQQhjpUme00zEPhEfomlBk4gTklXpitWPrVU8pOWAzmAWyEhyuRpxoBlz%2BiQ8tTGa9YbyKusX0Dd1FE77N3jpCbLD3Rskr%2Be49KzoCG9BLG0YySraQV3ZIpE1PmXU5M3Casre9%2FUb5m2aC3X2vf3JkKGIxcGsjziXktUEyqUsksV%2FaLcdge54w9ZuyjwY6mgFHUEi12RaC2JT2qKTaEcdFYTUtVk3pwkCR%2B6Xzsq0TJGfxE%2FWk6hPEx0oKX9%2FEd8dHt5N1RrIUw%2FPD98Makq%2BILBUZZRi6dgOWvgVzLogKcIFzt%2FP6MMj8vIR9FQG4bV%2Biw2F7rfs%2FLigOIVcKc7jfcdq82AspIwIyYEumDlUYUduep36Kbv2kS%2B9df7FWKxhOOwUr3XOe1XM3&X-Amz-Signature=b0e37cbe2b8e512a150a7cdae32551e96fddf1e93286363db604e84043a274f0&X-Amz-SignedHeaders=host",
@@ -279,7 +279,7 @@ A S3 pre-signed URL would be received as response. Upload the corresponding file
 #### Download
 This method can be used to receive attachments. The data is stored into an `EgainDownloadFile` type which provides a `getFileName()` and a `getDownloadUrl()` method.
 
-> **_NOTE:_** Receive attachment message will be same for customer and guest mode conversations
+> **_NOTE:_** Receive attachment message is same for customer and guest mode conversations.
 
 This method returns a [MutableLiveData](https://developer.android.com/reference/android/arch/lifecycle/MutableLiveData) of type `EgainDownloadFile` and can be observed to receive the message.
 ```java
@@ -315,8 +315,8 @@ eGainMessaging.endConversation();
 |-|-|-|
 |email|	String	| Email ID of customer|
 
-#### Responses
-When the `endConversation()` method is called, the following will be received:
+#### Responses - End Conversation
+When the `endConversation()` method is called, the following is received.
 ```java
 {
     "eGainMessage":"{
@@ -333,7 +333,7 @@ Listed below are the different types of messages that can be received and their 
 ### EgainMessage Type
 
 ### Text
-When the bot or agent responds with a text message, the following response will be received:
+When the bot or agent responds with a text message, the following response is received.
 ```java
 {
     "eGainMessage":"{
@@ -345,7 +345,7 @@ When the bot or agent responds with a text message, the following response will 
 ```
 
 ### Listpicker
-When the bot or agent responds with a message of type listpicker, the following response will be received:
+When the bot or agent responds with a message of type listpicker, the following response is received.
 ```java
 {
     "eGainMessage":"{
@@ -357,7 +357,7 @@ When the bot or agent responds with a message of type listpicker, the following 
 ```
 
 ### Richlink
-When the bot or agent responds with a message of type richlink, the following response will be received:
+When the bot or agent responds with a message of type richlink, the following response is received.
 ```java
 {
     "eGainMessage":"{
@@ -378,7 +378,7 @@ When the bot or agent responds with a message of type richlink, the following re
 }
 ```
 ### Agent starts typing
-When eGain agent starts typing, the following response will be received:
+When eGain agent starts typing, the following response is received.
 ```java
 {
     "eGainMessage":"{
@@ -390,7 +390,7 @@ When eGain agent starts typing, the following response will be received:
 ```
 
 ### Agent stops typing
-When eGain agent stops typing, the following response will be received
+When eGain agent stops typing, the following response is received.
 ```java
 {
     "eGainMessage":"{
@@ -402,7 +402,7 @@ When eGain agent stops typing, the following response will be received
 ```
 
 ### Conversation ended
-When the eGain agent ends the chat, the following response will be received, with which the chat can be closed on the user device.
+When the eGain agent ends the chat, the following response is received, with which the chat can be closed on the user device.
 ```java
 {
     "eGainMessage": {
@@ -416,7 +416,7 @@ When the eGain agent ends the chat, the following response will be received, wit
 ### EgainDownloadFile Type
 The provided methods `getFileName()` and `getDownloadUrl()` can be used to retrieve the response.
 
-When the agent sends any attachments, the download url will be received and can be used to download the file and display it on the device.
+When the agent sends any attachments, the download url is received and can be used to download the file and display it on the device.
 ```java
 
 {
