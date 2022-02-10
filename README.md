@@ -75,7 +75,7 @@ Use the Gradle plugin to automatically install the SDK from our repository.
     // Use temporary personal github for now
     implementation ('com.github.dscarr-94:sdk:3@aar') {transitive=true}
      
-    //Future location will be updated once uploaded to official eGain github
+    //Future location is updated once uploaded to official eGain github
     //Don't use yet
     implementation 'com.egain.ps.sdk:0.0.1@aar' {transitive = true}
  
@@ -131,7 +131,7 @@ dependencies {
     // Use temporary personal github for now
     implementation ('com.github.dscarr-94:sdk:3@aar') {transitive=true}
      
-    //Future location will be updated once uploaded to official eGain github
+    //Future location s updated once uploaded to official eGain github
     //Don't use yet
     implementation 'com.egain.ps.sdk:0.0.1@aar' {transitive = true}
 }
