@@ -64,7 +64,7 @@ The SDK can be installed using one of the following methods:
  > **_NOTE:_** Java and Kotlin projects can both be used with the SDK.
   
 #### Option 1: SDK Gradle Installation 
-Use the Gradle plugin to automatically install the SDK from our repository.
+Use the Gradle plugin to automatically install the SDK from the repository.
 1. From the Android Studio for the application, navigate to `Gradle Scripts → build.gradle (Module: app)` 
   ![build gradle image](https://user-images.githubusercontent.com/94654299/151067855-73a050c5-5c68-4260-a30e-6507fad8a42a.PNG)
 2. Under "dependencies", add the following 'implementation' code (this adds the dependency for the SDK as well as all transitive dependencies for the SDK):
@@ -188,7 +188,7 @@ task clean(type: Delete) {
 #### Option 2: SDK Manual Installation 
 Use these procedures to manually copy SDK files into your Android project.
 
-1. Download the latest SDK library from our repository.
+1. Download the latest SDK library from the repository.
 2. In the Android Studio project, go to **File → Project Structure → Dependencies**. 
 3. Under the list of declared dependencies, click the "+" symbol and select **JAR/AAR Dependency**.
   ![add AAR image](https://user-images.githubusercontent.com/94654299/151071528-658a59bc-7c8a-4697-ab89-a5e26eb74873.png)
