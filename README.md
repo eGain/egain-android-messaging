@@ -13,8 +13,11 @@ By adding our SDK directly to your app, you get:
 - An always connected, ongoing conversation that increases customer satisfaction and engagement
 - Network bandwidth, local storage, and battery usage optimizations
 
-## eGain Android SDK
-Android SDK is bundled into an AAR (Android Archive) library. This library can be imported in any Android project to integrate the SDK. The library allows you to use the out-of-the-box UI for your application or you can create your own UI using the provided methods and parameters.
+![default_flow_android](https://user-images.githubusercontent.com/94654299/154161633-fe8453d7-0d1f-4ac7-8bb7-437ca0c39675.png)
+
+
+## eGain Mobile SDK for Android
+The eGain Android SDK is bundled into an AAR (Android Archive) library. This library can be imported in any Android project to integrate the SDK. The library allows you to use the out-of-the-box UI for your application or you can create your own UI using the provided methods and parameters.
 
 The SDK can be installed automatically using Gradle or manually. A basic "out of the box" installation takes around 20 minutes. To install the SDK for Android, please refer to the complete installation<inserlink> guide.
 
