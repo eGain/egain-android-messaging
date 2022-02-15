@@ -92,8 +92,8 @@ The UI of the SDK can be customized to configure the colors, text, and text size
 |-|-|-|
 |theme|integer|The value for which theme to apply to the SDK. 0 for default UI, 1 for custom UI.|
 
-### **Screenshots**
-Coming soon
+#### Sample Branding Flow
+![branded_flow_android](https://user-images.githubusercontent.com/94654299/154162100-36796e20-27a7-4aa8-bf36-cc6f510202fa.png)
 
 ### Option 2: Customized SDK
 The SDK offers a set of methods which allow you to utilize the full functionality of eGain's Conversation Hub while keeping your mobile application UI and design looking and functioning the way you want. The methods listed in this section describe how to configure the SDK. They consist of methods for initiating the conversation, sending and receiving messages and attachments, and ending the conversation for both customers that require login credentials and guest users. For the provided methods, the SDK uses a Websocket API for data transfer.
@@ -267,9 +267,14 @@ eGainMessaging.upload(
 A S3 pre-signed URL is received as a response. Upload the corresponding file to this URL, which is uploaded to the agent
 ```java
 {
-    "uploadURL": "https://egain-pse-apps-oregon-development.s3.us-west-2.amazonaws.com/mh-websocket/dev/attachments/toMessagingHub/a22db903-7654-4c1d-9f83-dbd6bc7d3249/hello?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARDJ5G4KV4RZO4XXU%2F20220122%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220122T231612Z&X-Amz-Expires=300&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECcaCXVzLXdlc3QtMiJHMEUCIHCCAHV%2BZak0%2FHWRzbZrJrzPTY9aqYnaNAFvmMw4k9n%2FAiEAg380MNn3I2XhujMZlxfGq3%2FRhQaDL3FvGL6NBIFpcqcqrAIIUBABGgwwNzU4MjcxNzYxMDciDHiB4fDMyVZm18ZkjiqJAs%2BsDZ0Q537LqWOxpyRIogD9PQzlZ9TWGKQ5c%2Fj4M%2BsfPwIelYaoXwhT%2BgO2ByQKpjhYwhDgKnyiB3qOEA1mWI%2Ft2p3gmKBOvQn96MqQUfQumAv6NVKx6BOlw32tRJQexnifR7SfO6oT71625q68VQUWLzd54j5sRCKwxmgYPhIk1ggQQhjpUme00zEPhEfomlBk4gTklXpitWPrVU8pOWAzmAWyEhyuRpxoBlz%2BiQ8tTGa9YbyKusX0Dd1FE77N3jpCbLD3Rskr%2Be49KzoCG9BLG0YySraQV3ZIpE1PmXU5M3Casre9%2FUb5m2aC3X2vf3JkKGIxcGsjziXktUEyqUsksV%2FaLcdge54w9ZuyjwY6mgFHUEi12RaC2JT2qKTaEcdFYTUtVk3pwkCR%2B6Xzsq0TJGfxE%2FWk6hPEx0oKX9%2FEd8dHt5N1RrIUw%2FPD98Makq%2BILBUZZRi6dgOWvgVzLogKcIFzt%2FP6MMj8vIR9FQG4bV%2Biw2F7rfs%2FLigOIVcKc7jfcdq82AspIwIyYEumDlUYUduep36Kbv2kS%2B9df7FWKxhOOwUr3XOe1XM3&X-Amz-Signature=b0e37cbe2b8e512a150a7cdae32551e96fddf1e93286363db604e84043a274f0&X-Amz-SignedHeaders=host",
-    "fileName": "filename.extension",
-    "status": "Conversation continued"
+    "statusdata": "Conversation continued",
+	"authorization{
+		"status":"bb1e960c-0227-447c-a675-0e4e2fa5c318 "Conversation continued",
+    	"fileName": filename.extension,
+    	"uploadURL": "https://egain-pse-apps-oregon-development.s3.us-west-2.amazonaws.com/mh-websocket/dev/attachments/toMessagingHub/a22db903-7654-4c1d-9f83-dbd6bc7d3249/hello?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARDJ5G4KV4RZO4XXU%2F20220122%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220122T231612Z&X-Amz-Expires=300&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECcaCXVzLXdlc3QtMiJHMEUCIHCCAHV%2BZak0%2FHWRzbZrJrzPTY9aqYnaNAFvmMw4k9n%2FAiEAg380MNn3I2XhujMZlxfGq3%2FRhQaDL3FvGL6NBIFpcqcqrAIIUBABGgwwNzU4MjcxNzYxMDciDHiB4fDMyVZm18ZkjiqJAs%2BsDZ0Q537LqWOxpyRIogD9PQzlZ9TWGKQ5c%2Fj4M%2BsfPwIelYaoXwhT%2BgO2ByQKpjhYwhDgKnyiB3qOEA1mWI%2Ft2p3gmKBOvQn96MqQUfQumAv6NVKx6BOlw32tRJQexnifR7SfO6oT71625q68VQUWLzd54j5sRCKwxmgYPhIk1ggQQhjpUme00zEPhEfomlBk4gTklXpitWPrVU8pOWAzmAWyEhyuRpxoBlz%2BiQ8tTGa9YbyKusX0Dd1FE77N3jpCbLD3Rskr%2Be49KzoCG9BLG0YySraQV3ZIpE1PmXU5M3Casre9%2FUb5m2aC3X2vf3JkKGIxcGsjziXktUEyqUsksV%2FaLcdge54w9ZuyjwY6mgFHUEi12RaC2JT2qKTaEcdFYTUtVk3pwkCR%2B6Xzsq0TJGfxE%2FWk6hPEx0oKX9%2FEd8dHt5N1RrIUw%2FPD98Makq%2BILBUZZRi6dgOWvgVzLogKcIFzt%2FP6MMj8vIR9FQG4bV%2Biw2F7rfs%2FLigOIVcKc7jfcdq82AspIwIyYEumDlUYUduep36Kbv2kS%2B9df7FWKxhOOwUr3XOe1XM3&X-Amz-Signature=b0e37cbe2b8e512a150a7cdae32551e96fddf1e93286363db604e84043a274f0&X-Amz-SignedHeaders=host",
+		},
+	"authorization":"bb1e960c-0227-447c-a675-0e4e2fa5c318",
+
 }
 ```
 
