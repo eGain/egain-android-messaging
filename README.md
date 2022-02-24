@@ -13,7 +13,8 @@ By adding our SDK directly to your app, you get:
 - An always connected, ongoing conversation that increases customer satisfaction and engagement
 - Network bandwidth, local storage, and battery usage optimizations
 
-![default_flow_android](https://user-images.githubusercontent.com/94654299/154161633-fe8453d7-0d1f-4ac7-8bb7-437ca0c39675.png)
+
+![android_01](https://user-images.githubusercontent.com/94654299/155618555-b23173b1-8561-4cb2-9645-ffe6220fa410.png)
 
 
 ## eGain Mobile SDK for Android
