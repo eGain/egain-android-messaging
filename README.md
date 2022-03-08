@@ -14,7 +14,7 @@ By adding our SDK directly to your app, you get:
 - Network bandwidth, local storage, and battery usage optimizations
 
 
-![android_01](https://user-images.githubusercontent.com/94654299/155618555-b23173b1-8561-4cb2-9645-ffe6220fa410.png)
+![default_android_flow](https://user-images.githubusercontent.com/94654299/157335751-ce857401-4ae3-423e-9990-3af816131773.png)
 
 
 ## eGain Mobile SDK for Android
