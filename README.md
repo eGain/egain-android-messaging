@@ -1,6 +1,6 @@
 <img src="https://user-images.githubusercontent.com/94654299/151062447-895f64ed-9379-42d5-92ad-c0a491e6b71f.png" width="290" height="78">
 
-# Table of Contents
+## Table of Contents
 - [About eGain Messaging](#about-egain-messaging)
 - [eGain Mobile SDK for Android](#egain-mobile-sdk-for-android)
 - [Prerequisites/Requirements](#prerequisitesrequirements)
