@@ -1,6 +1,25 @@
 # Configure SDK for Android
 The instructions in this section provide details to complete the SDK installation.
 
+# Table of Contents
+  * [Obtain Credentials](#obtain-credentials)
+  * [Configure Themes](#configure-themes)
+  * [Define Android Permissions](#define-android-permissions)
+  * [Enable Android X](#enable-android-x)
+  * [Choose Default or Custom Options](#choose-default-or-custom-options)
+    + [Option 1: Default "Out-of-the-Box"](#option-1-default-out-of-the-box)
+    + [Branding](#branding)
+    + [Option 2: Customized SDK](#option-2-customized-sdk)
+      - [Overview for Customizing the SDK](#overview-for-customizing-the-sdk)
+      - [Initialize chat](#initialize-chat)
+      - [Send Message](#send-message)
+      - [Receive Message](#receive-message)
+      - [Upload](#upload)
+      - [Download](#download)
+      - [End Conversation](#end-conversation)
+  * [Supported Response Types](#supported-response-types)
+
+
 ## Obtain Credentials
 Credentials are used to verify you as a valid customer for the Conversation Hub. You need a unique ID (clientId) and password (clientSecret) to access the Conversation Hub. If you have not yet obtained credentials, contact your eGain representative.  
 
@@ -26,7 +45,7 @@ If attachments are enabled, **WRITE_EXTERNAL_STORAGE** is included for sending a
 
 > ⚠️ Any app that declares the **WRITE_EXTERNAL_STORAGE** permission implicitly grants the **READ_EXTERNAL_STORAGE** permission
 
-## Enable AndroidX
+## Enable Android X
 Android X is required in our SDK. Include the following in your `gradle.properties` to enable Android X.
 ```xml
 android.useAndroidX=true
@@ -125,7 +144,7 @@ To receive messages, the `receiveMessage()` method must be observed by the devel
 All of the methods are included in a single class called `EgainMessaging` (com.egain.ps.sdk.EgainMessaging). It can be initialized with:
 `EgainMessaging eGainMessaging = new EgainMessaging(context);`
 
-#### Parameters - EgainMessaging
+#### Parameters - Egain Messaging
 |Name |Type |Description |
 |-|-|-|
 |context|	android.content.Context	|Context of the current application |
