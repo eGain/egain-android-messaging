@@ -12,7 +12,7 @@
 - [Installation](#installation)
     + [Option 1: SDK Gradle Installation](#option-1-sdk-gradle-installation)
     + [Option 2: SDK Manual Installation](#option-2-sdk-manual-installation)
-      * [Next Steps: Continue the installation with the Configure SDK step](#nextsteps)
+    + [Next Steps: Continue the installation with the Configure SDK step](#nextsteps)
 
 ## About eGain Messaging
 
