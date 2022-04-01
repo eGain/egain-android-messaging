@@ -1,7 +1,7 @@
 # Configure SDK for Android
 The instructions in this section provide details to complete the SDK installation.
 
-# Table of Contents
+## Table of Contents
   * [Obtain Credentials](#obtain-credentials)
   * [Configure Themes](#configure-themes)
   * [Define Android Permissions](#define-android-permissions)
