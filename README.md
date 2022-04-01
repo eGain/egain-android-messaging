@@ -1,5 +1,19 @@
 <img src="https://user-images.githubusercontent.com/94654299/151062447-895f64ed-9379-42d5-92ad-c0a491e6b71f.png" width="290" height="78">
 
+# Table of Contents
+- [About eGain Messaging](#about-egain-messaging)
+- [eGain Mobile SDK for Android](#egain-mobile-sdk-for-android)
+- [Prerequisites/Requirements](#prerequisitesrequirements)
+  * [System Requirements](#system-requirements)
+  * [Transitive Dependencies](#transitive-dependencies)
+  * [SDK Size](#sdk-size)
+  * [Permissions / Credentials](#permissions--credentials)
+  * [Sample app (Android)](#sample-app-android)
+- [Installation](#installation)
+    + [Option 1: SDK Gradle Installation](#option-1-sdk-gradle-installation)
+    + [Option 2: SDK Manual Installation](#option-2-sdk-manual-installation)
+      * [Next Steps: Continue the installation with the Configure SDK step](#nextsteps)
+
 ## About eGain Messaging
 
 Messaging is increasingly becoming the most popular way customers are choosing to engage with businesses. With so many messaging platforms and channels, it is important for a business to be able to provide an experience to customers and a consistent experience for their agents. eGain Conversation Hub provides a consistent messaging experience for customers and agents across all messaging channels (synchronous and asynchronous). Its features support popular messaging platforms and custom messaging channels.
@@ -227,4 +241,4 @@ Use these procedures to manually copy SDK files into your Android project.
   ```
   > **_NOTE_:** Refer to the [Android Developer Guide](https://developer.android.com/studio/projects/android-library#psd-add-aar-jar-dependency) for adding JAR/AAR dependencies
 
-### Next Steps: Continue the installation with the [Configure SDK step](https://github.com/eGain/egain-android-messaging/tree/dev/eG-sample-messaging)
+### Next Steps: Continue the installation with the [Configure SDK step](https://github.com/eGain/egain-android-messaging/tree/dev/eG-sample-messaging)<a name="nextsteps"></a>
