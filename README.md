@@ -230,10 +230,13 @@ Use these procedures to manually copy SDK files into your Android project.
     implementation 'com.google.android.flexbox:flexbox:3.0.0'
     implementation 'pub.devrel:easypermissions:3.0.0'
     implementation 'org.jsoup:jsoup:1.14.3'
-	   implementation 'com.squareup.picasso:picasso:2.71828'
-	   implementation 'com.github.MikeOrtiz:TouchImageView:3.1.1'
-	   implementation 'androidx.lifecycle:lifecycle-process:2.4.1'
-	   implementation 'androidx.lifecycle:lifecycle-common:2.4.1'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.github.MikeOrtiz:TouchImageView:3.1.1'
+    implementation 'androidx.lifecycle:lifecycle-process:2.4.1'
+    implementation 'androidx.lifecycle:lifecycle-common:2.4.1'
+	
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'com.google.android.material:material:1.6.0-beta01'
  
     //Default
     implementation 'androidx.appcompat:appcompat:1.3.1'
