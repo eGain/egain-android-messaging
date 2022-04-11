@@ -254,6 +254,10 @@ For any messages received after this, the follow is received.
 	"authorization":"bb1e960c-0227-447c-a675-0e4e2fa5c318"
 }
 ```
+If the agent has already closed the conversation or the system has already closed the conversation, the following response in received
+```java
+["status": "Invalid sessionId", "authorization": "413ff6be-146d-4c78-9ffa-2de15d2c24e1"]
+```
 
 #### Receive Message
 This method is used to receive **ALL** message types except attachments. This method returns a [MutableLiveData](https://developer.android.com/reference/android/arch/lifecycle/MutableLiveData) of type `EgainMessage` and can be observed to receive the message. EgainMessage's have 3 methods to receive the message type, the message content, and the agents name. The available message types that can be received are listed under "Responses".
