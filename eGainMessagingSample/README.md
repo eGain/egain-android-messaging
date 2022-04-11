@@ -1,19 +1,5 @@
 <img src="https://user-images.githubusercontent.com/94654299/151062447-895f64ed-9379-42d5-92ad-c0a491e6b71f.png" width="290" height="78">
 
-## Table of Contents
-- [About eGain Messaging](#about-egain-messaging)
-- [eGain Mobile SDK for Android](#egain-mobile-sdk-for-android)
-- [Prerequisites/Requirements](#prerequisitesrequirements)
-  * [System Requirements](#system-requirements)
-  * [Transitive Dependencies](#transitive-dependencies)
-  * [SDK Size](#sdk-size)
-  * [Permissions / Credentials](#permissions--credentials)
-  * [Sample app (Android)](#sample-app-android)
-- [Installation](#installation)
-    + [Option 1: SDK Gradle Installation](#option-1-sdk-gradle-installation)
-    + [Option 2: SDK Manual Installation](#option-2-sdk-manual-installation)
-    + [Next Steps: Continue the installation with the Configure SDK step](#nextsteps)
-
 ## About eGain Messaging
 
 Messaging is increasingly becoming the most popular way customers are choosing to engage with businesses. With so many messaging platforms and channels, it is important for a business to be able to provide an experience to customers and a consistent experience for their agents. eGain Conversation Hub provides a consistent messaging experience for customers and agents across all messaging channels (synchronous and asynchronous). Its features support popular messaging platforms and custom messaging channels.
@@ -22,17 +8,13 @@ The eGain Chat SDK exposes methods which partner-developers can use to build mob
 
 By adding our SDK directly to your app, you get:
 
-- A quick and easy way to converse with customers utilizing our eGain Conversation Hub's capabilities
+- A quick and easy way to converse with customers utilizing our Conversation Hub's capabilities
 - Multiple options to fully customize the SDK to the look and feel you want
 - An always connected, ongoing conversation that increases customer satisfaction and engagement
 - Network bandwidth, local storage, and battery usage optimizations
 
-
-![default_android_flow](https://user-images.githubusercontent.com/94654299/157335751-ce857401-4ae3-423e-9990-3af816131773.png)
-
-
-## eGain Mobile SDK for Android
-The eGain Android SDK is bundled into an AAR (Android Archive) library. This library can be imported in any Android project to integrate the SDK. The library allows you to use the out-of-the-box UI for your application or you can create your own UI using the provided methods and parameters.
+## eGain Android SDK
+Android SDK is bundled into an AAR (Android Archive) library. This library can be imported in any Android project to integrate the SDK. The library allows you to use the out-of-the-box UI for your application or you can create your own UI using the provided methods and parameters.
 
 The SDK can be installed automatically using Gradle or manually. A basic "out of the box" installation takes around 20 minutes. To install the SDK for Android, please refer to the complete installation<inserlink> guide.
 
@@ -59,7 +41,7 @@ Android SDK depends on the latest versions of several libraries including:
 
 If your application is using any of these libraries, it should be on the same major version the SDK is using.
 
-> **_NOTE:_** Gradle automatically chooses the most recent version of a library when it finds more than one present.
+> **_NOTE:_** Gradle automatically chooses the most recent version of a library when it finds more than one present.  Refer to the dependency graph section for current version details.
 
 ### SDK Size
 The size of the SDK varies depending upon the configuration.
@@ -71,7 +53,7 @@ The size of the SDK varies depending upon the configuration.
 Customers need to acquire credentials to gain access to the SDK. Please contact your eGain representative to receive your Conversation Hub client id and client secret.
 
 ### Sample app (Android)
-You can find an example project with some basic implementations provided [here](https://github.com/eGain/egain-android-messaging/tree/dev/eG-sample-messaging)
+You can find an example project with some basic implementations provided here. <link to sample app directory>
   
 ## Installation
 The SDK can be installed using one of the following methods:
@@ -82,7 +64,7 @@ The SDK can be installed using one of the following methods:
  > **_NOTE:_** Java and Kotlin projects can both be used with the SDK.
   
 #### Option 1: SDK Gradle Installation 
-Use the Gradle plugin to automatically install the SDK from the repository.
+Use the Gradle plugin to automatically install the SDK from the GitHub repository.
 1. From the Android Studio for the application, navigate to `Gradle Scripts → build.gradle (Module: app)` 
   ![build gradle image](https://user-images.githubusercontent.com/94654299/151067855-73a050c5-5c68-4260-a30e-6507fad8a42a.PNG)
 2. Under "dependencies", add the following 'implementation' code (this adds the dependency for the SDK as well as all transitive dependencies for the SDK):
@@ -93,7 +75,7 @@ Use the Gradle plugin to automatically install the SDK from the repository.
     // Use temporary personal github for now
     implementation ('com.github.dscarr-94:sdk:3@aar') {transitive=true}
      
-    //Future location is updated once uploaded to official eGain github
+    //Future location will be updated once uploaded to official eGain github
     //Don't use yet
     implementation 'com.egain.ps.sdk:0.0.1@aar' {transitive = true}
  
@@ -149,7 +131,7 @@ dependencies {
     // Use temporary personal github for now
     implementation ('com.github.dscarr-94:sdk:3@aar') {transitive=true}
      
-    //Future location s updated once uploaded to official eGain github
+    //Future location will be updated once uploaded to official eGain github
     //Don't use yet
     implementation 'com.egain.ps.sdk:0.0.1@aar' {transitive = true}
 }
@@ -201,17 +183,18 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 ```
-5. From the `settings.gradle` file, remove the `dependencyResolutionManagement` setting or any `repositoriesModes`. This step is contingent based your version of the Android Studio and might not be applicable to all versions.
+5. From the settings.gradle file, remove the dependencyResolutionManagement setting or any repositoriesModes. This step is contingent upon your version of the Android Studio and might not be applicable to all versions.
+6. Continue the installation with the Configure SDK steps.
   
 #### Option 2: SDK Manual Installation 
 Use these procedures to manually copy SDK files into your Android project.
 
-1. Download the latest SDK library from the repository.
-2. In the Android Studio project, go to **File → Project Structure → Dependencies**. 
-3. Under the list of declared dependencies, click the "+" symbol and select **JAR/AAR Dependency**.
+1. Download the latest SDK library from here <AAR>.
+2. In the Android Studio project, go to `File → Project Structure → Dependencies`. 
+3. Under the list of declared dependencies, click the "+" symbol and select JAR/AAR Dependency.
   ![add AAR image](https://user-images.githubusercontent.com/94654299/151071528-658a59bc-7c8a-4697-ab89-a5e26eb74873.png)
 
-4. In the Add JAR/AAR Dependency dialog, do the following and click **OK**: 
+4. In the Add Jar/Aar Dependency dialog, do the following and click OK: 
     1. For Step 1. Type the path of the .AAR file you downloaded in step 1.
     2. For Step 2. Select the configuration for which you are trying to add the dependency. If you want all configurations to have access to the SDK, choose "implementation" configuration.
  
@@ -229,14 +212,6 @@ Use these procedures to manually copy SDK files into your Android project.
     implementation group: 'com.google.code.gson', name: 'gson', version: '2.8.7'
     implementation 'com.google.android.flexbox:flexbox:3.0.0'
     implementation 'pub.devrel:easypermissions:3.0.0'
-    implementation 'org.jsoup:jsoup:1.14.3'
-    implementation 'com.squareup.picasso:picasso:2.71828'
-    implementation 'com.github.MikeOrtiz:TouchImageView:3.1.1'
-    implementation 'androidx.lifecycle:lifecycle-process:2.4.1'
-    implementation 'androidx.lifecycle:lifecycle-common:2.4.1'
-	
-    implementation 'com.google.android.material:material:1.5.0'
-    implementation 'com.google.android.material:material:1.6.0-beta01'
  
     //Default
     implementation 'androidx.appcompat:appcompat:1.3.1'
@@ -247,6 +222,6 @@ Use these procedures to manually copy SDK files into your Android project.
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }
   ```
-  > **_NOTE_:** Refer to the [Android Developer Guide](https://developer.android.com/studio/projects/android-library#psd-add-aar-jar-dependency) for adding JAR/AAR dependencies
+  > **_NOTE_:** Continue to the [Android Developer Guide](https://developer.android.com/studio/projects/android-library#psd-add-aar-jar-dependency) the installation with the Configure SDK steps.
 
-### Next Steps: Continue the installation with the [Configure SDK step](https://github.com/eGain/egain-android-messaging/tree/dev/eG-sample-messaging)<a name="nextsteps"></a>
+### Next Steps: Continue the installation with the Configure SDK step. <link>
