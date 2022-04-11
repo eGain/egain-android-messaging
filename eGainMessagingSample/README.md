@@ -250,7 +250,7 @@ When the first message is sent, the following message is received:
 For any messages received after this, the follow is received.
 ```java
 {
-	"status":"Conversation started",
+	"status":"Conversation continued",
 	"authorization":"bb1e960c-0227-447c-a675-0e4e2fa5c318"
 }
 ```
