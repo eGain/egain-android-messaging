@@ -1,0 +1,743 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:2:1-28:12
+MERGED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:2:1-56:12
+MERGED from [com.github.MikeOrtiz:TouchImageView:3.1.1] C:\Users\dscar\.gradle\caches\transforms-3\257f1845e2c4143b9357d35105a49076\transformed\TouchImageView-3.1.1\AndroidManifest.xml:2:1-12:12
+MERGED from [pub.devrel:easypermissions:3.0.0] C:\Users\dscar\.gradle\caches\transforms-3\7f9472d8e4006f54af40036dc0279d5d\transformed\easypermissions-3.0.0\AndroidManifest.xml:2:1-19:12
+MERGED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:2:1-105:12
+MERGED from [com.intercom:android-composer-gallery:3.3.1] C:\Users\dscar\.gradle\caches\transforms-3\b9453f1cc475426fef080edcc2bc6064\transformed\android-composer-gallery-3.3.1\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.android.material:material:1.6.0-beta01] C:\Users\dscar\.gradle\caches\transforms-3\6e0292201a59603aad159fccc85c72e9\transformed\material-1.6.0-beta01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\dscar\.gradle\caches\transforms-3\61b09c254559981a9a7bec3250cb1b37\transformed\constraintlayout-2.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.intercom:android-composer:3.3.1] C:\Users\dscar\.gradle\caches\transforms-3\2576105d2344580bad6375ab67291a4a\transformed\android-composer-3.3.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\dscar\.gradle\caches\transforms-3\f791586eb8e3cddcf33fb36842d7675a\transformed\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\205bb6c0d9609f43e6c79000d5d2b6d9\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dscar\.gradle\caches\transforms-3\30d54f463dd29bfb0e1a99d2b7654f72\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\dscar\.gradle\caches\transforms-3\72907ecd4688d50f9040120f0c61e182\transformed\fragment-ktx-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-tooling:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\751e357366937867a5e217908e50e352\transformed\ui-tooling-1.1.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.activity:activity-compose:1.4.0] C:\Users\dscar\.gradle\caches\transforms-3\fd8f99df596512df73d378d1deefce89\transformed\activity-compose-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.4.0] C:\Users\dscar\.gradle\caches\transforms-3\242e50484d4c9b28c4a21ea45851ca3c\transformed\activity-ktx-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\dscar\.gradle\caches\transforms-3\e6cc7041941d999c0a36ac2e878a2e90\transformed\lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material:material:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\ec2fc6f4a8e70c2cf079e78e1dd45445\transformed\material-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.accompanist:accompanist-placeholder:0.20.3] C:\Users\dscar\.gradle\caches\transforms-3\d95bf6e6c7c86d214633153ee0568e4c\transformed\accompanist-placeholder-0.20.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material:material-ripple:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\ff7921c31519b622ac52d50d058bf6bf\transformed\material-ripple-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.foundation:foundation:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\3c6e6483e1357aa6e085d3327a1a7de5\transformed\foundation-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material:material-icons-core:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\1f7245f94e8873d2ce22121e3e84f884\transformed\material-icons-core-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.4.1] C:\Users\dscar\.gradle\caches\transforms-3\e3aba3025839502de97223227666e412\transformed\lifecycle-viewmodel-compose-2.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.accompanist:accompanist-systemuicontroller:0.20.3] C:\Users\dscar\.gradle\caches\transforms-3\24d8e3d17c3274ad2eedab171bd9a062\transformed\accompanist-systemuicontroller-0.20.3\AndroidManifest.xml:17:1-24:12
+MERGED from [io.coil-kt:coil-compose:1.4.0] C:\Users\dscar\.gradle\caches\transforms-3\ddf50d4269b70eaa997d763aeae638b2\transformed\coil-compose-1.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.compose.ui:ui-tooling-data:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\ec622fea64b6b8243bdc12542da10a09\transformed\ui-tooling-data-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.animation:animation:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\94a15a9a586fdebcedfb014b539589ca\transformed\animation-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.foundation:foundation-layout:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\96225c25819b307583dfb0b621aa50c4\transformed\foundation-layout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [io.coil-kt:coil-compose-base:1.4.0] C:\Users\dscar\.gradle\caches\transforms-3\acda063d0ef895938a62c46919584cfb\transformed\coil-compose-base-1.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.compose.animation:animation-core:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\8838ff8c81b45aa4af8a9011fed679bb\transformed\animation-core-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.19.0] C:\Users\dscar\.gradle\caches\transforms-3\2d2415ebed2587cc1fec8b96f8ba9efe\transformed\accompanist-drawablepainter-0.19.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\0e5f465cd506fd4f943529e8baa1f217\transformed\ui-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [io.coil-kt:coil-gif:1.4.0] C:\Users\dscar\.gradle\caches\transforms-3\1eefe58ca446d49127a0704a97ad090a\transformed\coil-gif-1.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [io.coil-kt:coil-video:1.4.0] C:\Users\dscar\.gradle\caches\transforms-3\74f7590c01d8511d5f71291ca937e2b4\transformed\coil-video-1.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [io.coil-kt:coil:1.4.0] C:\Users\dscar\.gradle\caches\transforms-3\d328bdc6e5d3cfd30ab95f77df6fe22b\transformed\coil-1.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [io.coil-kt:coil-base:1.4.0] C:\Users\dscar\.gradle\caches\transforms-3\21b5cc26d2ad73124c5ef42428b84d28\transformed\coil-base-1.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\d1e669fb14e168f243d9c08824d90b41\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\c937dfc9b7f62a4de37b02df03362114\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\463b7469186c3f4b2f346265d95a7e42\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\dscar\.gradle\caches\transforms-3\021b0b14525b7a5cfb20cf681b0bcfb1\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\dscar\.gradle\caches\transforms-3\54c6a591eb24e7fe68cbbb7a0d13f0d4\transformed\appcompat-resources-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\e5eab7523fa294709cfed9955605f8ff\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7f04697b6371bd88d7088940d0625bf3\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\fa34d802f5734ed21e2fff1e25ee6f90\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\dscar\.gradle\caches\transforms-3\23399826e28a9128948ec03d7772a256\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\dscar\.gradle\caches\transforms-3\1675d200502ffd3626b901c9a1a4eca0\transformed\core-ktx-1.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\dscar\.gradle\caches\transforms-3\7272fe459d39c2d605bbecfb716654ab\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\5aed98e1a7bd35d26e6b7e123a4f58e5\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\78a8bad557395e961dcafcf79f000333\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\c618c20ac0f0c831cf75a2869e1273aa\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-text:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\cc7fe94615a631eb704842bf400291a0\transformed\ui-text-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\890027e895516b5061f4af116329c26a\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\4cfa2ef3764f868c4ac286f96c605047\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.4.0] C:\Users\dscar\.gradle\caches\transforms-3\1c124ea42b3a72ac44b43cd5ab2dbada\transformed\activity-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\dscar\.gradle\caches\transforms-3\02483169c4c9e0ddffa88758188ac6f1\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] C:\Users\dscar\.gradle\caches\transforms-3\d7e5e0956d2de19dd668c40148d58741\transformed\lifecycle-runtime-2.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\9f0cc786c5ce4565f6ae54305b9852bd\transformed\savedstate-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\dscar\.gradle\caches\transforms-3\4fb4e4b8847d07919befcb8c05b76718\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\27d248d36b9ab8161f69fc8bdff7973b\transformed\savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\dscar\.gradle\caches\transforms-3\718c46980a0e260e23dface032cb838e\transformed\lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\dscar\.gradle\caches\transforms-3\4814206f9931bb2b51fe2820b122a3b6\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\dscar\.gradle\caches\transforms-3\03d84f79ddc5d095549aff719b894525\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.23] C:\Users\dscar\.gradle\caches\transforms-3\7f0d11d5327c854e145ee09cac72135f\transformed\android-gif-drawable-1.2.23\AndroidManifest.xml:2:1-9:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\dscar\.gradle\caches\transforms-3\94cc5caab3398281ed773abedd94675e\transformed\picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [io.intercom.android:nexus-client-android:6.3.1] C:\Users\dscar\.gradle\caches\transforms-3\f30d88a473d4cc02ff64cb9f8a40c8be\transformed\nexus-client-android-6.3.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] C:\Users\dscar\.gradle\caches\transforms-3\5f09252c5121a67dc9b13b16123b7c17\transformed\flexbox-3.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:17:1-48:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\17b81357d067242c2d558ab825c57f18\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\631c254547bfc5df4d5287473bf942d8\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.databinding:viewbinding:7.1.1] C:\Users\dscar\.gradle\caches\transforms-3\fa6a01f35bbe3bb9e8a3c01a3bfd7527\transformed\viewbinding-7.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\bd4596c4e03a42881733f45db8a548c5\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\dscar\.gradle\caches\transforms-3\5969327e21f70b234b39ab436839d818\transformed\lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\dscar\.gradle\caches\transforms-3\65298f10ce20363a24acca32d217749f\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\dscar\.gradle\caches\transforms-3\43849a663b47b5e3a36a05a548a0e4d6\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\9c40bd961a8811abea9bf51ec7fb57f5\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\47b8f488b2ddbb3907578da1290c6f45\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\b3b09621cca747e5e8d01c73cf2136e9\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\b2f7ef95d655b42df3c1807a9734e548\transformed\runtime-saveable-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-graphics:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\ea19e46c5a32a63fd3fb5e0e529cddb6\transformed\ui-graphics-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-unit:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\d5fd9faaf588f1074acbe04a6d69f8ab\transformed\ui-unit-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-geometry:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\82d922f7cd63184610b16af78e45d148\transformed\ui-geometry-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\3d2d830ae5994e2d13241f7c75af2603\transformed\ui-tooling-preview-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.runtime:runtime:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\3b1e55fbeb179a811c8967b83b13e433\transformed\runtime-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\dscar\.gradle\caches\transforms-3\9e1ce0bbd49d1d1d56cae7501c6a1082\transformed\exifinterface-1.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\e75a0458eb72599836852de240cf4303\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\9f24011717b021bac9ee09874fd0df37\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\6abfac59d263b6c8870828beb848f440\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [pl.droidsonroids.relinker:relinker:1.4.1] C:\Users\dscar\.gradle\caches\transforms-3\10d060235f6ec0174e37be64decf1c74\transformed\relinker-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\dscar\.gradle\caches\transforms-3\9157b235a5b76db405302a2ec1208c96\transformed\exifinterface-27.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-util:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\e8f76553af024afe840211b5a886f853\transformed\ui-util-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [io.github.aakira:napier-android-debug:1.4.1] C:\Users\dscar\.gradle\caches\transforms-3\5319323394e9375f239fb1644b098cf9\transformed\napier-debug\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\a9e9e56cd500525808c19a605e367b6a\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.shimmer:shimmer:0.5.0] C:\Users\dscar\.gradle\caches\transforms-3\f7d8876f305359649df551b7fa99d47b\transformed\shimmer-0.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.intercom:android-commons:2.0.0] C:\Users\dscar\.gradle\caches\transforms-3\5201a4218f353842bc262a01fdebecd2\transformed\android-commons-2.0.0\AndroidManifest.xml:2:1-14:12
+MERGED from [com.intercom:twig:1.3.0] C:\Users\dscar\.gradle\caches\transforms-3\0fca1af5fd3b4e52c0705704d8038e36\transformed\twig-1.3.0\AndroidManifest.xml:2:1-13:12
+INJECTED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:3:5-48
+		INJECTED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:5:5-80
+MERGED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:13:5-81
+MERGED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:6:5-66
+MERGED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:12:5-67
+MERGED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:12:5-67
+MERGED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:19:5-67
+MERGED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:19:5-67
+	android:name
+		ADDED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:6:22-64
+application
+ADDED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:8:5-26:19
+MERGED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:21:5-54:19
+MERGED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:21:5-54:19
+MERGED from [com.github.MikeOrtiz:TouchImageView:3.1.1] C:\Users\dscar\.gradle\caches\transforms-3\257f1845e2c4143b9357d35105a49076\transformed\TouchImageView-3.1.1\AndroidManifest.xml:9:5-10:19
+MERGED from [com.github.MikeOrtiz:TouchImageView:3.1.1] C:\Users\dscar\.gradle\caches\transforms-3\257f1845e2c4143b9357d35105a49076\transformed\TouchImageView-3.1.1\AndroidManifest.xml:9:5-10:19
+MERGED from [pub.devrel:easypermissions:3.0.0] C:\Users\dscar\.gradle\caches\transforms-3\7f9472d8e4006f54af40036dc0279d5d\transformed\easypermissions-3.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [pub.devrel:easypermissions:3.0.0] C:\Users\dscar\.gradle\caches\transforms-3\7f9472d8e4006f54af40036dc0279d5d\transformed\easypermissions-3.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:21:5-103:19
+MERGED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:21:5-103:19
+MERGED from [com.intercom:android-composer-gallery:3.3.1] C:\Users\dscar\.gradle\caches\transforms-3\b9453f1cc475426fef080edcc2bc6064\transformed\android-composer-gallery-3.3.1\AndroidManifest.xml:7:5-16:19
+MERGED from [com.intercom:android-composer-gallery:3.3.1] C:\Users\dscar\.gradle\caches\transforms-3\b9453f1cc475426fef080edcc2bc6064\transformed\android-composer-gallery-3.3.1\AndroidManifest.xml:7:5-16:19
+MERGED from [com.google.android.material:material:1.6.0-beta01] C:\Users\dscar\.gradle\caches\transforms-3\6e0292201a59603aad159fccc85c72e9\transformed\material-1.6.0-beta01\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.6.0-beta01] C:\Users\dscar\.gradle\caches\transforms-3\6e0292201a59603aad159fccc85c72e9\transformed\material-1.6.0-beta01\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\dscar\.gradle\caches\transforms-3\61b09c254559981a9a7bec3250cb1b37\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\dscar\.gradle\caches\transforms-3\61b09c254559981a9a7bec3250cb1b37\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.intercom:android-composer:3.3.1] C:\Users\dscar\.gradle\caches\transforms-3\2576105d2344580bad6375ab67291a4a\transformed\android-composer-3.3.1\AndroidManifest.xml:7:5-20
+MERGED from [com.intercom:android-composer:3.3.1] C:\Users\dscar\.gradle\caches\transforms-3\2576105d2344580bad6375ab67291a4a\transformed\android-composer-3.3.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dscar\.gradle\caches\transforms-3\30d54f463dd29bfb0e1a99d2b7654f72\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dscar\.gradle\caches\transforms-3\30d54f463dd29bfb0e1a99d2b7654f72\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.compose.ui:ui-tooling:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\751e357366937867a5e217908e50e352\transformed\ui-tooling-1.1.1\AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.compose.ui:ui-tooling:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\751e357366937867a5e217908e50e352\transformed\ui-tooling-1.1.1\AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.core:core:1.7.0] C:\Users\dscar\.gradle\caches\transforms-3\02483169c4c9e0ddffa88758188ac6f1\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\dscar\.gradle\caches\transforms-3\02483169c4c9e0ddffa88758188ac6f1\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\dscar\.gradle\caches\transforms-3\94cc5caab3398281ed773abedd94675e\transformed\picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\dscar\.gradle\caches\transforms-3\94cc5caab3398281ed773abedd94675e\transformed\picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [io.intercom.android:nexus-client-android:6.3.1] C:\Users\dscar\.gradle\caches\transforms-3\f30d88a473d4cc02ff64cb9f8a40c8be\transformed\nexus-client-android-6.3.1\AndroidManifest.xml:7:5-20
+MERGED from [io.intercom.android:nexus-client-android:6.3.1] C:\Users\dscar\.gradle\caches\transforms-3\f30d88a473d4cc02ff64cb9f8a40c8be\transformed\nexus-client-android-6.3.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:25:5-46:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:25:5-46:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\17b81357d067242c2d558ab825c57f18\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\17b81357d067242c2d558ab825c57f18\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\47b8f488b2ddbb3907578da1290c6f45\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\47b8f488b2ddbb3907578da1290c6f45\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.intercom:android-commons:2.0.0] C:\Users\dscar\.gradle\caches\transforms-3\5201a4218f353842bc262a01fdebecd2\transformed\android-commons-2.0.0\AndroidManifest.xml:12:5-20
+MERGED from [com.intercom:android-commons:2.0.0] C:\Users\dscar\.gradle\caches\transforms-3\5201a4218f353842bc262a01fdebecd2\transformed\android-commons-2.0.0\AndroidManifest.xml:12:5-20
+MERGED from [com.intercom:twig:1.3.0] C:\Users\dscar\.gradle\caches\transforms-3\0fca1af5fd3b4e52c0705704d8038e36\transformed\twig-1.3.0\AndroidManifest.xml:11:5-20
+MERGED from [com.intercom:twig:1.3.0] C:\Users\dscar\.gradle\caches\transforms-3\0fca1af5fd3b4e52c0705704d8038e36\transformed\twig-1.3.0\AndroidManifest.xml:11:5-20
+	android:requestLegacyExternalStorage
+		ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:25:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] C:\Users\dscar\.gradle\caches\transforms-3\02483169c4c9e0ddffa88758188ac6f1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:11:9-41
+	xmlns:tools
+		ADDED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:14:9-55
+	android:roundIcon
+		ADDED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:9:9-35
+	android:networkSecurityConfig
+		ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:24:9-69
+	android:theme
+		ADDED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:16:9-58
+		REJECTED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:28:9-51
+	tools:replace
+		ADDED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:15:9-38
+activity#com.egain.ps.egainmessagingsample.MainActivity
+ADDED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:17:9-25:20
+	android:exported
+		ADDED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:19:13-36
+	android:name
+		ADDED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:18:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:23:27-74
+uses-sdk
+INJECTED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml
+MERGED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.MikeOrtiz:TouchImageView:3.1.1] C:\Users\dscar\.gradle\caches\transforms-3\257f1845e2c4143b9357d35105a49076\transformed\TouchImageView-3.1.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.MikeOrtiz:TouchImageView:3.1.1] C:\Users\dscar\.gradle\caches\transforms-3\257f1845e2c4143b9357d35105a49076\transformed\TouchImageView-3.1.1\AndroidManifest.xml:5:5-7:41
+MERGED from [pub.devrel:easypermissions:3.0.0] C:\Users\dscar\.gradle\caches\transforms-3\7f9472d8e4006f54af40036dc0279d5d\transformed\easypermissions-3.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [pub.devrel:easypermissions:3.0.0] C:\Users\dscar\.gradle\caches\transforms-3\7f9472d8e4006f54af40036dc0279d5d\transformed\easypermissions-3.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.intercom:android-composer-gallery:3.3.1] C:\Users\dscar\.gradle\caches\transforms-3\b9453f1cc475426fef080edcc2bc6064\transformed\android-composer-gallery-3.3.1\AndroidManifest.xml:5:5-44
+MERGED from [com.intercom:android-composer-gallery:3.3.1] C:\Users\dscar\.gradle\caches\transforms-3\b9453f1cc475426fef080edcc2bc6064\transformed\android-composer-gallery-3.3.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.6.0-beta01] C:\Users\dscar\.gradle\caches\transforms-3\6e0292201a59603aad159fccc85c72e9\transformed\material-1.6.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.6.0-beta01] C:\Users\dscar\.gradle\caches\transforms-3\6e0292201a59603aad159fccc85c72e9\transformed\material-1.6.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\dscar\.gradle\caches\transforms-3\61b09c254559981a9a7bec3250cb1b37\transformed\constraintlayout-2.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\dscar\.gradle\caches\transforms-3\61b09c254559981a9a7bec3250cb1b37\transformed\constraintlayout-2.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.intercom:android-composer:3.3.1] C:\Users\dscar\.gradle\caches\transforms-3\2576105d2344580bad6375ab67291a4a\transformed\android-composer-3.3.1\AndroidManifest.xml:5:5-44
+MERGED from [com.intercom:android-composer:3.3.1] C:\Users\dscar\.gradle\caches\transforms-3\2576105d2344580bad6375ab67291a4a\transformed\android-composer-3.3.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\dscar\.gradle\caches\transforms-3\f791586eb8e3cddcf33fb36842d7675a\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\dscar\.gradle\caches\transforms-3\f791586eb8e3cddcf33fb36842d7675a\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\205bb6c0d9609f43e6c79000d5d2b6d9\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\205bb6c0d9609f43e6c79000d5d2b6d9\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dscar\.gradle\caches\transforms-3\30d54f463dd29bfb0e1a99d2b7654f72\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dscar\.gradle\caches\transforms-3\30d54f463dd29bfb0e1a99d2b7654f72\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\dscar\.gradle\caches\transforms-3\72907ecd4688d50f9040120f0c61e182\transformed\fragment-ktx-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\dscar\.gradle\caches\transforms-3\72907ecd4688d50f9040120f0c61e182\transformed\fragment-ktx-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-tooling:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\751e357366937867a5e217908e50e352\transformed\ui-tooling-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-tooling:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\751e357366937867a5e217908e50e352\transformed\ui-tooling-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-compose:1.4.0] C:\Users\dscar\.gradle\caches\transforms-3\fd8f99df596512df73d378d1deefce89\transformed\activity-compose-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-compose:1.4.0] C:\Users\dscar\.gradle\caches\transforms-3\fd8f99df596512df73d378d1deefce89\transformed\activity-compose-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.4.0] C:\Users\dscar\.gradle\caches\transforms-3\242e50484d4c9b28c4a21ea45851ca3c\transformed\activity-ktx-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.4.0] C:\Users\dscar\.gradle\caches\transforms-3\242e50484d4c9b28c4a21ea45851ca3c\transformed\activity-ktx-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\dscar\.gradle\caches\transforms-3\e6cc7041941d999c0a36ac2e878a2e90\transformed\lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\dscar\.gradle\caches\transforms-3\e6cc7041941d999c0a36ac2e878a2e90\transformed\lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\ec2fc6f4a8e70c2cf079e78e1dd45445\transformed\material-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\ec2fc6f4a8e70c2cf079e78e1dd45445\transformed\material-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.accompanist:accompanist-placeholder:0.20.3] C:\Users\dscar\.gradle\caches\transforms-3\d95bf6e6c7c86d214633153ee0568e4c\transformed\accompanist-placeholder-0.20.3\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.accompanist:accompanist-placeholder:0.20.3] C:\Users\dscar\.gradle\caches\transforms-3\d95bf6e6c7c86d214633153ee0568e4c\transformed\accompanist-placeholder-0.20.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-ripple:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\ff7921c31519b622ac52d50d058bf6bf\transformed\material-ripple-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-ripple:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\ff7921c31519b622ac52d50d058bf6bf\transformed\material-ripple-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\3c6e6483e1357aa6e085d3327a1a7de5\transformed\foundation-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\3c6e6483e1357aa6e085d3327a1a7de5\transformed\foundation-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-icons-core:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\1f7245f94e8873d2ce22121e3e84f884\transformed\material-icons-core-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-icons-core:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\1f7245f94e8873d2ce22121e3e84f884\transformed\material-icons-core-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.4.1] C:\Users\dscar\.gradle\caches\transforms-3\e3aba3025839502de97223227666e412\transformed\lifecycle-viewmodel-compose-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.4.1] C:\Users\dscar\.gradle\caches\transforms-3\e3aba3025839502de97223227666e412\transformed\lifecycle-viewmodel-compose-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.accompanist:accompanist-systemuicontroller:0.20.3] C:\Users\dscar\.gradle\caches\transforms-3\24d8e3d17c3274ad2eedab171bd9a062\transformed\accompanist-systemuicontroller-0.20.3\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.accompanist:accompanist-systemuicontroller:0.20.3] C:\Users\dscar\.gradle\caches\transforms-3\24d8e3d17c3274ad2eedab171bd9a062\transformed\accompanist-systemuicontroller-0.20.3\AndroidManifest.xml:20:5-22:41
+MERGED from [io.coil-kt:coil-compose:1.4.0] C:\Users\dscar\.gradle\caches\transforms-3\ddf50d4269b70eaa997d763aeae638b2\transformed\coil-compose-1.4.0\AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-compose:1.4.0] C:\Users\dscar\.gradle\caches\transforms-3\ddf50d4269b70eaa997d763aeae638b2\transformed\coil-compose-1.4.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.compose.ui:ui-tooling-data:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\ec622fea64b6b8243bdc12542da10a09\transformed\ui-tooling-data-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-tooling-data:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\ec622fea64b6b8243bdc12542da10a09\transformed\ui-tooling-data-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\94a15a9a586fdebcedfb014b539589ca\transformed\animation-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\94a15a9a586fdebcedfb014b539589ca\transformed\animation-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation-layout:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\96225c25819b307583dfb0b621aa50c4\transformed\foundation-layout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation-layout:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\96225c25819b307583dfb0b621aa50c4\transformed\foundation-layout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [io.coil-kt:coil-compose-base:1.4.0] C:\Users\dscar\.gradle\caches\transforms-3\acda063d0ef895938a62c46919584cfb\transformed\coil-compose-base-1.4.0\AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-compose-base:1.4.0] C:\Users\dscar\.gradle\caches\transforms-3\acda063d0ef895938a62c46919584cfb\transformed\coil-compose-base-1.4.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.compose.animation:animation-core:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\8838ff8c81b45aa4af8a9011fed679bb\transformed\animation-core-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation-core:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\8838ff8c81b45aa4af8a9011fed679bb\transformed\animation-core-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.19.0] C:\Users\dscar\.gradle\caches\transforms-3\2d2415ebed2587cc1fec8b96f8ba9efe\transformed\accompanist-drawablepainter-0.19.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.19.0] C:\Users\dscar\.gradle\caches\transforms-3\2d2415ebed2587cc1fec8b96f8ba9efe\transformed\accompanist-drawablepainter-0.19.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\0e5f465cd506fd4f943529e8baa1f217\transformed\ui-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\0e5f465cd506fd4f943529e8baa1f217\transformed\ui-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [io.coil-kt:coil-gif:1.4.0] C:\Users\dscar\.gradle\caches\transforms-3\1eefe58ca446d49127a0704a97ad090a\transformed\coil-gif-1.4.0\AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-gif:1.4.0] C:\Users\dscar\.gradle\caches\transforms-3\1eefe58ca446d49127a0704a97ad090a\transformed\coil-gif-1.4.0\AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-video:1.4.0] C:\Users\dscar\.gradle\caches\transforms-3\74f7590c01d8511d5f71291ca937e2b4\transformed\coil-video-1.4.0\AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-video:1.4.0] C:\Users\dscar\.gradle\caches\transforms-3\74f7590c01d8511d5f71291ca937e2b4\transformed\coil-video-1.4.0\AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil:1.4.0] C:\Users\dscar\.gradle\caches\transforms-3\d328bdc6e5d3cfd30ab95f77df6fe22b\transformed\coil-1.4.0\AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil:1.4.0] C:\Users\dscar\.gradle\caches\transforms-3\d328bdc6e5d3cfd30ab95f77df6fe22b\transformed\coil-1.4.0\AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:1.4.0] C:\Users\dscar\.gradle\caches\transforms-3\21b5cc26d2ad73124c5ef42428b84d28\transformed\coil-base-1.4.0\AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:1.4.0] C:\Users\dscar\.gradle\caches\transforms-3\21b5cc26d2ad73124c5ef42428b84d28\transformed\coil-base-1.4.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\d1e669fb14e168f243d9c08824d90b41\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\d1e669fb14e168f243d9c08824d90b41\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\c937dfc9b7f62a4de37b02df03362114\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\c937dfc9b7f62a4de37b02df03362114\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\463b7469186c3f4b2f346265d95a7e42\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\463b7469186c3f4b2f346265d95a7e42\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\dscar\.gradle\caches\transforms-3\021b0b14525b7a5cfb20cf681b0bcfb1\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\dscar\.gradle\caches\transforms-3\021b0b14525b7a5cfb20cf681b0bcfb1\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\dscar\.gradle\caches\transforms-3\54c6a591eb24e7fe68cbbb7a0d13f0d4\transformed\appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\dscar\.gradle\caches\transforms-3\54c6a591eb24e7fe68cbbb7a0d13f0d4\transformed\appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\e5eab7523fa294709cfed9955605f8ff\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\e5eab7523fa294709cfed9955605f8ff\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7f04697b6371bd88d7088940d0625bf3\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7f04697b6371bd88d7088940d0625bf3\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\fa34d802f5734ed21e2fff1e25ee6f90\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\fa34d802f5734ed21e2fff1e25ee6f90\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\dscar\.gradle\caches\transforms-3\23399826e28a9128948ec03d7772a256\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\dscar\.gradle\caches\transforms-3\23399826e28a9128948ec03d7772a256\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\dscar\.gradle\caches\transforms-3\1675d200502ffd3626b901c9a1a4eca0\transformed\core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\dscar\.gradle\caches\transforms-3\1675d200502ffd3626b901c9a1a4eca0\transformed\core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\dscar\.gradle\caches\transforms-3\7272fe459d39c2d605bbecfb716654ab\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\dscar\.gradle\caches\transforms-3\7272fe459d39c2d605bbecfb716654ab\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\5aed98e1a7bd35d26e6b7e123a4f58e5\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\5aed98e1a7bd35d26e6b7e123a4f58e5\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\78a8bad557395e961dcafcf79f000333\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\78a8bad557395e961dcafcf79f000333\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\c618c20ac0f0c831cf75a2869e1273aa\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\c618c20ac0f0c831cf75a2869e1273aa\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-text:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\cc7fe94615a631eb704842bf400291a0\transformed\ui-text-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-text:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\cc7fe94615a631eb704842bf400291a0\transformed\ui-text-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\890027e895516b5061f4af116329c26a\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\890027e895516b5061f4af116329c26a\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\4cfa2ef3764f868c4ac286f96c605047\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\4cfa2ef3764f868c4ac286f96c605047\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.4.0] C:\Users\dscar\.gradle\caches\transforms-3\1c124ea42b3a72ac44b43cd5ab2dbada\transformed\activity-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.4.0] C:\Users\dscar\.gradle\caches\transforms-3\1c124ea42b3a72ac44b43cd5ab2dbada\transformed\activity-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\dscar\.gradle\caches\transforms-3\02483169c4c9e0ddffa88758188ac6f1\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\dscar\.gradle\caches\transforms-3\02483169c4c9e0ddffa88758188ac6f1\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] C:\Users\dscar\.gradle\caches\transforms-3\d7e5e0956d2de19dd668c40148d58741\transformed\lifecycle-runtime-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] C:\Users\dscar\.gradle\caches\transforms-3\d7e5e0956d2de19dd668c40148d58741\transformed\lifecycle-runtime-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\9f0cc786c5ce4565f6ae54305b9852bd\transformed\savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\9f0cc786c5ce4565f6ae54305b9852bd\transformed\savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\dscar\.gradle\caches\transforms-3\4fb4e4b8847d07919befcb8c05b76718\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\dscar\.gradle\caches\transforms-3\4fb4e4b8847d07919befcb8c05b76718\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\27d248d36b9ab8161f69fc8bdff7973b\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\27d248d36b9ab8161f69fc8bdff7973b\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\dscar\.gradle\caches\transforms-3\718c46980a0e260e23dface032cb838e\transformed\lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\dscar\.gradle\caches\transforms-3\718c46980a0e260e23dface032cb838e\transformed\lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\dscar\.gradle\caches\transforms-3\4814206f9931bb2b51fe2820b122a3b6\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\dscar\.gradle\caches\transforms-3\4814206f9931bb2b51fe2820b122a3b6\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\dscar\.gradle\caches\transforms-3\03d84f79ddc5d095549aff719b894525\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\dscar\.gradle\caches\transforms-3\03d84f79ddc5d095549aff719b894525\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.23] C:\Users\dscar\.gradle\caches\transforms-3\7f0d11d5327c854e145ee09cac72135f\transformed\android-gif-drawable-1.2.23\AndroidManifest.xml:5:5-7:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.23] C:\Users\dscar\.gradle\caches\transforms-3\7f0d11d5327c854e145ee09cac72135f\transformed\android-gif-drawable-1.2.23\AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\dscar\.gradle\caches\transforms-3\94cc5caab3398281ed773abedd94675e\transformed\picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\dscar\.gradle\caches\transforms-3\94cc5caab3398281ed773abedd94675e\transformed\picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [io.intercom.android:nexus-client-android:6.3.1] C:\Users\dscar\.gradle\caches\transforms-3\f30d88a473d4cc02ff64cb9f8a40c8be\transformed\nexus-client-android-6.3.1\AndroidManifest.xml:5:5-44
+MERGED from [io.intercom.android:nexus-client-android:6.3.1] C:\Users\dscar\.gradle\caches\transforms-3\f30d88a473d4cc02ff64cb9f8a40c8be\transformed\nexus-client-android-6.3.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] C:\Users\dscar\.gradle\caches\transforms-3\5f09252c5121a67dc9b13b16123b7c17\transformed\flexbox-3.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] C:\Users\dscar\.gradle\caches\transforms-3\5f09252c5121a67dc9b13b16123b7c17\transformed\flexbox-3.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\17b81357d067242c2d558ab825c57f18\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\17b81357d067242c2d558ab825c57f18\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\631c254547bfc5df4d5287473bf942d8\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\631c254547bfc5df4d5287473bf942d8\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.1.1] C:\Users\dscar\.gradle\caches\transforms-3\fa6a01f35bbe3bb9e8a3c01a3bfd7527\transformed\viewbinding-7.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.1.1] C:\Users\dscar\.gradle\caches\transforms-3\fa6a01f35bbe3bb9e8a3c01a3bfd7527\transformed\viewbinding-7.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\bd4596c4e03a42881733f45db8a548c5\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\bd4596c4e03a42881733f45db8a548c5\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\dscar\.gradle\caches\transforms-3\5969327e21f70b234b39ab436839d818\transformed\lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\dscar\.gradle\caches\transforms-3\5969327e21f70b234b39ab436839d818\transformed\lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\dscar\.gradle\caches\transforms-3\65298f10ce20363a24acca32d217749f\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\dscar\.gradle\caches\transforms-3\65298f10ce20363a24acca32d217749f\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\dscar\.gradle\caches\transforms-3\43849a663b47b5e3a36a05a548a0e4d6\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\dscar\.gradle\caches\transforms-3\43849a663b47b5e3a36a05a548a0e4d6\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\9c40bd961a8811abea9bf51ec7fb57f5\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\9c40bd961a8811abea9bf51ec7fb57f5\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\47b8f488b2ddbb3907578da1290c6f45\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\47b8f488b2ddbb3907578da1290c6f45\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\b3b09621cca747e5e8d01c73cf2136e9\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\b3b09621cca747e5e8d01c73cf2136e9\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\b2f7ef95d655b42df3c1807a9734e548\transformed\runtime-saveable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-saveable:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\b2f7ef95d655b42df3c1807a9734e548\transformed\runtime-saveable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-graphics:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\ea19e46c5a32a63fd3fb5e0e529cddb6\transformed\ui-graphics-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-graphics:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\ea19e46c5a32a63fd3fb5e0e529cddb6\transformed\ui-graphics-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-unit:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\d5fd9faaf588f1074acbe04a6d69f8ab\transformed\ui-unit-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-unit:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\d5fd9faaf588f1074acbe04a6d69f8ab\transformed\ui-unit-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-geometry:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\82d922f7cd63184610b16af78e45d148\transformed\ui-geometry-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-geometry:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\82d922f7cd63184610b16af78e45d148\transformed\ui-geometry-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\3d2d830ae5994e2d13241f7c75af2603\transformed\ui-tooling-preview-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\3d2d830ae5994e2d13241f7c75af2603\transformed\ui-tooling-preview-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\3b1e55fbeb179a811c8967b83b13e433\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\3b1e55fbeb179a811c8967b83b13e433\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\dscar\.gradle\caches\transforms-3\9e1ce0bbd49d1d1d56cae7501c6a1082\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\dscar\.gradle\caches\transforms-3\9e1ce0bbd49d1d1d56cae7501c6a1082\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\e75a0458eb72599836852de240cf4303\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\e75a0458eb72599836852de240cf4303\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\9f24011717b021bac9ee09874fd0df37\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\9f24011717b021bac9ee09874fd0df37\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\6abfac59d263b6c8870828beb848f440\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\6abfac59d263b6c8870828beb848f440\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [pl.droidsonroids.relinker:relinker:1.4.1] C:\Users\dscar\.gradle\caches\transforms-3\10d060235f6ec0174e37be64decf1c74\transformed\relinker-1.4.1\AndroidManifest.xml:5:5-43
+MERGED from [pl.droidsonroids.relinker:relinker:1.4.1] C:\Users\dscar\.gradle\caches\transforms-3\10d060235f6ec0174e37be64decf1c74\transformed\relinker-1.4.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\dscar\.gradle\caches\transforms-3\9157b235a5b76db405302a2ec1208c96\transformed\exifinterface-27.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\dscar\.gradle\caches\transforms-3\9157b235a5b76db405302a2ec1208c96\transformed\exifinterface-27.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-util:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\e8f76553af024afe840211b5a886f853\transformed\ui-util-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-util:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\e8f76553af024afe840211b5a886f853\transformed\ui-util-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [io.github.aakira:napier-android-debug:1.4.1] C:\Users\dscar\.gradle\caches\transforms-3\5319323394e9375f239fb1644b098cf9\transformed\napier-debug\AndroidManifest.xml:7:5-9:41
+MERGED from [io.github.aakira:napier-android-debug:1.4.1] C:\Users\dscar\.gradle\caches\transforms-3\5319323394e9375f239fb1644b098cf9\transformed\napier-debug\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\a9e9e56cd500525808c19a605e367b6a\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\a9e9e56cd500525808c19a605e367b6a\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.shimmer:shimmer:0.5.0] C:\Users\dscar\.gradle\caches\transforms-3\f7d8876f305359649df551b7fa99d47b\transformed\shimmer-0.5.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.shimmer:shimmer:0.5.0] C:\Users\dscar\.gradle\caches\transforms-3\f7d8876f305359649df551b7fa99d47b\transformed\shimmer-0.5.0\AndroidManifest.xml:5:5-44
+MERGED from [com.intercom:android-commons:2.0.0] C:\Users\dscar\.gradle\caches\transforms-3\5201a4218f353842bc262a01fdebecd2\transformed\android-commons-2.0.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.intercom:android-commons:2.0.0] C:\Users\dscar\.gradle\caches\transforms-3\5201a4218f353842bc262a01fdebecd2\transformed\android-commons-2.0.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.intercom:twig:1.3.0] C:\Users\dscar\.gradle\caches\transforms-3\0fca1af5fd3b4e52c0705704d8038e36\transformed\twig-1.3.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intercom:twig:1.3.0] C:\Users\dscar\.gradle\caches\transforms-3\0fca1af5fd3b4e52c0705704d8038e36\transformed\twig-1.3.0\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:14:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.CALL_PHONE
+ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:16:5-69
+	android:name
+		ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:16:22-66
+uses-permission#android.permission.ACCESS_MEDIA_LOCATION
+ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:17:5-80
+	android:name
+		ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:17:22-77
+activity#customerApp.customerApp
+ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:29:9-37:20
+	android:exported
+		ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:30:13-51
+activity#com.egain.ps.sdk.internal.data.ui.webView
+ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:38:9-78
+	android:name
+		ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:38:19-75
+activity#com.egain.ps.sdk.internal.data.ui.fullscreen
+ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:39:9-81
+	android:name
+		ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:39:19-78
+activity#com.egain.ps.sdk.internal.data.ui.pdfViewer
+ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:40:9-80
+	android:name
+		ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:40:19-77
+activity#com.egain.ps.sdk.internal.data.ui.progressBar
+ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:41:9-82
+	android:name
+		ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:41:19-79
+activity#com.egain.ps.sdk.internal.data.ui.progressBar_EndConv
+ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:42:9-90
+	android:name
+		ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:42:19-87
+activity#com.egain.ps.sdk.activity.EgainChatWelcomeActivity
+ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:43:9-47:70
+	android:label
+		ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:46:13-59
+	android:exported
+		ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:45:13-36
+	android:theme
+		ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:47:13-67
+	android:name
+		ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:44:13-78
+activity#com.egain.ps.sdk.activity.EgainChatMessagingActivity
+ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:48:9-53:70
+	android:label
+		ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:51:13-38
+	android:launchMode
+		ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:52:13-44
+	android:exported
+		ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:53:13-67
+	android:name
+		ADDED from [eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:49:13-80
+activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
+ADDED from [pub.devrel:easypermissions:3.0.0] C:\Users\dscar\.gradle\caches\transforms-3\7f9472d8e4006f54af40036dc0279d5d\transformed\easypermissions-3.0.0\AndroidManifest.xml:12:9-16:66
+	android:label
+		ADDED from [pub.devrel:easypermissions:3.0.0] C:\Users\dscar\.gradle\caches\transforms-3\7f9472d8e4006f54af40036dc0279d5d\transformed\easypermissions-3.0.0\AndroidManifest.xml:15:13-29
+	android:exported
+		ADDED from [pub.devrel:easypermissions:3.0.0] C:\Users\dscar\.gradle\caches\transforms-3\7f9472d8e4006f54af40036dc0279d5d\transformed\easypermissions-3.0.0\AndroidManifest.xml:14:13-37
+	android:theme
+		ADDED from [pub.devrel:easypermissions:3.0.0] C:\Users\dscar\.gradle\caches\transforms-3\7f9472d8e4006f54af40036dc0279d5d\transformed\easypermissions-3.0.0\AndroidManifest.xml:16:13-63
+	android:name
+		ADDED from [pub.devrel:easypermissions:3.0.0] C:\Users\dscar\.gradle\caches\transforms-3\7f9472d8e4006f54af40036dc0279d5d\transformed\easypermissions-3.0.0\AndroidManifest.xml:13:13-86
+queries
+ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:9:5-17:15
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
+ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:10:9-16:18
+action#android.intent.action.VIEW
+ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:11:13-65
+	android:name
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:11:21-62
+category#android.intent.category.BROWSABLE
+ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:13:13-74
+	android:name
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:13:23-71
+data
+ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:15:13-44
+	android:scheme
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:15:19-41
+activity#io.intercom.android.sdk.activities.IntercomMessengerActivity
+ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:22:9-28:73
+	android:launchMode
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:26:13-43
+	android:windowSoftInputMode
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:28:13-70
+	android:exported
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:25:13-37
+	android:configChanges
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:24:13-59
+	android:theme
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:27:13-55
+	android:name
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:23:13-88
+activity#io.intercom.android.sdk.lightbox.LightBoxActivity
+ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:29:9-34:73
+	android:windowSoftInputMode
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:34:13-70
+	android:exported
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:31:13-59
+	android:theme
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:33:13-58
+	android:name
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:30:13-77
+activity#io.intercom.android.sdk.activities.IntercomPostActivity
+ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:35:9-41:57
+	android:launchMode
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:39:13-44
+	android:windowSoftInputMode
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:41:13-54
+	android:exported
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:38:13-37
+	android:configChanges
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:37:13-59
+	android:theme
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:40:13-54
+	android:name
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:36:13-83
+activity#io.intercom.android.sdk.activities.IntercomNoteActivity
+ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:42:9-48:73
+	android:launchMode
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:46:13-44
+	android:windowSoftInputMode
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:48:13-70
+	android:exported
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:45:13-37
+	android:configChanges
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:44:13-59
+	android:theme
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:47:13-54
+	android:name
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:43:13-83
+activity#io.intercom.android.sdk.activities.IntercomSheetActivity
+ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:49:9-55:57
+	android:launchMode
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:53:13-43
+	android:windowSoftInputMode
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:55:13-54
+	android:exported
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:52:13-37
+	android:configChanges
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:51:13-59
+	android:theme
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:54:13-63
+	android:name
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:50:13-84
+activity#io.intercom.android.sdk.activities.IntercomVideoActivity
+ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:56:9-62:57
+	android:launchMode
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:60:13-43
+	android:windowSoftInputMode
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:62:13-54
+	android:exported
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:59:13-37
+	android:configChanges
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:58:13-59
+	android:theme
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:61:13-55
+	android:name
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:57:13-84
+activity#io.intercom.android.sdk.activities.IntercomCarouselActivity
+ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:63:9-69:57
+	android:screenOrientation
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:67:13-49
+	android:launchMode
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:66:13-44
+	android:windowSoftInputMode
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:69:13-54
+	android:exported
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:65:13-37
+	android:theme
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:68:13-58
+	android:name
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:64:13-87
+activity#io.intercom.android.sdk.helpcenter.collections.IntercomHelpCenterActivity
+ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:70:9-72:60
+	android:theme
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:72:13-57
+	android:name
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:71:13-101
+activity#io.intercom.android.sdk.helpcenter.articles.ArticleActivity
+ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:73:9-77:57
+	android:windowSoftInputMode
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:77:13-54
+	android:exported
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:75:13-37
+	android:theme
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:76:13-57
+	android:name
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:74:13-87
+activity#io.intercom.android.sdk.survey.ui.IntercomSurveyActivity
+ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:78:9-82:58
+	android:windowSoftInputMode
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:82:13-55
+	android:exported
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:80:13-37
+	android:theme
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:81:13-65
+	android:name
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:79:13-84
+activity#io.intercom.android.sdk.helpcenter.search.IntercomArticleSearchActivity
+ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:83:9-86:60
+	android:exported
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:85:13-37
+	android:theme
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:86:13-57
+	android:name
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:84:13-99
+receiver#io.intercom.android.sdk.push.IntercomPushBroadcastReceiver
+ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:88:9-97:20
+	android:exported
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:90:13-37
+	android:name
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:89:13-86
+intent-filter#action:name:io.intercom.android.sdk.INTERCOM_PUSH_OPENED
+ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:91:13-93:29
+action#io.intercom.android.sdk.INTERCOM_PUSH_OPENED
+ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:92:17-87
+	android:name
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:92:25-84
+intent-filter#action:name:io.intercom.android.sdk.INTERCOM_PUSH_DISMISSED
+ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:94:13-96:29
+action#io.intercom.android.sdk.INTERCOM_PUSH_DISMISSED
+ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:95:17-90
+	android:name
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:95:25-87
+provider#io.intercom.android.sdk.IntercomInitializeContentProvider
+ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:99:9-102:40
+	android:authorities
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:101:13-85
+	android:exported
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:102:13-37
+	android:name
+		ADDED from [io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:100:13-85
+activity#com.intercom.input.gallery.GalleryInputFullScreenActivity
+ADDED from [com.intercom:android-composer-gallery:3.3.1] C:\Users\dscar\.gradle\caches\transforms-3\b9453f1cc475426fef080edcc2bc6064\transformed\android-composer-gallery-3.3.1\AndroidManifest.xml:8:9-11:72
+	android:windowSoftInputMode
+		ADDED from [com.intercom:android-composer-gallery:3.3.1] C:\Users\dscar\.gradle\caches\transforms-3\b9453f1cc475426fef080edcc2bc6064\transformed\android-composer-gallery-3.3.1\AndroidManifest.xml:11:13-69
+	android:theme
+		ADDED from [com.intercom:android-composer-gallery:3.3.1] C:\Users\dscar\.gradle\caches\transforms-3\b9453f1cc475426fef080edcc2bc6064\transformed\android-composer-gallery-3.3.1\AndroidManifest.xml:10:13-71
+	android:name
+		ADDED from [com.intercom:android-composer-gallery:3.3.1] C:\Users\dscar\.gradle\caches\transforms-3\b9453f1cc475426fef080edcc2bc6064\transformed\android-composer-gallery-3.3.1\AndroidManifest.xml:9:13-85
+activity#com.intercom.input.gallery.GalleryLightBoxActivity
+ADDED from [com.intercom:android-composer-gallery:3.3.1] C:\Users\dscar\.gradle\caches\transforms-3\b9453f1cc475426fef080edcc2bc6064\transformed\android-composer-gallery-3.3.1\AndroidManifest.xml:12:9-15:74
+	android:configChanges
+		ADDED from [com.intercom:android-composer-gallery:3.3.1] C:\Users\dscar\.gradle\caches\transforms-3\b9453f1cc475426fef080edcc2bc6064\transformed\android-composer-gallery-3.3.1\AndroidManifest.xml:14:13-80
+	android:theme
+		ADDED from [com.intercom:android-composer-gallery:3.3.1] C:\Users\dscar\.gradle\caches\transforms-3\b9453f1cc475426fef080edcc2bc6064\transformed\android-composer-gallery-3.3.1\AndroidManifest.xml:15:13-71
+	android:name
+		ADDED from [com.intercom:android-composer-gallery:3.3.1] C:\Users\dscar\.gradle\caches\transforms-3\b9453f1cc475426fef080edcc2bc6064\transformed\android-composer-gallery-3.3.1\AndroidManifest.xml:13:13-78
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dscar\.gradle\caches\transforms-3\30d54f463dd29bfb0e1a99d2b7654f72\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dscar\.gradle\caches\transforms-3\30d54f463dd29bfb0e1a99d2b7654f72\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\17b81357d067242c2d558ab825c57f18\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\17b81357d067242c2d558ab825c57f18\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dscar\.gradle\caches\transforms-3\30d54f463dd29bfb0e1a99d2b7654f72\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dscar\.gradle\caches\transforms-3\30d54f463dd29bfb0e1a99d2b7654f72\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dscar\.gradle\caches\transforms-3\30d54f463dd29bfb0e1a99d2b7654f72\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\751e357366937867a5e217908e50e352\transformed\ui-tooling-1.1.1\AndroidManifest.xml:25:9-27:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\751e357366937867a5e217908e50e352\transformed\ui-tooling-1.1.1\AndroidManifest.xml:27:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\751e357366937867a5e217908e50e352\transformed\ui-tooling-1.1.1\AndroidManifest.xml:26:13-71
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\dscar\.gradle\caches\transforms-3\94cc5caab3398281ed773abedd94675e\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\dscar\.gradle\caches\transforms-3\94cc5caab3398281ed773abedd94675e\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\dscar\.gradle\caches\transforms-3\94cc5caab3398281ed773abedd94675e\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\dscar\.gradle\caches\transforms-3\94cc5caab3398281ed773abedd94675e\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:32:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:36:9-45:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:39:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:40:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:41:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:38:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:37:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:42:13-44:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:43:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:43:25-88

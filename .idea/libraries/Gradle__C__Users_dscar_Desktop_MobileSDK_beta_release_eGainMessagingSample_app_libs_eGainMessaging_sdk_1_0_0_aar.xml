@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: C./Users/dscar/Desktop/MobileSDK/beta-release/eGainMessagingSample/app/libs/eGainMessaging-sdk-1.0.0.aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b9811104f4c57cf6d2dccbee3a38a58e/transformed/eGainMessaging-sdk-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b9811104f4c57cf6d2dccbee3a38a58e/transformed/eGainMessaging-sdk-1.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b9811104f4c57cf6d2dccbee3a38a58e/transformed/eGainMessaging-sdk-1.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

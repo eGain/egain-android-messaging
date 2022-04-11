@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d нове сповіщення</item>
+    <item quantity="few">%d нові сповіщення</item>
+    <item quantity="many">%d нових сповіщень</item>
+    <item quantity="other">%d нового сповіщення</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Перейти на головну"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Перейти вгору"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Більше опцій"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Показати всі"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Вибрати програму"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ЗНИЖКА"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"УВІМК."</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"пробіл"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Введіть пошуковий запит…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Очистити запит"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Пошуковий запит"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Пошук"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Наіслати запит"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Голосовий пошук"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Поділитися:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Поділитися через додаток <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Згорнути"</string>
+    <string name="bottomsheet_action_expand_halfway">Розгорнути нижню половину</string>
+    <string name="character_counter_content_description">Введено символів: %1$d з %2$d</string>
+    <string name="character_counter_overflowed_content_description">Перевищено ліміт символів: %1$d з %2$d</string>
+    <string name="clear_text_end_icon_content_description">Видалити текст</string>
+    <string msgid="406453423630273620" name="close_drawer">"Закрити меню навігації"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"Закрити аркуш"</string>
+    <string msgid="8038256446254964252" name="default_error_message">"Введено недійсні дані"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"Спливаюче вікно"</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"Спадне меню"</string>
+    <string name="error_icon_content_description">Помилка</string>
+    <string name="exposed_dropdown_menu_content_description">Показати спадне меню</string>
+    <string name="icon_content_description">Значок вікна</string>
+    <string msgid="6827826412747255547" name="in_progress">"Виконується"</string>
+    <string msgid="2486394087603402002" name="indeterminate">"Прапорець ані поставлено, ані знято"</string>
+    <string name="intercom_access_background_location_message">Перейдіть у налаштування пристрою та дозвольте додатку використовувати геодані у фоновому режимі</string>
+    <string name="intercom_access_background_location_title">Дозвольте постійний доступ до даних про ваше розташування</string>
+    <string name="intercom_access_photos">Отримайте доступ до своїх фотографій</string>
+    <string name="intercom_active_15m_ago">У мережі останні {minutes} хв</string>
+    <string name="intercom_active_day_ago">У мережі {days} дн. тому</string>
+    <string name="intercom_active_hour_ago">У мережі {hours} год тому</string>
+    <string name="intercom_active_minute_ago">У мережі {minutes} хв тому</string>
+    <string name="intercom_active_state">У мережі</string>
+    <string name="intercom_active_week_ago">У мережі більше 1 тиж. тому</string>
+    <string name="intercom_allow_access">Дозволити доступ</string>
+    <string name="intercom_allow_storage_access">Щоби бачити свої фотографії, дозвольте доступ до пам’яті</string>
+    <string name="intercom_also_in_this_conversation">Також у цій бесіді</string>
+    <string name="intercom_android_activated_message">Ваш додаток для Android інтегрований із платформою Intercom</string>
+    <string name="intercom_app_settings">Налаштування додатку</string>
+    <string name="intercom_article_load_error">Не вдалося завантажити статтю</string>
+    <string name="intercom_article_question">Ви отримали відповідь на своє запитання?</string>
+    <string name="intercom_article_response">Ви відреагували</string>
+    <string name="intercom_article_search_hint_text">Пошук статей...</string>
+    <string name="intercom_ask_a_question">Поставити запитання</string>
+    <string name="intercom_asked_about">Ви запитали про</string>
+    <string name="intercom_attribute_collector_negative">Ні</string>
+    <string name="intercom_attribute_collector_positive">Так</string>
+    <string name="intercom_away_state">Не на місці</string>
+    <string name="intercom_bot">Бот</string>
+    <string name="intercom_bot_expectation_text">Наш бот зможе відповісти на багато поширених запитань</string>
+    <string name="intercom_browse_all_help_topics">Переглянути всі довідкові теми</string>
+    <string name="intercom_browse_collections">Перегляд колекцій</string>
+    <string name="intercom_cancel">Скасувати</string>
+    <string name="intercom_choose_one">Виберіть варіант…</string>
+    <string name="intercom_choose_the_date">Виберіть дату…</string>
+    <string name="intercom_clear">Очистити</string>
+    <string name="intercom_close">Закрити</string>
+    <string name="intercom_congratulations">Вітаємо</string>
+    <string name="intercom_connected">Ви під’єднані</string>
+    <string name="intercom_continue_the_conversation">Продовжити бесіду</string>
+    <string name="intercom_conversation_card_office_hours_header">Коли ми будемо онлайн</string>
+    <string name="intercom_conversation_card_reply_time_header">Звичайний час відповіді</string>
+    <string name="intercom_conversation_has_ended">Ваша бесіда завершилася</string>
+    <string name="intercom_conversations">Бесіди</string>
+    <string name="intercom_conversations_with_app">Бесіди з {name}</string>
+    <string name="intercom_copied_to_clipboard">Скопійовано в буфер</string>
+    <string name="intercom_couldnt_complete_action">Не вдалося виконати цю дію</string>
+    <string name="intercom_couldnt_load_apps">Не вдалося завантажити додатки.</string>
+    <string name="intercom_couldnt_load_content">Не вдалося завантажити вміст</string>
+    <string name="intercom_couldnt_load_messenger">Не вдалося завантажити програму для спілкування.</string>
+    <string name="intercom_delivered">Доставлено</string>
+    <string name="intercom_disappointed_face_emoji">Сумне обличчя</string>
+    <string name="intercom_dismiss">Закрити</string>
+    <string name="intercom_empty_conversations">Поки немає бесід із користувачем {name}</string>
+    <string name="intercom_error_loading_conversation">Не вдалося завантажити бесіду</string>
+    <string name="intercom_expected_response_delay_10800">до 3 годин</string>
+    <string name="intercom_expected_response_delay_120">до 2 хвилин</string>
+    <string name="intercom_expected_response_delay_1200">до 20 хвилин</string>
+    <string name="intercom_expected_response_delay_14400">до 4 годин</string>
+    <string name="intercom_expected_response_delay_172800">2 дні</string>
+    <string name="intercom_expected_response_delay_180">до 3 хвилин</string>
+    <string name="intercom_expected_response_delay_1800">до 30 хвилин</string>
+    <string name="intercom_expected_response_delay_18000">до 5 годин</string>
+    <string name="intercom_expected_response_delay_21600">до 6 годин</string>
+    <string name="intercom_expected_response_delay_240">до 4 хвилин</string>
+    <string name="intercom_expected_response_delay_300">до 5 хвилин</string>
+    <string name="intercom_expected_response_delay_3600">до 1 години</string>
+    <string name="intercom_expected_response_delay_60">до 1 хвилини</string>
+    <string name="intercom_expected_response_delay_600">до 10 хвилин</string>
+    <string name="intercom_expected_response_delay_604800">до 1 тижня</string>
+    <string name="intercom_expected_response_delay_7200">до 2 годин</string>
+    <string name="intercom_expected_response_delay_86400">1 день</string>
+    <string name="intercom_facebook_like">Вподобайте нас у Facebook</string>
+    <string name="intercom_failed_delivery">Не вдалося доставити повідомлення</string>
+    <string name="intercom_failed_to_load_conversation">Не вдалося завантажити ваші бесіди</string>
+    <string name="intercom_failed_to_send">Не вдалося відправити</string>
+    <string name="intercom_file_access_failed">Не вдається отримати доступ до файлу</string>
+    <string name="intercom_file_too_big">Не можна надсилати файли розміром понад {limit} МБ</string>
+    <string name="intercom_get_help">Отримати допомогу</string>
+    <string name="intercom_gif_attribution">через {providername}</string>
+    <string name="intercom_gifs_load_error">Не вдалося завантажити GIF-файл</string>
+    <string name="intercom_give_it_another_try">Спробуйте ще</string>
+    <string name="intercom_go_to_device_settings">Щоб дозволити доступ, перейдіть до налаштувань додатка на своєму пристрої
+та відкрийте меню дозволів</string>
+    <string name="intercom_grinning_face_with_big_eyes_emoji">Усміхнене обличчя з великими очима</string>
+    <string name="intercom_help_center">Центр допомоги</string>
+    <string name="intercom_how_can_we_help">Чим вам допомогти?</string>
+    <string name="intercom_image_attached">(зображення додається)</string>
+    <string name="intercom_inbox_error_state_title">Щось пішло не так</string>
+    <string name="intercom_loading">Завантаження</string>
+    <string name="intercom_message_failed_try_again">Не вдалося відправити. Натисніть, щоб спробувати ще</string>
+    <string name="intercom_message_seen">Переглянуто</string>
+    <string name="intercom_message_state_sending">Відправлення…</string>
+    <string name="intercom_message_unseen">Ще не переглянуто</string>
+    <string name="intercom_name_and_1_other">{name} і ще 1</string>
+    <string name="intercom_name_and_x_others">{name} і ще {count}</string>
+    <string name="intercom_navigation_back">Назад</string>
+    <string name="intercom_neutral_face_emoji">Нейтральне обличчя</string>
+    <string name="intercom_new_conversation">Нова бесіда</string>
+    <string name="intercom_new_message">Нове повідомлення</string>
+    <string name="intercom_new_messages">У вас нові повідомлення ({n})</string>
+    <string name="intercom_new_notifications">Нові сповіщення</string>
+    <string name="intercom_no_articles_to_display">Немає статей для показу</string>
+    <string name="intercom_no_conversations">Немає бесід</string>
+    <string name="intercom_no_gifs_found">GIF-файли не знайдені</string>
+    <string name="intercom_no_gifs_matching_query">Не вдалося знайти GIF-файли, які б відповідали вашому запиту</string>
+    <string name="intercom_no_messages_from_the_team">Немає повідомлень від команди</string>
+    <string name="intercom_no_network_connection">Немає підключення до мережі</string>
+    <string name="intercom_no_photos">Немає фотографій</string>
+    <string name="intercom_no_photos_on_device">На цьому пристрої немає фотографій</string>
+    <string name="intercom_no_results_for_searchterm">Немає результатів для запиту: {searchTerm}</string>
+    <string name="intercom_not_now">Не зараз</string>
+    <string name="intercom_nothing_to_see_here_yet">Тут поки нічого немає</string>
+    <string name="intercom_notification_channel_actions_description">Містить посилання для виконання дії в цьому додатку</string>
+    <string name="intercom_notification_channel_actions_title">Дії</string>
+    <string name="intercom_notification_channel_chat_replies_description">Сповіщення про відповіді в чатах цього додатка</string>
+    <string name="intercom_notification_channel_chat_replies_title">Відповіді в чатах</string>
+    <string name="intercom_notification_channel_new_chats_description">Нові повідомлення в чаті, відправлені з цього додатка</string>
+    <string name="intercom_notification_channel_new_chats_title">Нові чати</string>
+    <string name="intercom_number_is_incorrect">З цим номером щось не так</string>
+    <string name="intercom_one_new_message">У вас нове повідомлення</string>
+    <string name="intercom_page_not_found">Цієї сторінки більше не існує</string>
+    <string name="intercom_permission_denied">У дозволі відмовлено</string>
+    <string name="intercom_photo_access_denied">Ви не дозволили доступ до своїх фотографій</string>
+    <string name="intercom_plus_x_more">+ ще {n}</string>
+    <string name="intercom_profile_location">{time} в {location}</string>
+    <string name="intercom_rate_your_conversation">Оцініть бесіду</string>
+    <string name="intercom_reload">Перезавантажити</string>
+    <string name="intercom_reply">Відповісти</string>
+    <string name="intercom_reply_from_admin">Відповідь від користувача {name}</string>
+    <string name="intercom_reply_to_conversation">Напишіть відповідь…</string>
+    <string name="intercom_retry">Повторити</string>
+    <string name="intercom_search_browse_empty_state_text">На жаль, ми не знайшли результатів за цим запитом. Спробуйте перефразувати його.</string>
+    <string name="intercom_search_for_help">Пошук в статтях</string>
+    <string name="intercom_search_gif">Пошук GIF-файлів…</string>
+    <string name="intercom_search_help_articles">Пошук довідкових статей</string>
+    <string name="intercom_see_all">Показати всі</string>
+    <string name="intercom_see_all_conversations">Перегляньте всі ваші бесіди</string>
+    <string name="intercom_see_past_conversations">Показати попередні</string>
+    <string name="intercom_see_previous_conversations">Перегляньте свої попередні бесіди</string>
+    <string name="intercom_send">Надіслати</string>
+    <string name="intercom_send_us_a_message">Напишіть нам повідомлення</string>
+    <string name="intercom_some_things_failed_to_load">Деякі елементи не завантажилися. Повторіть спробу.</string>
+    <string name="intercom_something_went_wrong_try_again">Щось пішло не так. Повторіть спробу.</string>
+    <string name="intercom_start_a_conversation">Почати бесіду</string>
+    <string name="intercom_start_another_conversation">Почати іншу бесіду</string>
+    <string name="intercom_start_conversation">Почати бесіду…</string>
+    <string name="intercom_storage_access_request">Для перегляду своїх фотографій потрібно надати доступ до пам’яті</string>
+    <string name="intercom_string_is_incorrect">Щось тут не так</string>
+    <string name="intercom_submit">Надіслати</string>
+    <string name="intercom_suggested_articles">Рекомендовані статті</string>
+    <string name="intercom_surveys_all_options_response_hint">Виберіть усі відповідні варіанти</string>
+    <string name="intercom_surveys_dismiss">Закрити опитування</string>
+    <string name="intercom_surveys_done_button">Готово</string>
+    <string name="intercom_surveys_dropdown_default_option">Виберіть відповідь...</string>
+    <string name="intercom_surveys_email_error">Уведіть дійсну адресу ел. пошти</string>
+    <string name="intercom_surveys_fixed_response_count_response_hint">Виберіть стільки варіантів: {response_count}</string>
+    <string name="intercom_surveys_from_company">Опитування компанії {company}</string>
+    <string name="intercom_surveys_from_teammate">Опитування від {sender_name} з компанії {company}</string>
+    <string name="intercom_surveys_multi_select_too_few_responses">Мінімальна кількість відповідей на це запитання: {response_count}</string>
+    <string name="intercom_surveys_multi_select_too_many_responses">Потрібна кількість відповідей на це запитання: {response_count}</string>
+    <string name="intercom_surveys_multi_star_rating">Зірочок: {count}</string>
+    <string name="intercom_surveys_multiselect_other_option">Інше (вкажіть)</string>
+    <string name="intercom_surveys_multiselect_other_option_input_label">Укажіть</string>
+    <string name="intercom_surveys_multiselect_other_option_input_placeholder">Почніть вводити текст...</string>
+    <string name="intercom_surveys_multiselect_other_option_value">Інше</string>
+    <string name="intercom_surveys_next_button">Далі</string>
+    <string name="intercom_surveys_nps_lower_label">Малоймовірно</string>
+    <string name="intercom_surveys_nps_upper_label">Дуже ймовірно</string>
+    <string name="intercom_surveys_number_error">Уведіть число</string>
+    <string name="intercom_surveys_one_star_rating">1 зірочка</string>
+    <string name="intercom_surveys_question_question_number_of_question_count">Запитання {questioin_number} з {question_count}</string>
+    <string name="intercom_surveys_required_question">Це запитання з обов’язковою відповіддю</string>
+    <string name="intercom_surveys_required_response">Ця відповідь обов’язкова</string>
+    <string name="intercom_surveys_response_range_response_hint">Виберіть щонайменше {minimum_response_count}, але не більше {maximum_response_count} варіантів</string>
+    <string name="intercom_surveys_response_too_long">Максимальна кількість символів у відповідях: {character_count}</string>
+    <string name="intercom_surveys_response_too_short">Переконайтеся, що відповіді містять щонайменше {character_count} симв.</string>
+    <string name="intercom_surveys_sender_image">Зображення відправника опитування</string>
+    <string name="intercom_surveys_single_response_hint">Виберіть 1 варіант</string>
+    <string name="intercom_surveys_telephone_error">Уведіть дійсний номер телефону</string>
+    <string name="intercom_surveys_text_input_question_placeholder">Уведіть тут свою відповідь...</string>
+    <string name="intercom_tap_to_send_image">Натисніть, щоб надіслати зображення</string>
+    <string name="intercom_team_name_custom_response_delay_2">{app_name} зазвичай відповідає протягом дня</string>
+    <string name="intercom_team_name_proactive_expected_response_delay_one_business_day">{app_name} зазвичай відповідає протягом 1 робочого дня</string>
+    <string name="intercom_team_name_proactive_expected_response_delay_two_business_days">{app_name} зазвичай відповідає протягом 2 робочих днів</string>
+    <string name="intercom_teammate_from_company">{name} з {company}</string>
+    <string name="intercom_tell_us_more">Розкажіть нам більше…</string>
+    <string name="intercom_tell_us_what_you_need">Розкажіть, яка допомога вам потрібна, і наш бот зробить усе можливе, щоб надати відповідь</string>
+    <string name="intercom_thanks_custom_response_delay_one_business_day">Дякуємо! Команда дасть відповідь протягом 1 робочого дня</string>
+    <string name="intercom_thanks_custom_response_delay_two_business_days">Дякуємо! Команда дасть відповідь протягом 2 робочих днів</string>
+    <string name="intercom_thanks_for_letting_us_know">Дякуємо, що повідомили нам</string>
+    <string name="intercom_thanks_proactive_expected_response_delay_unknown">Дякуємо! Команда дасть відповідь за першої нагоди.</string>
+    <string name="intercom_that_country_code_doesnt_look_quite_right">З цим кодом країни щось не так</string>
+    <string name="intercom_that_email_address_doesnt_look_quite_right">З цією ел. поштою щось не так</string>
+    <string name="intercom_that_number_doesnt_look_quite_right">З цим номером щось не так</string>
+    <string name="intercom_that_number_has_too_many_digits">У номері забагато цифр</string>
+    <string name="intercom_that_number_is_missing_a_few_digits">У номері не вистачає кількох цифр</string>
+    <string name="intercom_that_number_needs_a_prefix">Цей номер потрібно вказувати з префіксом (+ чи 00)</string>
+    <string name="intercom_the_team_can_help_if_needed">У разі потреби наші фахівці вам допоможуть</string>
+    <string name="intercom_the_team_typically_replies_in_hours">Зазвичай команда відповідає протягом кількох годин.</string>
+    <string name="intercom_the_team_typically_replies_in_one_business_day">Зазвичай команда відповідає протягом 1 робочого дня</string>
+    <string name="intercom_the_team_typically_replies_in_two_business_days">Зазвичай команда відповідає протягом 2 робочих днів</string>
+    <string name="intercom_time_day_ago">{delta} дн. тому</string>
+    <string name="intercom_time_future_1h">через 1 годину</string>
+    <string name="intercom_time_future_2h">через 2 години</string>
+    <string name="intercom_time_future_30m">через 30 хвилин</string>
+    <string name="intercom_time_future_3h">через 3 години</string>
+    <string name="intercom_time_future_day_0">понеділок</string>
+    <string name="intercom_time_future_day_1">вівторок</string>
+    <string name="intercom_time_future_day_2">середа</string>
+    <string name="intercom_time_future_day_3">четвер</string>
+    <string name="intercom_time_future_day_4">п’ятниця</string>
+    <string name="intercom_time_future_day_5">субота</string>
+    <string name="intercom_time_future_day_6">неділя</string>
+    <string name="intercom_time_future_later_today">пізніше сьогодні</string>
+    <string name="intercom_time_future_next_week">наступного тижня</string>
+    <string name="intercom_time_future_tomorrow">завтра</string>
+    <string name="intercom_time_hour_ago">{delta} год. тому</string>
+    <string name="intercom_time_just_now">Щойно</string>
+    <string name="intercom_time_minute_ago">{delta} хв. тому</string>
+    <string name="intercom_time_week_ago">{delta} тиж. тому</string>
+    <string name="intercom_time_yesterday">учора</string>
+    <string name="intercom_try_again">Повторіть спробу</string>
+    <string name="intercom_try_again_minute">Повторіть спробу за хвилину</string>
+    <string name="intercom_try_use_different_keywords">Спробуйте інші ключові слова або введіть запитання повністю</string>
+    <string name="intercom_twitter_follow">Підпишіться на нас у Твіттері</string>
+    <string name="intercom_two_business_days">Два робочих дні</string>
+    <string name="intercom_type_a_number">Уведіть число…</string>
+    <string name="intercom_typically_replies_in_one_business_day">Зазвичай відповідає протягом 1 робочого дня</string>
+    <string name="intercom_typically_replies_in_two_business_days">Зазвичай відповідає протягом 2 робочих днів</string>
+    <string name="intercom_upfront_collection_form_close_out">Ви будь-коли можете повернутися сюди для перегляду відповідей та оновлень.</string>
+    <string name="intercom_upfront_collection_form_introduction">Докладніше розкажіть про проблему, щоб наші фахівці відповіли точніше та швидше.</string>
+    <string name="intercom_upfront_collection_form_submission_confirmation">Дякуємо за надання докладнішої інформації. Щоб зберегти час потім, ви можете доповнити інформацію зараз.</string>
+    <string name="intercom_upfront_collection_form_subtitle">Надайте команді докладнішу інформацію</string>
+    <string name="intercom_upfront_collection_form_subtitle_submitted">Наші фахівці врахують ці дані</string>
+    <string name="intercom_upfront_collection_form_title">Отримайте допомогу швидше</string>
+    <string name="intercom_upfront_collection_form_title_submitted">Відправлено нашим фахівцям!</string>
+    <string name="intercom_we_run_on_intercom">Ми використовуємо Intercom</string>
+    <string name="intercom_you">Ви</string>
+    <string name="intercom_you_rated_the_conversation">Ви оцінили бесіду</string>
+    <string name="intercom_your_conversations">Ваші бесіди</string>
+    <string name="item_view_role_description">Вкладка</string>
+    <string name="material_clock_toggle_content_description">Виберіть ДП чи ПП</string>
+    <string name="material_hour_selection">Вибрати годину</string>
+    <string name="material_hour_suffix">%1$s год</string>
+    <string name="material_minute_selection">Виберіть хвилини</string>
+    <string name="material_minute_suffix">%1$s хв</string>
+    <string name="material_timepicker_am">дп</string>
+    <string name="material_timepicker_clock_mode_description">Перейти в режим годинника, щоб ввести час.</string>
+    <string name="material_timepicker_hour">Година</string>
+    <string name="material_timepicker_minute">Хвилина</string>
+    <string name="material_timepicker_pm">пп</string>
+    <string name="material_timepicker_select_time">Виберіть час</string>
+    <string name="material_timepicker_text_input_mode_description">Перейти в текстовий режим, щоб ввести час.</string>
+    <string name="mtrl_badge_numberless_content_description">Нове сповіщення</string>
+    <string name="mtrl_chip_close_icon_content_description">Видалити %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Нових сповіщень більше ніж %1$d</string>
+    <string name="mtrl_picker_a11y_next_month">Перейти до наступного місяця</string>
+    <string name="mtrl_picker_a11y_prev_month">Перейти до попереднього місяця</string>
+    <string name="mtrl_picker_announce_current_selection">Поточний вибір: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Виберіть дату</string>
+    <string name="mtrl_picker_date_header_unselected">Вибрана дата</string>
+    <string name="mtrl_picker_day_of_week_column_header">Стовпець із днями: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Недійсний формат.</string>
+    <string name="mtrl_picker_invalid_format_example">Приклад: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Використовувати: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Недійсний діапазон.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Перейти до %1$s року</string>
+    <string name="mtrl_picker_out_of_range">За межами діапазону: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Дата початку – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – дата завершення</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Виберіть діапазон дат</string>
+    <string name="mtrl_picker_range_header_unselected">Дата початку – дата завершення</string>
+    <string name="mtrl_picker_save">Зберегти</string>
+    <string name="mtrl_picker_text_input_date_hint">Дата</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Дата завершення</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Дата початку</string>
+    <string name="mtrl_picker_text_input_day_abbr">д</string>
+    <string name="mtrl_picker_text_input_month_abbr">м</string>
+    <string name="mtrl_picker_text_input_year_abbr">р</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Перейти в режим введення в календарі</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Натисніть, щоб вибрати день</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Перейти в режим введення тексту</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Натисніть, щоб вибрати рік</string>
+    <string msgid="542007171693138492" name="navigation_menu">"Меню навігації"</string>
+    <string msgid="6610465462668679431" name="not_selected">"Не вибрано"</string>
+    <string msgid="875452955155264703" name="off">"Вимкнено"</string>
+    <string msgid="8655164131929253426" name="on">"Увімкнено"</string>
+    <string name="password_toggle_content_description">Показувати пароль</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Пошук"</string>
+    <string msgid="6043586758067023" name="selected">"Вибрано"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="1672349317127674378" name="tab">"Вкладка"</string>
+    <string msgid="5946805113151406391" name="template_percent">"Відсотків: <ns1:g id="PERCENTAGE">%1$d</ns1:g>."</string>
+</resources>

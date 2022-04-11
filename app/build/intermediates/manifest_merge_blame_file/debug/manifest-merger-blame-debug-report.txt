@@ -1,0 +1,395 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.egain.ps.egainmessagingsample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+8-->C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:5:5-80
+11-->C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:6:5-66
+12-->C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:14:5-80
+13-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:14:22-77
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:15:5-79
+14-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:15:22-76
+15    <uses-permission android:name="android.permission.CALL_PHONE" />
+15-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:16:5-69
+15-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:16:22-66
+16    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+16-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:17:5-80
+16-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:17:22-77
+17
+18    <queries>
+18-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:9:5-17:15
+19        <intent>
+19-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:10:9-16:18
+20            <action android:name="android.intent.action.VIEW" />
+20-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:11:13-65
+20-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:11:21-62
+21
+22            <category android:name="android.intent.category.BROWSABLE" />
+22-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:13:13-74
+22-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:13:23-71
+23
+24            <data android:scheme="https" />
+24-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:15:13-44
+24-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:15:19-41
+25        </intent>
+26    </queries>
+27
+28    <application
+28-->C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:8:5-26:19
+29        android:allowBackup="true"
+29-->C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:9:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.7.0] C:\Users\dscar\.gradle\caches\transforms-3\02483169c4c9e0ddffa88758188ac6f1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:extractNativeLibs="false"
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:10:9-43
+34        android:label="@string/app_name"
+34-->C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:11:9-41
+35        android:networkSecurityConfig="@xml/network_security_config"
+35-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:24:9-69
+36        android:requestLegacyExternalStorage="true"
+36-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:25:9-52
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:12:9-54
+38        android:supportsRtl="true"
+38-->C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:13:9-35
+39        android:theme="@style/Theme.EGainMessagingSample" >
+39-->C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:16:9-58
+40        <activity
+40-->C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:17:9-25:20
+41            android:name="com.egain.ps.egainmessagingsample.MainActivity"
+41-->C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:18:13-41
+42            android:exported="true" >
+42-->C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:19:13-36
+43            <intent-filter>
+43-->C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:20:13-24:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:21:17-69
+44-->C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:21:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:23:17-77
+46-->C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:23:27-74
+47            </intent-filter>
+48        </activity>
+49        <activity
+49-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:29:9-37:20
+50            android:name="customerApp.customerApp"
+50-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:30:13-51
+51            android:exported="true" >
+51-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:31:13-36
+52            <intent-filter>
+52-->C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:20:13-24:29
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:23:17-77
+53-->C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:23:27-74
+54
+55                <action android:name="android.intent.action.MAIN" />
+55-->C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:21:17-69
+55-->C:\Users\dscar\Desktop\MobileSDK\beta-release\eGainMessagingSample\app\src\main\AndroidManifest.xml:21:25-66
+56            </intent-filter>
+57        </activity>
+58        <activity android:name="com.egain.ps.sdk.internal.data.ui.webView" />
+58-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:38:9-78
+58-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:38:19-75
+59        <activity android:name="com.egain.ps.sdk.internal.data.ui.fullscreen" />
+59-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:39:9-81
+59-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:39:19-78
+60        <activity android:name="com.egain.ps.sdk.internal.data.ui.pdfViewer" />
+60-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:40:9-80
+60-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:40:19-77
+61        <activity android:name="com.egain.ps.sdk.internal.data.ui.progressBar" />
+61-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:41:9-82
+61-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:41:19-79
+62        <activity android:name="com.egain.ps.sdk.internal.data.ui.progressBar_EndConv" />
+62-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:42:9-90
+62-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:42:19-87
+63        <activity
+63-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:43:9-47:70
+64            android:name="com.egain.ps.sdk.activity.EgainChatWelcomeActivity"
+64-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:44:13-78
+65            android:exported="true"
+65-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:45:13-36
+66            android:label="@string/title_welcome_activity"
+66-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:46:13-59
+67            android:theme="@style/Theme.EGainLiveChat.NoActionBar" />
+67-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:47:13-67
+68        <activity
+68-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:48:9-53:70
+69            android:name="com.egain.ps.sdk.activity.EgainChatMessagingActivity"
+69-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:49:13-80
+70            android:exported="true"
+70-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:50:13-36
+71            android:label="Messaging"
+71-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:51:13-38
+72            android:launchMode="singleTask"
+72-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:52:13-44
+73            android:theme="@style/Theme.EGainLiveChat.NoActionBar" />
+73-->[eGainMessaging-sdk-1.0.0.aar] C:\Users\dscar\.gradle\caches\transforms-3\b9811104f4c57cf6d2dccbee3a38a58e\transformed\eGainMessaging-sdk-1.0.0\AndroidManifest.xml:53:13-67
+74        <activity
+74-->[pub.devrel:easypermissions:3.0.0] C:\Users\dscar\.gradle\caches\transforms-3\7f9472d8e4006f54af40036dc0279d5d\transformed\easypermissions-3.0.0\AndroidManifest.xml:12:9-16:66
+75            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+75-->[pub.devrel:easypermissions:3.0.0] C:\Users\dscar\.gradle\caches\transforms-3\7f9472d8e4006f54af40036dc0279d5d\transformed\easypermissions-3.0.0\AndroidManifest.xml:13:13-86
+76            android:exported="false"
+76-->[pub.devrel:easypermissions:3.0.0] C:\Users\dscar\.gradle\caches\transforms-3\7f9472d8e4006f54af40036dc0279d5d\transformed\easypermissions-3.0.0\AndroidManifest.xml:14:13-37
+77            android:label=""
+77-->[pub.devrel:easypermissions:3.0.0] C:\Users\dscar\.gradle\caches\transforms-3\7f9472d8e4006f54af40036dc0279d5d\transformed\easypermissions-3.0.0\AndroidManifest.xml:15:13-29
+78            android:theme="@style/EasyPermissions.Transparent" />
+78-->[pub.devrel:easypermissions:3.0.0] C:\Users\dscar\.gradle\caches\transforms-3\7f9472d8e4006f54af40036dc0279d5d\transformed\easypermissions-3.0.0\AndroidManifest.xml:16:13-63
+79        <activity
+79-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:22:9-28:73
+80            android:name="io.intercom.android.sdk.activities.IntercomMessengerActivity"
+80-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:23:13-88
+81            android:configChanges="screenSize|orientation"
+81-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:24:13-59
+82            android:exported="false"
+82-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:25:13-37
+83            android:launchMode="singleTop"
+83-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:26:13-43
+84            android:theme="@style/Intercom_PanelTheme"
+84-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:27:13-55
+85            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+85-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:28:13-70
+86        <activity
+86-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:29:9-34:73
+87            android:name="io.intercom.android.sdk.lightbox.LightBoxActivity"
+87-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:30:13-77
+88            android:configChanges="screenSize|orientation"
+88-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:31:13-59
+89            android:exported="false"
+89-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:32:13-37
+90            android:theme="@style/Intercom_LightBoxTheme"
+90-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:33:13-58
+91            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+91-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:34:13-70
+92        <activity
+92-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:35:9-41:57
+93            android:name="io.intercom.android.sdk.activities.IntercomPostActivity"
+93-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:36:13-83
+94            android:configChanges="screenSize|orientation"
+94-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:37:13-59
+95            android:exported="false"
+95-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:38:13-37
+96            android:launchMode="singleTask"
+96-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:39:13-44
+97            android:theme="@style/Intercom_PostTheme"
+97-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:40:13-54
+98            android:windowSoftInputMode="stateHidden" />
+98-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:41:13-54
+99        <activity
+99-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:42:9-48:73
+100            android:name="io.intercom.android.sdk.activities.IntercomNoteActivity"
+100-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:43:13-83
+101            android:configChanges="screenSize|orientation"
+101-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:44:13-59
+102            android:exported="false"
+102-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:45:13-37
+103            android:launchMode="singleTask"
+103-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:46:13-44
+104            android:theme="@style/Intercom_NoteTheme"
+104-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:47:13-54
+105            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+105-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:48:13-70
+106        <activity
+106-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:49:9-55:57
+107            android:name="io.intercom.android.sdk.activities.IntercomSheetActivity"
+107-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:50:13-84
+108            android:configChanges="screenSize|orientation"
+108-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:51:13-59
+109            android:exported="false"
+109-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:52:13-37
+110            android:launchMode="singleTop"
+110-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:53:13-43
+111            android:theme="@style/Intercom_ModalActivityTheme"
+111-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:54:13-63
+112            android:windowSoftInputMode="stateHidden" />
+112-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:55:13-54
+113        <activity
+113-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:56:9-62:57
+114            android:name="io.intercom.android.sdk.activities.IntercomVideoActivity"
+114-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:57:13-84
+115            android:configChanges="screenSize|orientation"
+115-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:58:13-59
+116            android:exported="false"
+116-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:59:13-37
+117            android:launchMode="singleTop"
+117-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:60:13-43
+118            android:theme="@style/Intercom_PanelTheme"
+118-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:61:13-55
+119            android:windowSoftInputMode="stateHidden" />
+119-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:62:13-54
+120        <activity
+120-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:63:9-69:57
+121            android:name="io.intercom.android.sdk.activities.IntercomCarouselActivity"
+121-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:64:13-87
+122            android:exported="false"
+122-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:65:13-37
+123            android:launchMode="singleTask"
+123-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:66:13-44
+124            android:screenOrientation="portrait"
+124-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:67:13-49
+125            android:theme="@style/Intercom_CarouselTheme"
+125-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:68:13-58
+126            android:windowSoftInputMode="stateHidden" />
+126-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:69:13-54
+127        <activity
+127-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:70:9-72:60
+128            android:name="io.intercom.android.sdk.helpcenter.collections.IntercomHelpCenterActivity"
+128-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:71:13-101
+129            android:theme="@style/Intercom.BaseMaterial" />
+129-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:72:13-57
+130        <activity
+130-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:73:9-77:57
+131            android:name="io.intercom.android.sdk.helpcenter.articles.ArticleActivity"
+131-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:74:13-87
+132            android:exported="false"
+132-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:75:13-37
+133            android:theme="@style/Intercom.BaseMaterial"
+133-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:76:13-57
+134            android:windowSoftInputMode="stateHidden" />
+134-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:77:13-54
+135        <activity
+135-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:78:9-82:58
+136            android:name="io.intercom.android.sdk.survey.ui.IntercomSurveyActivity"
+136-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:79:13-84
+137            android:exported="false"
+137-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:80:13-37
+138            android:theme="@style/Intercom.BaseMaterial.Compose"
+138-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:81:13-65
+139            android:windowSoftInputMode="adjustResize" />
+139-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:82:13-55
+140        <activity
+140-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:83:9-86:60
+141            android:name="io.intercom.android.sdk.helpcenter.search.IntercomArticleSearchActivity"
+141-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:84:13-99
+142            android:exported="false"
+142-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:85:13-37
+143            android:theme="@style/Intercom.BaseMaterial" />
+143-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:86:13-57
+144
+145        <receiver
+145-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:88:9-97:20
+146            android:name="io.intercom.android.sdk.push.IntercomPushBroadcastReceiver"
+146-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:89:13-86
+147            android:exported="false" >
+147-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:90:13-37
+148            <intent-filter>
+148-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:91:13-93:29
+149                <action android:name="io.intercom.android.sdk.INTERCOM_PUSH_OPENED" />
+149-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:92:17-87
+149-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:92:25-84
+150            </intent-filter>
+151            <intent-filter>
+151-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:94:13-96:29
+152                <action android:name="io.intercom.android.sdk.INTERCOM_PUSH_DISMISSED" />
+152-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:95:17-90
+152-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:95:25-87
+153            </intent-filter>
+154        </receiver>
+155
+156        <provider
+156-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:99:9-102:40
+157            android:name="io.intercom.android.sdk.IntercomInitializeContentProvider"
+157-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:100:13-85
+158            android:authorities="com.egain.ps.egainmessagingsample.IntercomInitializeContentProvider"
+158-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:101:13-85
+159            android:exported="false" />
+159-->[io.intercom.android:intercom-sdk-base:12.0.0] C:\Users\dscar\.gradle\caches\transforms-3\f5ed4b16470e3375c746b1ec63cf9fcd\transformed\intercom-sdk-base-12.0.0\AndroidManifest.xml:102:13-37
+160
+161        <activity
+161-->[com.intercom:android-composer-gallery:3.3.1] C:\Users\dscar\.gradle\caches\transforms-3\b9453f1cc475426fef080edcc2bc6064\transformed\android-composer-gallery-3.3.1\AndroidManifest.xml:8:9-11:72
+162            android:name="com.intercom.input.gallery.GalleryInputFullScreenActivity"
+162-->[com.intercom:android-composer-gallery:3.3.1] C:\Users\dscar\.gradle\caches\transforms-3\b9453f1cc475426fef080edcc2bc6064\transformed\android-composer-gallery-3.3.1\AndroidManifest.xml:9:13-85
+163            android:theme="@style/intercom_composer_full_screen_theme"
+163-->[com.intercom:android-composer-gallery:3.3.1] C:\Users\dscar\.gradle\caches\transforms-3\b9453f1cc475426fef080edcc2bc6064\transformed\android-composer-gallery-3.3.1\AndroidManifest.xml:10:13-71
+164            android:windowSoftInputMode="adjustNothing|stateVisible" />
+164-->[com.intercom:android-composer-gallery:3.3.1] C:\Users\dscar\.gradle\caches\transforms-3\b9453f1cc475426fef080edcc2bc6064\transformed\android-composer-gallery-3.3.1\AndroidManifest.xml:11:13-69
+165        <activity
+165-->[com.intercom:android-composer-gallery:3.3.1] C:\Users\dscar\.gradle\caches\transforms-3\b9453f1cc475426fef080edcc2bc6064\transformed\android-composer-gallery-3.3.1\AndroidManifest.xml:12:9-15:74
+166            android:name="com.intercom.input.gallery.GalleryLightBoxActivity"
+166-->[com.intercom:android-composer-gallery:3.3.1] C:\Users\dscar\.gradle\caches\transforms-3\b9453f1cc475426fef080edcc2bc6064\transformed\android-composer-gallery-3.3.1\AndroidManifest.xml:13:13-78
+167            android:configChanges="orientation|screenLayout|density|screenSize"
+167-->[com.intercom:android-composer-gallery:3.3.1] C:\Users\dscar\.gradle\caches\transforms-3\b9453f1cc475426fef080edcc2bc6064\transformed\android-composer-gallery-3.3.1\AndroidManifest.xml:14:13-80
+168            android:theme="@style/intercom_composer_full_screen_theme" />
+168-->[com.intercom:android-composer-gallery:3.3.1] C:\Users\dscar\.gradle\caches\transforms-3\b9453f1cc475426fef080edcc2bc6064\transformed\android-composer-gallery-3.3.1\AndroidManifest.xml:15:13-71
+169
+170        <provider
+170-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+171            android:name="androidx.startup.InitializationProvider"
+171-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+172            android:authorities="com.egain.ps.egainmessagingsample.androidx-startup"
+172-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+173            android:exported="false" >
+173-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+174            <meta-data
+174-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+175                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+175-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+176                android:value="androidx.startup" />
+176-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dscar\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+177            <meta-data
+177-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dscar\.gradle\caches\transforms-3\30d54f463dd29bfb0e1a99d2b7654f72\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+178                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+178-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dscar\.gradle\caches\transforms-3\30d54f463dd29bfb0e1a99d2b7654f72\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+179                android:value="androidx.startup" />
+179-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dscar\.gradle\caches\transforms-3\30d54f463dd29bfb0e1a99d2b7654f72\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+180            <meta-data
+180-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:31:13-33:52
+181                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+181-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:32:17-85
+182                android:value="androidx.startup" />
+182-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:33:17-49
+183        </provider>
+184
+185        <activity
+185-->[androidx.compose.ui:ui-tooling:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\751e357366937867a5e217908e50e352\transformed\ui-tooling-1.1.1\AndroidManifest.xml:25:9-27:39
+186            android:name="androidx.compose.ui.tooling.PreviewActivity"
+186-->[androidx.compose.ui:ui-tooling:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\751e357366937867a5e217908e50e352\transformed\ui-tooling-1.1.1\AndroidManifest.xml:26:13-71
+187            android:exported="true" />
+187-->[androidx.compose.ui:ui-tooling:1.1.1] C:\Users\dscar\.gradle\caches\transforms-3\751e357366937867a5e217908e50e352\transformed\ui-tooling-1.1.1\AndroidManifest.xml:27:13-36
+188
+189        <provider
+189-->[com.squareup.picasso:picasso:2.71828] C:\Users\dscar\.gradle\caches\transforms-3\94cc5caab3398281ed773abedd94675e\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+190            android:name="com.squareup.picasso.PicassoProvider"
+190-->[com.squareup.picasso:picasso:2.71828] C:\Users\dscar\.gradle\caches\transforms-3\94cc5caab3398281ed773abedd94675e\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+191            android:authorities="com.egain.ps.egainmessagingsample.com.squareup.picasso"
+191-->[com.squareup.picasso:picasso:2.71828] C:\Users\dscar\.gradle\caches\transforms-3\94cc5caab3398281ed773abedd94675e\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+192            android:exported="false" />
+192-->[com.squareup.picasso:picasso:2.71828] C:\Users\dscar\.gradle\caches\transforms-3\94cc5caab3398281ed773abedd94675e\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+193
+194        <receiver
+194-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:36:9-45:20
+195            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+195-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:37:13-76
+196            android:directBootAware="false"
+196-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:38:13-44
+197            android:enabled="true"
+197-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:39:13-35
+198            android:exported="true"
+198-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:40:13-36
+199            android:permission="android.permission.DUMP" >
+199-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:41:13-57
+200            <intent-filter>
+200-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:42:13-44:29
+201                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+201-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:43:17-91
+201-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\dscar\.gradle\caches\transforms-3\7bcde16a9d05032b67f223ef1c858982\transformed\profileinstaller-1.1.0\AndroidManifest.xml:43:25-88
+202            </intent-filter>
+203        </receiver>
+204    </application>
+205
+206</manifest>
