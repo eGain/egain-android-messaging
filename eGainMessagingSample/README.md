@@ -256,7 +256,10 @@ For any messages received after this, the follow is received.
 ```
 If the agent has already closed the conversation or the system has already closed the conversation, the following response in received
 ```java
-["status": "Invalid sessionId", "authorization": "413ff6be-146d-4c78-9ffa-2de15d2c24e1"]
+{
+	"status": "Invalid sessionId",
+	"authorization": "413ff6be-146d-4c78-9ffa-2de15d2c24e1"
+}
 ```
 
 #### Receive Message
