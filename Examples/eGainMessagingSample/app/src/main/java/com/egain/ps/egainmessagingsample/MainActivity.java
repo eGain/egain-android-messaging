@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
         brandingUtil.setTheme(1);
 
-        eGainMessaging launchCustomer_qa = new eGainMessaging(
+        eGainMessaging launchView = new eGainMessaging(
                 this,
                 "",
                 "",
