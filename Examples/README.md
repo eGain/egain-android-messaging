@@ -71,7 +71,7 @@ There are two types of conversation modes you can add to the application: a cust
 
 To create a chat button that requires users to provide their credentials to continue the chat, add the following authenticated construct to the application. 
 ```Java
-eGainButton launchCustomer = new eGainButton(
+eGainMessaging launchCustomer = new eGainMessaging(
     context: "this",
     clientId: "XXXXXX",
     clientSecret: "XXXXXX",
@@ -85,7 +85,7 @@ eGainButton launchCustomer = new eGainButton(
 #### **Guest Mode Conversation**
 To create a chat button that does not require users to provide credentials to continue to the chat, add the following unauthenticated construct to the application.
 ```java
-eGainButton launchGuest = new eGainButton(
+eGainMessaging launchGuest = new eGainMessaging(
     context: "this",
     clientId: "XXXXXX",
     clientSecret: "XXXXXX",
@@ -417,36 +417,83 @@ When the bot or agent responds with a message of type listpicker, the following 
             }]}]}]}},
             "agentName": "ps-mobile-sdk-customer-eg-bot"
         },
-        "authorization": "45e1bcea-a4c0-4c0b-a4d7-63feb1d7ee3c"
+     "authorization": "45e1bcea-a4c0-4c0b-a4d7-63feb1d7ee3c"
 }
 ```
 
 ### Richlink
 When the bot or agent responds with a message of type richlink, the following response is received.
 ```java
-{ "eGainMessage":{ "type":"richMessage.richlink", "messageContent":"{"version":"1","type":"web_url","imageid":"1","images":[{"title":"Winter Jackets!!","url":"https://images-na.ssl-images-amazon.com/images/I/41yy1%2B08agL._SR38,50_.jpg","link":"https://aznadestzwa07.egdemo.info/purplenile/collection.html","imageid":"1","mimeType":"image/jpg","style":"icon"}]} }, "authorization":"45e1bcea-a4c0-4c0b-a4d7-63feb1d7ee3c" }
+{
+	"eGainMessage": {
+			"type":"richMessage.richlink",
+			"messageContent":"{
+					"version":"1",
+					"type":"web_url",
+					"imageid":"1",
+					"images":[{
+							"title":"Winter Jackets!!",
+							"url":"https://images-na.ssl-images-amazon.com/images/I/41yy1%2B08agL._SR38,50_.jpg",
+					   		"link":"https://aznadestzwa07.egdemo.info/purplenile/collection.html",
+							"imageid":"1",
+							"mimeType":"image/jpg",
+							"style":"icon"}]
+					}
+			},
+	"authorization":"45e1bcea-a4c0-4c0b-a4d7-63feb1d7ee3c"
+}
 ```
 
 ### Escalation
 ```java
-{ "eGainMessage":{ "type":"conversation.state", "messageContent":"{"status":"escalated","content":""}", "agentName":"system" }, "authorization":"45e1bcea-a4c0-4c0b-a4d7-63feb1d7ee3c" }
+{
+	"eGainMessage":{
+			"type":"conversation.state",
+			"messageContent":"{
+					"status":"escalated",
+					"content":""}",
+					"agentName":"system"
+			},
+	"authorization":"45e1bcea-a4c0-4c0b-a4d7-63feb1d7ee3c"
+}
 ```
 ### Agent starts typing
 When eGain agent starts typing, the following response is received.
 ```java
-{ "eGainMessage":{ "type":"typing.start", "messageContent":"", "agentName":"name" }, "authorization":"45e1bcea-a4c0-4c0b-a4d7-63feb1d7ee3c" }
+{
+	"eGainMessage":{
+			"type":"typing.start",
+			"messageContent":"",
+			"agentName":"name"
+			},
+	"authorization":"45e1bcea-a4c0-4c0b-a4d7-63feb1d7ee3c"
+}
 ```
 
 ### Agent stops typing
 When eGain agent stops typing, the following response is received.
 ```java
-{ "eGainMessage":{ "type":"typing.end", "messageContent":"", "agentName":"name" }, "authorization":"45e1bcea-a4c0-4c0b-a4d7-63feb1d7ee3c" }
+{
+	"eGainMessage":{
+			"type":"typing.end",
+			"messageContent":"",
+			"agentName":"name"
+			},
+	"authorization":"45e1bcea-a4c0-4c0b-a4d7-63feb1d7ee3c"
+}
 ```
 
 ### Conversation ended
 When the eGain agent ends the chat, the following response is received, with which the chat can be closed on the user device.
 ```java
-{ "eGainMessage": { "type":"text", "messageContent":"agent.end.conversation", "agentName":"name" }, "authorization":"45e1bcea-a4c0-4c0b-a4d7-63feb1d7ee3c" }
+{
+	"eGainMessage": {
+			"type":"text",
+			"messageContent":"agent.end.conversation",
+			"agentName":"name"
+			},
+	"authorization":"45e1bcea-a4c0-4c0b-a4d7-63feb1d7ee3c"
+}
 ```
 
 ### EgainDownloadFile Type
@@ -454,6 +501,10 @@ The provided methods `getFileName()` and `getDownloadUrl()` can be used to retri
 
 When the agent sends any attachments, the download url is received and can be used to download the file and display it on the device.
 ```java
-{ "status":"Conversation continued", "fileName":"Downloadtest.jpeg", "downloadURL":"https://egain-pse-apps-oregon-development.s3.us-west-2.amazonaws.com/mh-websocket/dev/attachments/fromMessagingHub/72b73502-0b89-41d7-bc43-c04a6864282a/Downloadtest.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARDJ5G4KVQ3X2365G%2F20220215%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220215T003009Z&X-Amz-Expires=300&X-Amz-Security- Token=IQoJb3JpZ2luX2VjEFEaCXVzLXdlc3QtMiJHMEUCIGycvWZueJkgGfirnuu7JeXiXtEdMgOVs1UD5qmLlNYgAiEAr0jRUzGTI%2BecLIwHx3w8MZsKT6BCZg%2BGKOaWTwEp6P4quAIImv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgwwNzU4MjcxNzYxMDciDEVcWDCu1t4KgE9jyiqMAnkAiixxgVc6cE4WXMxhKo7MrSpNK9UFt0Cj6YuCAsjyPtTm5g4HP65I7cMKxEZz%2BXx%2B5MbEAXWyPnzoyurEIi3KI2Uj2NZrVwPwBvnBCDJF00VdbQ8yItIXuzuTdctAD5kI4gx0ZyTC0E2FHHsC7ImCemcdWO%2F85Avq419rRIJo18vpOsy45WEGs5wjGTfPBNKDXeC2ncjD5LxjE1drY8Mb3nIEPVzXfx5BOk4co2YU7oRcbKUwF0qJ7Ly%2Fo64tyW8tDEH0PL%2Frl7XWGbK9sE5CTzKyLDENCyqg%2BoR0C3uS7wy6aNkWIUUazOo1socIeeBUBVD2PRj%2Fm6%2Bf43Rnjiq%2Fp1prxh4h3YtLP6gwyearkAY6mgF5Jt4V%2FDeXPDF%2F%2FBYlUp%2F8kfQjvIx5CqnTvydD7%2B1e4KabqbPqUndjHMkmCPif5L6dgOD87yc176LYD5OVog4LgC4Gehm1nb63QRaLaMNnK5e9FP2vgGzpGc79B65L7MLYx%2FUFWcHEKu%2FmUrS0pHjh2jthN4xHalQ9CI4%2BAfKob%2BA9M8ROdoP2xV%2FZ5xedFSOsOJVRWJhJr7K8&X-Amz-Signature=a7d8e51983d012bca238d7d265412c8a5b975dc59da9b459c3590094c778e722&X-Amz-SignedHeaders=host", "authorization":"bb1e960c-0227-447c-a675-0e4e2fa5c318" }
-
+{
+	"status":"Conversation continued",
+	"fileName":"Downloadtest.jpeg",
+	"downloadURL":"https://egain-pse-apps-oregon-development.s3.us-west-2.amazonaws.com/mh-websocket/dev/attachments/fromMessagingHub/72b73502-0b89-41d7-bc43-c04a6864282a/Downloadtest.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARDJ5G4KVQ3X2365G%2F20220215%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220215T003009Z&X-Amz-Expires=300&X-Amz-Security- Token=IQoJb3JpZ2luX2VjEFEaCXVzLXdlc3QtMiJHMEUCIGycvWZueJkgGfirnuu7JeXiXtEdMgOVs1UD5qmLlNYgAiEAr0jRUzGTI%2BecLIwHx3w8MZsKT6BCZg%2BGKOaWTwEp6P4quAIImv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgwwNzU4MjcxNzYxMDciDEVcWDCu1t4KgE9jyiqMAnkAiixxgVc6cE4WXMxhKo7MrSpNK9UFt0Cj6YuCAsjyPtTm5g4HP65I7cMKxEZz%2BXx%2B5MbEAXWyPnzoyurEIi3KI2Uj2NZrVwPwBvnBCDJF00VdbQ8yItIXuzuTdctAD5kI4gx0ZyTC0E2FHHsC7ImCemcdWO%2F85Avq419rRIJo18vpOsy45WEGs5wjGTfPBNKDXeC2ncjD5LxjE1drY8Mb3nIEPVzXfx5BOk4co2YU7oRcbKUwF0qJ7Ly%2Fo64tyW8tDEH0PL%2Frl7XWGbK9sE5CTzKyLDENCyqg%2BoR0C3uS7wy6aNkWIUUazOo1socIeeBUBVD2PRj%2Fm6%2Bf43Rnjiq%2Fp1prxh4h3YtLP6gwyearkAY6mgF5Jt4V%2FDeXPDF%2F%2FBYlUp%2F8kfQjvIx5CqnTvydD7%2B1e4KabqbPqUndjHMkmCPif5L6dgOD87yc176LYD5OVog4LgC4Gehm1nb63QRaLaMNnK5e9FP2vgGzpGc79B65L7MLYx%2FUFWcHEKu%2FmUrS0pHjh2jthN4xHalQ9CI4%2BAfKob%2BA9M8ROdoP2xV%2FZ5xedFSOsOJVRWJhJr7K8&X-Amz-Signature=a7d8e51983d012bca238d7d265412c8a5b975dc59da9b459c3590094c778e722&X-Amz-SignedHeaders=host",
+	"authorization":"bb1e960c-0227-447c-a675-0e4e2fa5c318"
+}
 ```
