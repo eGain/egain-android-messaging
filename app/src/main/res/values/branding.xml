@@ -156,23 +156,23 @@
     <array name="custom_quick_links">
         <item>
             <item name="type">link</item>
-            <item name="welcome_link">"https://green.egdemo.info/eight/index.html"</item>
+            <item name="welcome_link">"https://www.egain.com/"</item>
             <item name="welcome_link_title">"Visit Us"</item>
         </item>
         <item>
             <item name="type">link</item>
             <item name="welcome_link">"https://ebrain.egain.com/kb/featureguides/home"</item>
-            <item name="welcome_link_title">"What's New in eGain 21"</item>
+            <item name="welcome_link_title">"eGain 21 Feature Guides"</item>
         </item>
         <item>
             <item name="type">link</item>
             <item name="welcome_link">"https://ebrain.egain.com/kb/newin21/home"</item>
-            <item name="welcome_link_title">"Contact Us"</item>
+            <item name="welcome_link_title">"What's New in eGain 21"</item>
         </item>
         <item>
             <item name="type">phone</item>
-            <item name="welcome_link">"tel:4155555678"</item>
-            <item name="welcome_link_title">"Call Customer Support"</item>
+            <item name="welcome_link">"tel:8008214358"</item>
+            <item name="welcome_link_title">"Contact Us"</item>
         </item>
     </array>
 
