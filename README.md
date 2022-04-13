@@ -71,12 +71,9 @@ The size of the SDK varies depending upon the configuration.
 Customers need to acquire credentials to gain access to the SDK. Please contact your eGain representative to receive your Conversation Hub client id and client secret.
 
 ### Sample app (Android)
-You can find an example project with some basic implementations provided [here](https://github.com/eGain/egain-android-messaging/tree/dev/eG-sample-messaging)
+You can find an example project with some basic implementations provided [here](https://github.com/eGain/egain-android-messaging/tree/dev/Examples)
   
 ## Installation
-The SDK can be installed using one of the following methods:
-
-- Manual installation
 
  > **_NOTE:_** Java and Kotlin projects can both be used with the SDK.
   
