@@ -100,7 +100,7 @@ eGainMessaging launchGuest = new eGainMessaging(
 | Name | Type | Description |
 |----------|----------|-----------------|
 | context	 | android.content.Context | Context of the current application |
-| clientID | String |	eGain Conversation Hub client ID |
+| clientId | String |	eGain Conversation Hub client ID |
 | clientSecret |	String |	eGain Conversation Hub client secret |
 | channelType | String | Configured channel for Conversation Hub Bot |
 | accountAddress | String | Configured address for Conversation Hub Bot |
