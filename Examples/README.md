@@ -104,8 +104,8 @@ eGainMessaging launchGuest = new eGainMessaging(
 | clientSecret |	String |	eGain Conversation Hub client secret |
 | channelType | String | Configured channel for Conversation Hub Bot |
 | accountAddress | String | Configured address for Conversation Hub Bot |
-| clientName | String |	Name of the client |
-| clientEmail | String	| Email address of the client |
+| userName | String |	Name of the client |
+| emailId | String	| Email address of the client |
 | botGreeting	| String | Initial greeting to be sent by the bot |
 
 ### Branding
@@ -152,7 +152,7 @@ To receive messages, the `receiveMessage()` method must be observed by the devel
 - endConversation()
    
 All of the methods are included in a single class called `EgainMessaging` (com.egain.ps.sdk.EgainMessaging). It can be initialized with:
-`EgainMessaging eGainMessaging = new EgainMessaging(context);`
+`eGainMessaging eGainMessaging = new eGainMessaging(context);`
 
 #### Parameters - Egain Messaging
 |Name |Type |Description |
@@ -175,7 +175,7 @@ eGainMessaging.initialize(
     accountAddress: "mobile_sdk_address_with_egain_bot",
     botGreeting: "Hello, how may I help you?",
     userName: "userName",
-    email: "userName@email.com");
+    emailId: "userName@email.com");
 ```
 
 #### Guest Mode - Initialize Chat
@@ -197,7 +197,7 @@ eGainMessaging.initialize(
 |accountAddress |String |Configured address for Conversation Hub bot |
 |botGreeting|	Boolean|	Value specifying if bot should send welcome message|
 |userName|	String|	Name of customer|
-|email|	String|	Email ID of customer|
+|emailId|	String|	Email ID of customer|
 
 #### Responses - Initialize Chat
 The sessionId is returned synchronously after the initialize call and stored in the SDK internally. These are the possible responses, indicating if a valid session was created or not. They can be observed in the receiveMessage method.
