@@ -154,7 +154,7 @@ To receive messages, the `receiveMessage()` method must be observed by the devel
 All of the methods are included in a single class called `EgainMessaging` (com.egain.ps.sdk.EgainMessaging). It can be initialized with:
 `eGainMessaging eGainMessaging = new eGainMessaging(context);`
 
-#### Parameters - Egain Messaging
+#### Parameters - eGainMessaging
 |Name |Type |Description |
 |-|-|-|
 |context|	android.content.Context	|Context of the current application |
