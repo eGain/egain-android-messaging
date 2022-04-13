@@ -176,11 +176,6 @@
         </item>
     </array>
 
-    <!--Messaging-->
-<!--    <style name="custom_messaging_background_color">-->
-<!--        <item name="android:background">@color/eight_bank_background</item>-->
-<!--    </style>-->
-
     <style name="custom_messaging_toolbar_background_color">
         <item name="android:background">@color/eight_bank_background</item>
     </style>
