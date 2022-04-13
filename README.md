@@ -34,7 +34,7 @@ By adding our SDK directly to your app, you get:
 ## eGain Mobile SDK for Android
 The eGain Android SDK is bundled into an AAR (Android Archive) library. This library can be imported in any Android project to integrate the SDK. The library allows you to use the out-of-the-box UI for your application or you can create your own UI using the provided methods and parameters.
 
-The SDK can be installed automatically using Gradle or manually. A basic "out of the box" installation takes around 20 minutes. To install the SDK for Android, please refer to the complete installation<inserlink> guide.
+The SDK can be installed manually using the provided Android library. A basic "out of the box" installation takes around 20 minutes. To install the SDK for Android, please refer to the complete installation<inserlink> guide.
 
 ## Prerequisites/Requirements
 ### System Requirements
@@ -76,134 +76,11 @@ You can find an example project with some basic implementations provided [here](
 ## Installation
 The SDK can be installed using one of the following methods:
 
-- Gradle (automatic installation process)
 - Manual installation
 
  > **_NOTE:_** Java and Kotlin projects can both be used with the SDK.
   
-#### Option 1: SDK Gradle Installation 
-Use the Gradle plugin to automatically install the SDK from the repository.
-1. From the Android Studio for the application, navigate to `Gradle Scripts → build.gradle (Module: app)` 
-  ![build gradle image](https://user-images.githubusercontent.com/94654299/151067855-73a050c5-5c68-4260-a30e-6507fad8a42a.PNG)
-2. Under "dependencies", add the following 'implementation' code (this adds the dependency for the SDK as well as all transitive dependencies for the SDK):
-  ```Java
-  dependencies {
- 
-    // Added SDK dependency
-    // Use temporary personal github for now
-    implementation ('com.github.dscarr-94:sdk:3@aar') {transitive=true}
-     
-    //Future location is updated once uploaded to official eGain github
-    //Don't use yet
-    implementation 'com.egain.ps.sdk:0.0.1@aar' {transitive = true}
- 
-}
-  ```
-  Example code:
-  
-  **Build.Gradle** 
-  ```Java
-  plugins {
-    id 'com.android.application'
-}
- 
-android {
-    compileSdk 31
- 
-    defaultConfig {
-        applicationId "com.example.customerApp"
-        minSdk 26
-        targetSdk 31
-        versionCode 1
-        versionName "1.0"
- 
- 
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        vectorDrawables.useSupportLibrary = true
-    }
- 
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'),               'proguard-rules.pro'
-        }
-    }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
-}
- 
-dependencies {
- 
-    implementation 'androidx.appcompat:appcompat:1.3.1'
-    implementation 'com.google.android.material:material:1.4.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
-    implementation 'androidx.navigation:navigation-fragment:2.3.5'
-    implementation 'androidx.navigation:navigation-ui:2.3.5'
-    testImplementation 'junit:junit:4.+'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
- 
-    //Added SDK dependency
-    // Use temporary personal github for now
-    implementation ('com.github.dscarr-94:sdk:3@aar') {transitive=true}
-     
-    //Future location s updated once uploaded to official eGain github
-    //Don't use yet
-    implementation 'com.egain.ps.sdk:0.0.1@aar' {transitive = true}
-}
-  ```
-3. Locate and open the Gradle Scripts of the application → build.gradle (Project: app)
-4. Add the following code to the highlighted sections. These entries indicate the repository from where the SDK can be downloaded (allprojects) and enables the project to find the correct dependencies (buildscript).
-  
-  Under `allprojects → repositories` add three lines of code:
-  
-  ```Java
-  allprojects {
-    repositories {
-        ...
-        mavenCentral()
-        google()
-        maven { url 'https://jitpack.io' }
-    }
-}
-  ```
-
- Under `buildscript → repositories`, add two lines of code.
-
-Example code: 
- 
-**Build.gradle (Module: app) file**
-```Java
-  buildscript {
-    repositories {
-        mavenCentral()
-        google()
-    }
-    dependencies {
-        classpath "com.android.tools.build:gradle:7.0.1"
-         
-        // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
-    }
-}
- 
-allprojects {
-    repositories {
-        mavenCentral()
-        google()
-        maven { url 'https://jitpack.io' }
-    }
-}
- 
-task clean(type: Delete) {
-    delete rootProject.buildDir
-}
-```
-5. From the `settings.gradle` file, remove the `dependencyResolutionManagement` setting or any `repositoriesModes`. This step is contingent based your version of the Android Studio and might not be applicable to all versions.
-  
-#### Option 2: SDK Manual Installation 
+#### SDK Manual Installation 
 Use these procedures to manually copy SDK files into your Android project.
 
 1. Download the latest SDK library from the repository.
