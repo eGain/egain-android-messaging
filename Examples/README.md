@@ -1,7 +1,8 @@
-# Configure SDK for Android
+# SDK Configuration for Android
 The instructions in this section provide details to complete the SDK installation.
 
 ## Table of Contents
+- [SDK Configuration for Android](#sdk-configuration-for-android)
   * [Obtain Credentials](#obtain-credentials)
   * [Configure Themes](#configure-themes)
   * [Define Android Permissions](#define-android-permissions)
@@ -21,7 +22,8 @@ The instructions in this section provide details to complete the SDK installatio
 
 
 ## Obtain Credentials
-Credentials are used to verify you as a valid customer for the Conversation Hub. You need a unique ID (clientId) and password (clientSecret) to access the Conversation Hub. If you have not yet obtained credentials, contact your eGain representative.  
+Credentials are used to verify you as a valid customer for the Conversation Hub. You need a unique ID (clientId) and password (clientSecret), accountAddress, and channelType to access the Conversation Hub. 
+If you have not yet obtained credentials, contact you eGain representative.  
 
 ## Configure Themes
 The SDK comes with the eGain's default UI theme. If you are using your own theme, a merge conflict can be avoided by adding the following to the `<application>` element in your `AndroidManifest.xml` file: 
@@ -77,8 +79,8 @@ eGainMessaging launchCustomer = new eGainMessaging(
     clientSecret: "XXXXXX",
     channelType: "mobile_sdk",
     accountAddress: "mobile_sdk_address_with_egain_bot",
-    clientName: "name",
-    clientEmail: "name@email.com",
+    userName: "name",
+    emailId: "name@email.com",
     botGreeting: "Hello, how may I help you?");
 ```
  
