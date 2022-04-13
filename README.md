@@ -74,10 +74,7 @@ Customers need to acquire credentials to gain access to the SDK. Please contact 
 You can find an example project with some basic implementations provided [here](https://github.com/eGain/egain-android-messaging/tree/dev/eG-sample-messaging)
   
 ## Installation
-The SDK can be installed using one of the following methods:
-
-- Manual installation
-
+	
  > **_NOTE:_** Java and Kotlin projects can both be used with the SDK.
   
 #### SDK Manual Installation 
