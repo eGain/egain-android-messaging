@@ -10,9 +10,8 @@
   * [Permissions / Credentials](#permissions--credentials)
   * [Sample app (Android)](#sample-app-android)
 - [Installation](#installation)
-    + [Option 1: SDK Gradle Installation](#option-1-sdk-gradle-installation)
-    + [Option 2: SDK Manual Installation](#option-2-sdk-manual-installation)
-    + [Next Steps: Continue the installation with the Configure SDK step](#nextsteps)
+    + [SDK Manual Installation](#sdk-manual-installation)
+    + [Next Steps: Continue the installation with Configure SDK for Android Procedures](#nextsteps)
 
 ## About eGain Messaging
 
@@ -93,6 +92,9 @@ Use these procedures to manually copy SDK files into your Android project.
 
 5. Navigate to the application's build.gradle file and do the following:
     1. Verify added the correct dependency you just configured and confirm the path is the same one you entered in the prior step.
+	``` Java
+	implementation files('path/libs/SDK.aar')
+	```
     2. Add the following requisite transitive dependencies for the SDK manually as the manual download does not download these dependencies.
   ```Java
   dependencies {
@@ -123,4 +125,4 @@ Use these procedures to manually copy SDK files into your Android project.
   ```
   > **_NOTE_:** Refer to the [Android Developer Guide](https://developer.android.com/studio/projects/android-library#psd-add-aar-jar-dependency) for adding JAR/AAR dependencies
 
-### Next Steps: Continue the installation with the [Configure SDK](https://github.com/eGain/egain-android-messaging/tree/dev/Examples)<a name="nextsteps"></a>
+### Next Steps: Continue the installation with [Configure SDK](https://github.com/eGain/egain-android-messaging/tree/dev/Examples)<a name="nextsteps"></a> for Android Procedures.
