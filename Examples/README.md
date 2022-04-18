@@ -18,7 +18,7 @@ The instructions in this section provide details to complete the SDK installatio
       - [Upload Attachments](#upload-attachments)
       - [Download Attachments](#download-attachments)
       - [End Conversation](#end-conversation)
-  * [Supported Response Types](#supported-response-types)
+  * [Supported Message Types](#supported-message-types)
 
 
 ## Obtain Credentials
@@ -368,7 +368,7 @@ When the `endConversation()` method is called, the following is received.
 }
 ```
 
-## Supported Response Types
+## Supported Message Types
 Listed below are the different types of messages that can be received and their content. 
 > **_NOTE:_** These are accessed by the provided `eGainMessage` methods except for received downloads which are accessed by the provided `eGainDownloadFile` methods.
 
