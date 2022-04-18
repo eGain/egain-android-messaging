@@ -3,7 +3,7 @@ The instructions in this section provide details to complete the SDK installatio
 
 ## Table of Contents
 - [SDK Configuration for Android](#sdk-configuration-for-android)
-  * [Obtain Credentials](#obtain-credentials)
+  * [Configure Conversation Hub](#configure-conversation-hub)
   * [Configure Themes](#configure-themes)
   * [Define Android Permissions](#define-android-permissions)
   * [Enable Android X](#enable-android-x)
@@ -21,9 +21,18 @@ The instructions in this section provide details to complete the SDK installatio
   * [Supported Message Types](#supported-message-types)
 
 
-## Obtain Credentials
-Credentials are used to verify you as a valid customer for the Conversation Hub. You need a unique ID (clientId) and password (clientSecret), accountAddress, and channelType to access the Conversation Hub. 
-If you have not yet obtained credentials, contact you eGain representative.  
+## Configure Conversation Hub
+Please contact eGain customer representative to get the Conversation Hub tenant clientId and clientSecret. 
+Configure your Conversation Hub tenant using the steps listed under the section **Bring-Your-Own-Channel with eGain Virtual Assistant steps** and using this postman script **BYOC with eGain VA Conversation API Setup.postman_collection.json** from [here](https://ebrain.egain.com/kb/devcentral/content/EASY-8283/Bring-Your-Own-Channel).
+
+While configuring Conversation Hub pass the below values in the postman script
+- customer authentication - username:nmanoharan / password:egain@123
+- customer callback - https://qa-napsapps.egeng.info/mh-websocket/system/egain/customer/callback
+
+Once the configuration is complete, the following values are required to be passed to the mobile sdk
+- clientId and clientSecret generated after the creation of client app
+- channel type used while creating the channel
+- account address used while creating the account 
 
 ## Configure Themes
 The SDK comes with the eGain's default UI theme. If you are using your own theme, a merge conflict can be avoided by adding the following to the `<application>` element in your `AndroidManifest.xml` file: 
