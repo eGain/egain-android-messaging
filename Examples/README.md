@@ -22,7 +22,7 @@ The instructions in this section provide details to complete the SDK installatio
 
 
 ## Configure Conversation Hub
-Please contact eGain customer representative to get the Conversation Hub tenant clientId and clientSecret. 
+Please contact your eGain customer representative to receive the Conversation Hub tenant clientId and clientSecret.
 Configure your Conversation Hub tenant using the steps listed under the section **Bring-Your-Own-Channel with eGain Virtual Assistant steps** and using this postman script **BYOC with eGain VA Conversation API Setup.postman_collection.json** from [here](https://ebrain.egain.com/kb/devcentral/content/EASY-8283/Bring-Your-Own-Channel).
 
 While configuring Conversation Hub pass the below values in the postman script
