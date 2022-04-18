@@ -67,7 +67,7 @@ The size of the SDK varies depending upon the configuration.
 - Max size: 0 MB
 
 ### Permissions / Credentials
-Customers need to acquire credentials to gain access to the SDK. Please contact your eGain representative to receive your Conversation Hub client id and client secret.
+Customers need to acquire credentials to gain access to the SDK. Please contact your eGain customer representative to receive your Conversation Hub clientId and clientSecret.
 
 ### Sample app (Android)
 You can find an example project with some basic implementations provided [here](https://github.com/eGain/egain-android-messaging/tree/dev/Examples)
