@@ -1,7 +1,7 @@
 <img src="https://user-images.githubusercontent.com/94654299/151062447-895f64ed-9379-42d5-92ad-c0a491e6b71f.png" width="290" height="78">
 
 ## Table of Contents
-- [About eGain Messaging](#about-egain-messaging)
+- [About eGain Messaging Mobile SDK](#about-egain-messaging-mobile-sdk)
 - [eGain Mobile SDK for Android](#egain-mobile-sdk-for-android)
 - [Prerequisites/Requirements](#prerequisitesrequirements)
   * [System Requirements](#system-requirements)
@@ -10,15 +10,14 @@
   * [Permissions / Credentials](#permissions--credentials)
   * [Sample app (Android)](#sample-app-android)
 - [Installation](#installation)
-    + [Option 1: SDK Gradle Installation](#option-1-sdk-gradle-installation)
-    + [Option 2: SDK Manual Installation](#option-2-sdk-manual-installation)
-    + [Next Steps: Continue the installation with the Configure SDK step](#nextsteps)
+    + [SDK Manual Installation](#sdk-manual-installation)
+    + [Next Steps: Continue the installation with Configure SDK for Android Procedures](#nextsteps)
 
-## About eGain Messaging
+## About eGain Messaging Mobile SDK
 
 Messaging is increasingly becoming the most popular way customers are choosing to engage with businesses. With so many messaging platforms and channels, it is important for a business to be able to provide an experience to customers and a consistent experience for their agents. eGain Conversation Hub provides a consistent messaging experience for customers and agents across all messaging channels (synchronous and asynchronous). Its features support popular messaging platforms and custom messaging channels.
 
-The eGain Chat SDK exposes methods which partner-developers can use to build mobile apps to interact with eGain Conversation Hub. With a few modifications, partners can integrate their existing mobile apps with eGain Conversation Hub.
+The eGain Messaging SDK exposes methods which partner-developers can use to build mobile apps to interact with eGain Conversation Hub. With a few modifications, partners can integrate their existing mobile apps with eGain Conversation Hub.
 
 By adding our SDK directly to your app, you get:
 
@@ -68,7 +67,7 @@ The size of the SDK varies depending upon the configuration.
 - Max size: 0 MB
 
 ### Permissions / Credentials
-Customers need to acquire credentials to gain access to the SDK. Please contact your eGain representative to receive your Conversation Hub client id and client secret.
+Customers need to acquire credentials to gain access to the SDK. Please contact your eGain customer representative to receive your Conversation Hub clientId and clientSecret.
 
 ### Sample app (Android)
 You can find an example project with some basic implementations provided [here](https://github.com/eGain/egain-android-messaging/tree/dev/Examples)
@@ -93,6 +92,9 @@ Use these procedures to manually copy SDK files into your Android project.
 
 5. Navigate to the application's build.gradle file and do the following:
     1. Verify added the correct dependency you just configured and confirm the path is the same one you entered in the prior step.
+	``` Java
+	implementation files('path/libs/SDK.aar')
+	```
     2. Add the following requisite transitive dependencies for the SDK manually as the manual download does not download these dependencies.
   ```Java
   dependencies {
@@ -123,4 +125,4 @@ Use these procedures to manually copy SDK files into your Android project.
   ```
   > **_NOTE_:** Refer to the [Android Developer Guide](https://developer.android.com/studio/projects/android-library#psd-add-aar-jar-dependency) for adding JAR/AAR dependencies
 
-### Next Steps: Continue the installation with the [Configure SDK](https://github.com/eGain/egain-android-messaging/tree/dev/Examples)<a name="nextsteps"></a>
+### Next Steps: Continue the installation with [Configure SDK](https://github.com/eGain/egain-android-messaging/tree/dev/Examples)<a name="nextsteps"></a> for Android Procedures.

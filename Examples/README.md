@@ -3,7 +3,7 @@ The instructions in this section provide details to complete the SDK installatio
 
 ## Table of Contents
 - [SDK Configuration for Android](#sdk-configuration-for-android)
-  * [Obtain Credentials](#obtain-credentials)
+  * [Configure Conversation Hub](#configure-conversation-hub)
   * [Configure Themes](#configure-themes)
   * [Define Android Permissions](#define-android-permissions)
   * [Enable Android X](#enable-android-x)
@@ -18,12 +18,21 @@ The instructions in this section provide details to complete the SDK installatio
       - [Upload Attachments](#upload-attachments)
       - [Download Attachments](#download-attachments)
       - [End Conversation](#end-conversation)
-  * [Supported Response Types](#supported-response-types)
+  * [Supported Message Types](#supported-message-types)
 
 
-## Obtain Credentials
-Credentials are used to verify you as a valid customer for the Conversation Hub. You need a unique ID (clientId) and password (clientSecret), accountAddress, and channelType to access the Conversation Hub. 
-If you have not yet obtained credentials, contact you eGain representative.  
+## Configure Conversation Hub
+Please contact your eGain customer representative to receive the Conversation Hub tenant clientId and clientSecret.
+Configure your Conversation Hub tenant using the steps listed under the section **Bring-Your-Own-Channel with eGain Virtual Assistant steps** and using this postman script **BYOC with eGain VA Conversation API Setup.postman_collection.json** from [here](https://ebrain.egain.com/kb/devcentral/content/EASY-8283/Bring-Your-Own-Channel).
+
+While configuring Conversation Hub pass the below values in the postman script
+- customer authentication - username:nmanoharan / password:egain@123
+- customer callback - https://qa-napsapps.egeng.info/mh-websocket/system/egain/customer/callback
+
+Once the configuration is complete, the following values are required to be passed to the mobile sdk
+- clientId and clientSecret generated after the creation of client app
+- channel type used while creating the channel
+- account address used while creating the account 
 
 ## Configure Themes
 The SDK comes with the eGain's default UI theme. If you are using your own theme, a merge conflict can be avoided by adding the following to the `<application>` element in your `AndroidManifest.xml` file: 
@@ -67,7 +76,7 @@ The default, "out-of-the-box" version provided by the SDK provides basic setting
 
 There are two types of conversation modes you can add to the application: a customer and a guest mode.
 
->**_NOTE:_** If you do not wish to have a bot greeting, you may choose to leave out the "botGreeting" field when creating a new button. 
+>**_NOTE:_** If you do not want a bot greeting, you can leave out the "botGreeting" field when creating a new button. 
 
 #### Customer Mode Conversation
 
@@ -164,7 +173,7 @@ SDK methods are overloaded for customer and guest mode conversations. You can us
 #### Initialize chat
 This method acts as the entry point for the SDK and can be used to initialize the conversation. This method requires clientId and clientSecret (see obtaining credentials). It prompts a response that provides a sessionId immediately back. If the current session is invalid or has expired, it validates the clientId and clientSecret and generates a new session if successful. A session remains valid until `endConversation()` is called, the agent ends the conversation, or if it expires after its timeout duration.
 
-> **_NOTE:_**: If you do not wish to have a bot greeting, you may choose to leave out the botGreeting field when calling `initialize()`.
+> **_NOTE:_**: If you do not want a bot greeting, you can leave out the botGreeting field when calling `initialize()`.
 
 #### Customer Mode - Initialize Chat
 ```java
@@ -197,10 +206,10 @@ eGainMessaging.initialize(
 |accountAddress |String |Configured address for Conversation Hub bot |
 |botGreeting|	Boolean|	Value specifying if bot should send welcome message|
 |userName|	String|	Name of customer|
-|emailId|	String|	Email ID of customer|
+|emailId|	String|	Email address of customer|
 
 #### Responses - Initialize Chat
-The sessionId is returned synchronously after the initialize call and stored in the SDK internally. These are the possible responses, indicating if a valid session was created or not. They can be observed in the receiveMessage method.
+The sessionId is returned synchronously after the initialize call and stored in the SDK internally. These are the possible responses, indicating if a valid session was created or not and can be observed in the receiveMessage method.
 
 When chat is initialized, but conversation has not started.
 ```java
@@ -237,7 +246,7 @@ eGainMessaging.sendMessage(
 |Name |Type |Description |
 |-|-|-|
 |message|	String|	Text message sent by customer|
-|email|	String|	Email ID of customer|
+|email|	String|	Email address of customer|
 
 #### Responses - Send Message
 These responses are synchronous to the `sendMessage` call. 
@@ -306,10 +315,10 @@ eGainMessaging.upload(
 |Name |Type |Description|
 |-|-|-|
 |fileUri|	android.net.Uri|	Uri of the file to be uploaded from device, usually found in GET_CONTENT intent|
-|email|	String |Email ID of customer|
+|email|	String |Email address of customer|
 
 #### Responses - Upload
-A S3 pre-signed URL is received as a response. Upload the corresponding file to this URL, which is uploaded to the agent
+A S3 pre-signed URL is received as a response. Upload the corresponding file to this URL, which is then uploaded to the agent.
 ```java
 {
     "status": "Conversation continued",
@@ -357,7 +366,7 @@ eGainMessaging.endConversation();
 #### public void endConversation()
 |Name |Type | Description
 |-|-|-|
-|email|	String	| Email ID of customer|
+|email|	String	| Email address of customer|
 
 #### Responses - End Conversation
 When the `endConversation()` method is called, the following is received.
@@ -368,9 +377,9 @@ When the `endConversation()` method is called, the following is received.
 }
 ```
 
-## Supported Response Types
+## Supported Message Types
 Listed below are the different types of messages that can be received and their content. 
-> **_NOTE:_** These are accessed by the provided `EgainMessage` methods except for received downloads which are accessed by the provided `EgainDownloadFile` methods.
+> **_NOTE:_** These are accessed by the provided `eGainMessage` methods except for received downloads which are accessed by the provided `eGainDownloadFile` methods.
 
 ### EgainMessage Type
 
@@ -501,7 +510,7 @@ When the eGain agent ends the chat, the following response is received, with whi
 ### EgainDownloadFile Type
 The provided methods `getFileName()` and `getDownloadUrl()` can be used to retrieve the response.
 
-When the agent sends any attachments, the download url is received and can be used to download the file and display it on the device.
+When the agent sends any attachments, the download URL is received and can be used to download the file and display it on the device.
 ```java
 {
 	"status":"Conversation continued",
