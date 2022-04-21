@@ -69,7 +69,7 @@ The size of the SDK varies depending upon the configuration.
 Customers need to acquire credentials to gain access to the SDK. Please contact your eGain customer representative to receive your Conversation Hub clientId and clientSecret.
 
 ### Sample app (Android)
-You can find an example project with some basic implementations provided [here](https://github.com/eGain/egain-android-messaging/tree/dev/Examples)
+You can find an example project with some basic implementations provided [here](https://github.com/eGain/egain-android-messaging/tree/master/Examples)
   
 ## Installation
 
@@ -124,4 +124,4 @@ Use these procedures to manually copy SDK files into your Android project.
   ```
   > **_NOTE_:** Refer to the [Android Developer Guide](https://developer.android.com/studio/projects/android-library#psd-add-aar-jar-dependency) for adding JAR/AAR dependencies
 
-### Next Steps: Continue the installation with [Configure SDK](https://github.com/eGain/egain-android-messaging/tree/dev/Examples)<a name="nextsteps"></a> for Android Procedures.
+### Next Steps: Continue the installation with [Configure SDK](https://github.com/eGain/egain-android-messaging/tree/master/Examples)<a name="nextsteps"></a> for Android Procedures.
