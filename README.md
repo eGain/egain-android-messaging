@@ -39,7 +39,7 @@ The SDK can be installed manually using the provided Android library. A basic "o
 ### System Requirements
 The SDK requires the following minimum versions:
 
-- [Android API version 26](https://en.wikipedia.org/wiki/Android_Oreo) (Oreo 8.0)
+- [Android API version 26](https://en.wikipedia.org/wiki/Android_Oreo) (Oreo 8.0) and above.
 - Java 1.8
 
 The latest available versions are required of:
@@ -63,8 +63,7 @@ If your application is using any of these libraries, it should be on the same ma
 ### SDK Size
 The size of the SDK varies depending upon the configuration.
 
-- Min size: 312 KB (current AAR size)
-- Max size: 0 MB
+- Size: 312 KB (current AAR size)
 
 ### Permissions / Credentials
 Customers need to acquire credentials to gain access to the SDK. Please contact your eGain customer representative to receive your Conversation Hub clientId and clientSecret.
