@@ -63,7 +63,7 @@ If your application is using any of these libraries, it should be on the same ma
 ### SDK Size
 The size of the SDK varies depending upon the configuration.
 
-- Size: 312 KB (current AAR size)
+- Size: 480 KB
 
 ### Permissions / Credentials
 Customers need to acquire credentials to gain access to the SDK. Please contact your eGain customer representative to receive your Conversation Hub clientId and clientSecret.
