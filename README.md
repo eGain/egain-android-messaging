@@ -39,7 +39,7 @@ The SDK can be installed manually using the provided Android library. A basic "o
 ### System Requirements
 The SDK requires the following minimum versions:
 
-- [Android API version 26](https://en.wikipedia.org/wiki/Android_Oreo) (Oreo 8.0)
+- [Android API version 26](https://en.wikipedia.org/wiki/Android_Oreo) (Oreo 8.0) and above.
 - Java 1.8
 
 The latest available versions are required of:
