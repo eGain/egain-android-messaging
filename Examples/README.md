@@ -61,6 +61,19 @@ Android X is required in our SDK. Include the following in your `gradle.properti
 ```xml
 android.useAndroidX=true
 ```
+## Add jitpack repository for dependencies
+Our SDK uses dependencies that are hosted through maven using jitpack. Include the following repository to your settings.gradle file.
+```xml
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+	// Add the repository below
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
 
 ## Choose Default or Custom Options
 There are two ways in which you can use the SDK:
