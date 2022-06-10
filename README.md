@@ -123,5 +123,19 @@ Use these procedures to manually copy SDK files into your Android project.
 }
   ```
   > **_NOTE_:** Refer to the [Android Developer Guide](https://developer.android.com/studio/projects/android-library#psd-add-aar-jar-dependency) for adding JAR/AAR dependencies
+	
+## Add jitpack repository for dependencies
+Our SDK uses dependencies that are hosted through maven using jitpack. Include the following repository to your settings.gradle file.
+```xml
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+	// Add the repository below
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
 
 ### Next Steps: Continue the installation with [Configure SDK](https://github.com/eGain/egain-android-messaging/tree/dev/Examples)<a name="nextsteps"></a> for Android Procedures.
