@@ -64,7 +64,7 @@
     <!--Button-->
     <style name="custom_eGain_button">
         <item name="button_x">860</item>
-        <item name="button_y">-1720</item>
+        <item name="button_y">-1630</item>
         <item name="button_width">180</item>
         <item name="button_height">180</item>
         <item name="button_color">@color/eight_bank_dark</item>
