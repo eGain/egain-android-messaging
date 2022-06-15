@@ -69,7 +69,7 @@ The size of the SDK varies depending upon the configuration.
 Customers need to acquire credentials to gain access to the SDK. Please contact your eGain customer representative to receive your Conversation Hub clientId and clientSecret.
 
 ### Sample app (Android)
-You can find an example project with some basic implementations provided [here](https://github.com/eGain/egain-android-messaging/tree/dev/Examples)
+You can find an example project with some basic implementations provided [here](https://github.com/eGain/egain-android-messaging/tree/master/Examples)
   
 ## Installation
 
@@ -99,7 +99,7 @@ Use these procedures to manually copy SDK files into your Android project.
   dependencies {
  
     //Transitive Dependencies
-    implementation files('path/libs/SDK.aar')
+
     implementation group: 'com.squareup.okhttp3', name: 'okhttp', version: '4.9.1'
     implementation group: 'com.google.code.gson', name: 'gson', version: '2.8.7'
     implementation 'com.google.android.flexbox:flexbox:3.0.0'
@@ -109,10 +109,11 @@ Use these procedures to manually copy SDK files into your Android project.
     implementation 'com.github.MikeOrtiz:TouchImageView:3.1.1'
     implementation 'androidx.lifecycle:lifecycle-process:2.4.1'
     implementation 'androidx.lifecycle:lifecycle-common:2.4.1'
-	
-    implementation 'com.google.android.material:material:1.5.0'
-    implementation 'com.google.android.material:material:1.6.0-beta01'
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'com.google.android.material:material:1.7.0-alpha02'
  
+    implementation files('path/libs/SDK.aar')
+	
     //Default
     implementation 'androidx.appcompat:appcompat:1.3.1'
     implementation 'com.google.android.material:material:1.4.0'
@@ -138,4 +139,4 @@ dependencyResolutionManagement {
 }
 ```
 
-### Next Steps: Continue the installation with [Configure SDK](https://github.com/eGain/egain-android-messaging/tree/dev/Examples)<a name="nextsteps"></a> for Android Procedures.
+### Next Steps: Continue the installation with [Configure SDK](https://github.com/eGain/egain-android-messaging/tree/master/Examples)<a name="nextsteps"></a> for Android Procedures.
