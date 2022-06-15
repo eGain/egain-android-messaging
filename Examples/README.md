@@ -24,14 +24,14 @@ The instructions in this section provide details to complete the SDK installatio
 ## Configure Conversation Hub
 Configure your Conversation Hub tenant using the steps listed under the section **Bring-Your-Own-Channel with eGain Virtual Assistant steps** and using this postman script **BYOC with eGain VA Conversation API Setup.postman_collection.json** from [here](https://ebrain.egain.com/kb/devcentral/content/EASY-8283/Bring-Your-Own-Channel).
 
-To configure Conversation Hub the following credentials are required
+To configure Conversation Hub, the following credentials are required:
 - Tenant clientId and clientSecret
 - Customer client app authentication credentails (username and password)
 - Customer client app callback URL
 
-Please contact your eGain customer representative to receive the above mentioned credentials
+Please contact your eGain customer representative to receive the above mentioned credentials.
 
-Once the configuration is complete, the following values are required to be passed to the mobile sdk
+Once the configuration is complete, the following values are required to be passed to the mobile sdk:
 - clientId and clientSecret generated after the creation of client app
 - channel type used while creating the channel
 - account address used while creating the account 
