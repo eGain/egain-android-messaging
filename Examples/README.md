@@ -26,7 +26,7 @@ Configure your Conversation Hub tenant using the steps listed under the section 
 
 To configure Conversation Hub, the following credentials are required:
 - Tenant clientId and clientSecret
-- Customer client app authentication credentails (username and password)
+- Customer client app authentication credentials (username and password)
 - Customer client app callback URL
 
 Please contact your eGain customer representative to receive the above mentioned credentials.
