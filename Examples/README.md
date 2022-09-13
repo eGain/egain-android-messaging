@@ -123,7 +123,7 @@ eGainMessaging launchGuest = new eGainMessaging(
 The UI of the SDK can be customized to configure the colors, text, and text sizes that are preferred. Use the provided `branding.xml` file to see what can be changed and how to implement those changes.
 
 1. Download the branding.xml file from the repository.
-2. Add this file to your project's resource directory.
+2. Add this file to your project's resource directory under "res/values/branding.xml".
 3. In this file, use the provided styles to change each view to the desired values. 
 4. To choose between the different themes, use the `brandingUtil.setTheme()` method. Use 0 to keep the default UI and 1 to change to the customized UI. 
 
